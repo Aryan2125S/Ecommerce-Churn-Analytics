@@ -1,0 +1,1001 @@
+customer_id,age,gender,city,state,country,membership_type,registration_date,last_purchase_date,purchase_frequency,total_orders,average_order_value,total_spend,discount_usage,coupon_usage,session_duration,browsing_time,pages_viewed,wishlist_items,cart_abandonment,payment_method,returned_orders,refund_amount,customer_rating,delivery_rating,support_calls,complaints,customer_satisfaction,customer_lifetime_value,customer_segment,loyalty_score,churn,rfm_segment,engagement_score,predicted_churn
+C00000,40,Male,Hyderabad,Telangana,India,Basic,2025-12-07,2026-06-25,3.43,2,2316.1637499999997,7149.11,6,4,17.45,228,44,2,1,Wallet,1,0.0,2.1,2,2,1,2,10316.5,Regular,17,0,Recent Users,61.86,0
+C00001,33,Female,Pune,Maharashtra,India,Silver,2024-05-16,2026-06-21,0.92,2,1325.38,2650.76,1,1,17.45,174,41,2,3,Debit Card,0,0.0,4.1,5,0,0,4,2650.76,Regular,42,1,Average,51.99,0
+C00002,42,Female,Surat,Gujarat,India,Gold,2024-12-12,2026-06-29,8.21,13,139.92,1818.94,0,0,1.1,54,2,3,1,Cash On Delivery,0,0.0,5.0,5,0,0,5,2110.61,Regular,73,0,Loyal Customers,6.79,0
+C00003,53,Female,Chandigarh,Punjab,India,Gold,2025-01-11,2026-06-21,8.67,13,109.4,1422.16,0,0,0.7,42,1,2,2,Debit Card,0,0.0,5.0,5,0,0,5,1635.55,Regular,71,0,Loyal Customers,3.31,0
+C00004,32,Female,Jaipur,Rajasthan,India,Silver,2025-06-10,2026-06-11,5.54,6,297.61,1785.67,1,1,5.1,132,10,4,3,Cash On Delivery,0,0.0,1.6,2,0,0,2,2252.14,Regular,37,0,Lost,21.84,0
+C00005,32,Male,Bangalore,Karnataka,India,Gold,2026-01-06,2026-06-10,30.0,15,167.15,2507.24,1,1,1.6,78,3,2,0,UPI,0,0.0,1.0,1,0,0,1,3757.84,Regular,61,0,At Risk,7.64,0
+C00006,53,Female,Kochi,Kerala,India,Basic,2026-03-07,2026-06-13,12.0,4,2316.1637499999997,9307.48,5,4,6.3,84,9,8,2,Wallet,0,0.0,4.3,4,0,0,4,10883.64,Regular,21,0,Lost,41.16,0
+C00007,44,Male,Pune,Maharashtra,India,Gold,2025-02-10,2026-06-23,9.18,13,259.12,3368.58,1,1,4.3,216,8,4,3,Wallet,0,0.0,5.0,5,0,0,5,3368.58,Regular,71,1,Loyal Customers,19.58,1
+C00008,29,Male,Mumbai,Maharashtra,India,Silver,2026-06-05,2026-06-24,30.052500000000002,11,181.44,1995.84,4,3,1.1,48,2,4,3,Wallet,0,0.0,1.9,2,1,1,2,2925.95,Regular,38,0,Loyal Customers,16.52,0
+C00009,41,Male,Pune,Maharashtra,India,Silver,2025-09-08,2026-06-06,12.0,10,302.34,3023.43,3,2,5.1,180,9,1,1,Cash On Delivery,0,0.0,5.0,4,0,0,5,4392.5,Regular,48,0,Average,18.27,0
+C00010,29,Male,Delhi,Delhi,India,Gold,2024-10-13,2026-06-10,7.43,13,569.16,7399.12,1,1,1.6,84,2,3,1,Wallet,0,0.0,3.8,3,1,1,4,8234.45,Regular,80,0,At Risk,9.78,0
+C00011,29,Male,Hyderabad,Telangana,India,Basic,2025-12-07,2026-06-15,5.14,3,2240.61,6721.82,1,1,17.45,192,80,3,2,Debit Card,0,0.0,4.0,3,0,0,4,6721.82,Regular,20,1,Lost,62.63,1
+C00012,37,Female,Ahmedabad,Gujarat,India,Basic,2026-07-05,2026-06-13,30.0,3,1036.54,3109.61,4,3,17.45,180,49,3,0,Wallet,2,0.0,3.0,4,2,1,3,3109.61,Regular,7,1,Lost,61.58,1
+C00013,18,Female,Nagpur,Maharashtra,India,Silver,2024-05-16,2026-06-11,1.38,3,2316.1637499999997,8166.73,0,0,3.5,30,6,7,1,UPI,0,0.0,1.9,2,0,0,2,11491.38,Regular,50,0,Lost,22.53,0
+C00014,18,Female,Kochi,Kerala,India,Silver,2024-10-13,2026-06-10,3.43,6,1023.23,6139.39,0,0,9.6,138,25,3,4,Debit Card,0,0.0,4.0,4,0,0,4,7967.71,Regular,52,0,Lost,31.13,0
+C00015,28,Female,Hyderabad,Telangana,India,Gold,2025-08-09,2026-06-16,15.27,14,239.28,3349.98,6,4,1.9,60,3,2,1,Wallet,0,0.0,3.0,3,0,0,3,5013.42,Regular,65,0,At Risk,17.56,0
+C00016,22,Male,Kochi,Kerala,India,Basic,2026-06-05,2026-07-03,30.052500000000002,8,480.6,3844.77,5,3,6.9,210,15,1,3,Wallet,0,0.0,2.7,3,0,0,3,4296.68,Regular,28,0,Loyal Customers,27.36,0
+C00017,38,Female,Bangalore,Karnataka,India,Gold,2025-02-10,2026-06-13,7.76,11,572.77,6300.47,2,2,5.5,216,15,3,5,Credit Card,0,0.0,5.0,5,0,0,5,7521.18,Regular,65,0,At Risk,23.31,0
+C00018,24,Male,Surat,Gujarat,India,Silver,2026-01-06,2026-06-15,14.0,7,402.38,2816.64,3,2,6.2,120,16,3,2,Cash On Delivery,6,0.0,4.7,5,2,1,5,3545.07,Regular,31,0,Lost,26.97,0
+C00019,18,Female,Lucknow,Uttar Pradesh,India,Premium,2024-06-15,2026-07-04,6.72,14,463.44,6488.12,4,3,2.6,126,7,0,2,Debit Card,0,0.0,3.0,3,0,0,3,8304.22,Regular,89,0,Champions,11.62,0
+C00020,52,Male,Nagpur,Maharashtra,India,Silver,2025-03-12,2026-06-27,3.0,4,720.36,2881.46,3,2,6.9,96,11,3,1,Credit Card,0,0.0,5.0,5,0,0,5,4231.56,Regular,35,0,Recent Users,27.51,0
+C00021,32,Male,Delhi,Delhi,India,Gold,2024-10-13,2026-06-10,6.29,11,615.08,6765.88,0,0,6.3,180,10,5,3,UPI,0,0.0,3.9,3,0,0,4,8958.04,Regular,72,0,At Risk,25.09,0
+C00022,35,Female,Delhi,Delhi,India,Gold,2024-02-16,2026-06-21,4.97,12,127.02,1524.22,3,2,2.3,108,6,4,1,Cash On Delivery,0,0.0,1.0,3,2,1,1,1704.15,Regular,84,0,Loyal Customers,18.27,0
+C00023,18,Male,Surat,Gujarat,India,Silver,2024-09-13,2026-06-26,2.18,4,1046.96,4187.84,3,2,4.8,84,9,4,2,Debit Card,0,0.0,4.0,4,0,0,4,5289.85,Regular,45,0,Recent Users,24.63,0
+C00024,28,Male,Pune,Maharashtra,India,Silver,2025-06-10,2026-07-03,10.15,11,449.96,4949.61,4,3,2.5,120,4,5,2,Wallet,0,0.0,2.8,3,0,0,3,6269.16,Regular,58,0,Loyal Customers,22.5,0
+C00025,36,Female,Hyderabad,Telangana,India,Gold,2024-08-14,2026-06-10,5.22,10,576.06,5760.63,3,3,1.3,48,3,2,1,Debit Card,10,0.0,3.1,4,0,0,3,8561.43,Regular,70,0,Average,10.65,0
+C00026,21,Male,Delhi,Delhi,India,Gold,2026-01-06,2026-06-12,30.0,15,219.55,3293.27,3,2,3.5,186,9,3,4,Wallet,0,0.0,4.0,4,0,0,4,4411.92,Regular,62,0,At Risk,19.31,0
+C00027,39,Female,Bangalore,Karnataka,India,Gold,2024-10-13,2026-06-30,6.29,11,562.41,6186.55,1,1,1.2,30,3,3,2,Cash On Delivery,0,0.0,5.0,5,0,0,5,8378.2,Regular,71,0,Champions,9.08,0
+C00028,27,Female,Delhi,Delhi,India,Gold,2024-07-15,2026-06-12,5.5,11,342.55,3768.05,5,3,5.3,168,10,4,1,Wallet,0,0.0,5.0,5,2,1,5,5219.88,Regular,74,0,At Risk,29.68,0
+C00029,31,Female,Hyderabad,Telangana,India,Premium,2024-03-17,2026-06-06,6.0,14,126.51,1771.07,5,4,2.1,66,5,1,2,UPI,0,0.0,3.0,2,0,0,3,2493.69,Regular,90,0,At Risk,14.25,0
+C00030,27,Male,Lucknow,Uttar Pradesh,India,Silver,2026-05-06,2026-06-10,30.052500000000002,11,161.66,1778.22,6,4,1.4,78,2,2,0,Wallet,0,0.0,2.1,2,1,1,2,2407.75,Regular,39,0,At Risk,16.2,0
+C00031,57,Male,Patna,Bihar,India,Silver,2024-05-16,2026-06-27,0.92,2,1477.68,2955.37,0,0,17.45,162,53,3,0,UPI,0,0.0,4.9,5,0,0,5,3531.31,Regular,42,0,Recent Users,55.04,0
+C00032,34,Male,Pune,Maharashtra,India,Silver,2026-02-05,2026-06-19,30.052500000000002,14,149.85,2097.92,3,2,7.0,240,17,2,1,Cash On Delivery,0,0.0,4.0,4,0,0,4,3041.18,Regular,55,0,Loyal Customers,26.67,0
+C00033,22,Female,Chandigarh,Punjab,India,Basic,2024-12-12,2026-06-13,0.63,1,2316.1637499999997,4552.45,1,1,17.45,192,65,3,0,Cash On Delivery,1,0.0,4.9,5,2,1,5,4552.45,Regular,29,1,Lost,59.44,0
+C00034,44,Male,Bangalore,Karnataka,India,Silver,2026-06-05,2026-06-19,30.052500000000002,9,1121.92,10097.27,0,0,1.8,78,3,5,2,Debit Card,0,0.0,4.2,4,0,0,4,10097.27,Regular,36,1,Loyal Customers,13.3,1
+C00035,20,Female,Ahmedabad,Gujarat,India,Gold,2025-03-12,2026-06-22,9.0,12,113.01,1356.16,2,2,1.3,66,3,1,4,UPI,0,0.0,3.3,2,2,1,3,1356.16,Regular,64,1,Loyal Customers,6.45,1
+C00036,37,Female,Bangalore,Karnataka,India,Gold,2025-08-09,2026-06-15,16.36,15,508.28,7624.17,3,3,6.9,210,13,1,2,UPI,0,0.0,5.0,5,0,0,5,10834.03,Regular,72,0,At Risk,23.24,0
+C00037,18,Male,Lucknow,Uttar Pradesh,India,Silver,2025-08-09,2026-06-06,13.09,12,436.38,5236.62,5,4,5.2,126,9,1,5,Credit Card,0,0.0,4.2,5,0,0,4,7497.06,Regular,59,0,At Risk,22.19,0
+C00038,19,Female,Chennai,Tamil Nadu,India,Silver,2024-02-16,2026-06-20,0.83,2,1824.83,3649.65,1,1,9.6,60,18,1,4,Credit Card,0,0.0,3.2,3,2,1,3,5403.53,Regular,47,0,Average,26.78,0
+C00039,37,Male,Chennai,Tamil Nadu,India,Gold,2025-03-12,2026-07-04,9.75,13,398.58,5181.57,6,4,6.6,210,14,1,4,Credit Card,0,0.0,2.1,2,0,0,2,6012.97,Regular,71,0,Loyal Customers,28.3,0
+C00040,43,Male,Chandigarh,Punjab,India,Gold,2024-05-16,2026-06-13,3.69,8,377.28,3018.21,5,3,12.4,204,27,1,2,Wallet,0,0.0,3.8,5,0,0,4,3920.93,Regular,65,0,Average,42.49,0
+C00041,37,Male,Jaipur,Rajasthan,India,Gold,2025-10-08,2026-07-02,20.0,15,224.61,3369.13,2,2,4.6,234,12,3,3,Credit Card,0,0.0,2.3,4,0,0,2,4488.45,Regular,66,0,Loyal Customers,20.62,0
+C00042,33,Male,Nagpur,Maharashtra,India,Silver,2026-05-06,2026-06-29,30.052500000000002,9,708.89,6379.97,5,3,5.1,222,13,2,3,UPI,0,0.0,2.4,2,0,0,2,7858.27,Regular,35,0,Loyal Customers,25.16,0
+C00043,31,Male,Bhopal,Madhya Pradesh,India,Silver,2024-12-12,2026-06-13,2.53,4,2316.1637499999997,11733.85,3,3,17.45,210,38,5,2,Wallet,0,0.0,1.0,1,1,1,1,11733.85,Regular,46,1,Lost,62.09,0
+C00044,18,Female,Kochi,Kerala,India,Silver,2025-02-10,2026-06-21,5.65,8,404.78,3238.22,7,4,1.3,42,3,5,3,Cash On Delivery,0,0.0,4.9,5,0,0,5,4549.59,Regular,52,0,Loyal Customers,25.08,0
+C00045,26,Female,Ahmedabad,Gujarat,India,Silver,2025-07-10,2026-07-01,9.0,9,290.33,2613.01,1,1,1.5,54,2,2,2,Debit Card,0,0.0,4.1,4,0,0,4,3627.78,Regular,47,0,Loyal Customers,7.2,0
+C00046,29,Female,Jaipur,Rajasthan,India,Silver,2025-08-09,2026-06-17,10.91,10,865.18,8651.77,4,3,5.4,150,10,2,1,Credit Card,0,0.0,2.1,1,0,0,2,12967.79,Regular,54,0,Loyal Customers,23.36,0
+C00047,47,Male,Chennai,Tamil Nadu,India,Gold,2024-05-16,2026-06-20,4.62,10,312.78,3127.85,4,4,3.6,144,9,4,2,Cash On Delivery,0,0.0,1.0,1,0,0,1,3765.16,Regular,73,0,Loyal Customers,23.73,0
+C00048,39,Male,Indore,Madhya Pradesh,India,Silver,2024-05-16,2026-06-26,2.31,5,1205.66,6028.31,1,1,9.6,126,19,0,1,UPI,0,0.0,2.7,3,0,0,3,8404.57,Regular,56,0,Recent Users,24.65,0
+C00049,18,Male,Bangalore,Karnataka,India,Premium,2024-02-16,2026-06-17,5.38,13,320.73,4169.49,3,2,3.7,114,10,2,1,Debit Card,0,0.0,4.1,5,0,0,4,5506.07,Regular,90,0,Loyal Customers,17.63,0
+C00050,38,Female,Bangalore,Karnataka,India,Premium,2024-05-16,2026-07-02,6.46,14,182.26,2551.58,3,2,2.1,120,4,3,6,Cash On Delivery,0,0.0,2.1,3,2,1,2,2551.58,Regular,88,1,Loyal Customers,15.04,1
+C00051,30,Male,Hyderabad,Telangana,India,Silver,2025-03-12,2026-06-25,5.25,7,1236.28,8653.97,0,0,9.2,150,24,3,2,Debit Card,0,0.0,5.0,5,0,0,5,10075.25,Regular,50,0,Recent Users,30.0,0
+C00052,26,Female,Delhi,Delhi,India,Silver,2026-04-06,2026-06-18,30.052500000000002,10,545.53,5455.26,7,4,0.6,30,1,3,1,Credit Card,0,0.0,1.1,1,0,0,1,5455.26,Regular,40,1,Loyal Customers,18.36,1
+C00053,42,Female,Surat,Gujarat,India,Silver,2024-09-13,2026-06-28,2.18,4,973.68,3894.73,1,1,8.2,84,17,1,2,UPI,0,0.0,1.9,2,0,0,2,3894.73,Regular,45,1,Recent Users,23.37,1
+C00054,47,Male,Bangalore,Karnataka,India,Basic,2025-10-08,2026-06-20,1.33,1,2316.1637499999997,6365.59,5,3,17.45,138,75,3,1,Debit Card,0,0.0,5.0,5,0,0,5,9102.63,Regular,15,0,Average,68.96,0
+C00055,46,Male,Chandigarh,Punjab,India,Basic,2025-09-08,2026-07-04,3.6,3,2316.1637499999997,10921.48,3,2,17.45,180,47,1,2,Cash On Delivery,0,0.0,2.0,2,0,0,2,10921.48,Regular,28,1,Recent Users,54.61,0
+C00056,24,Female,Chandigarh,Punjab,India,Basic,2026-02-05,2026-06-08,12.0,5,1287.36,6436.78,1,1,5.5,66,12,2,4,Credit Card,0,0.0,3.9,3,0,0,4,7646.84,Regular,24,0,Lost,18.48,0
+C00057,31,Male,Pune,Maharashtra,India,Basic,2026-02-05,2026-06-10,7.2,3,579.14,1737.41,5,4,17.45,144,67,2,1,Credit Card,0,0.0,4.0,4,0,0,4,2145.74,Regular,13,0,Lost,64.9,0
+C00058,38,Female,Nagpur,Maharashtra,India,Gold,2024-05-16,2026-06-08,5.54,12,550.81,6609.7,0,0,3.9,180,7,1,1,Cash On Delivery,0,0.0,3.7,3,0,0,4,8279.41,Regular,83,0,At Risk,9.56,0
+C00059,46,Male,Mumbai,Maharashtra,India,Silver,2025-11-07,2026-06-24,19.5,13,591.07,7683.91,3,2,2.2,126,3,6,4,Cash On Delivery,0,0.0,1.0,1,0,0,1,11442.68,Regular,60,0,Champions,22.11,0
+C00060,29,Male,Kochi,Kerala,India,Gold,2024-02-16,2026-06-18,4.55,11,574.38,6318.19,1,1,0.7,36,1,2,4,Debit Card,0,0.0,4.1,4,2,1,4,6964.25,Regular,84,0,Loyal Customers,5.16,0
+C00061,32,Female,Chennai,Tamil Nadu,India,Silver,2025-05-11,2026-06-30,6.0,7,1144.39,8010.75,1,1,5.2,126,12,7,2,Wallet,3,0.0,5.0,5,2,1,5,11970.19,Regular,47,0,Recent Users,29.54,0
+C00062,21,Male,Bhopal,Madhya Pradesh,India,Silver,2026-06-05,2026-06-28,30.052500000000002,12,156.62,1879.39,1,1,1.7,90,4,8,3,Credit Card,0,0.0,2.3,3,2,1,2,1879.39,Regular,41,1,Loyal Customers,22.18,1
+C00063,20,Female,Patna,Bihar,India,Silver,2026-04-06,2026-06-16,30.052500000000002,9,710.06,6390.55,5,4,6.3,228,12,2,3,Debit Card,0,0.0,2.9,3,0,0,3,9575.99,Regular,37,0,Average,27.69,0
+C00064,44,Male,Hyderabad,Telangana,India,Gold,2026-03-07,2026-06-10,30.052500000000002,15,437.44,6561.55,7,4,0.9,54,2,2,3,Cash On Delivery,0,0.0,5.0,5,0,0,5,8468.57,Regular,61,0,At Risk,16.91,0
+C00065,51,Female,Patna,Bihar,India,Gold,2025-03-12,2026-06-11,9.0,12,127.29,1527.44,7,4,4.0,168,8,6,1,Debit Card,0,0.0,5.0,4,0,0,5,2269.05,Regular,64,0,At Risk,34.68,0
+C00066,34,Female,Hyderabad,Telangana,India,Silver,2025-12-07,2026-06-06,10.29,6,1020.37,6122.25,5,3,1.8,42,4,3,1,Cash On Delivery,0,0.0,4.5,4,0,0,4,7703.26,Regular,31,0,Lost,18.05,0
+C00067,47,Male,Lucknow,Uttar Pradesh,India,Silver,2025-12-07,2026-06-20,22.29,13,266.88,3469.41,1,1,2.2,126,6,1,0,UPI,0,0.0,1.0,1,0,0,1,3469.41,Regular,56,1,Loyal Customers,7.3,1
+C00068,39,Female,Lucknow,Uttar Pradesh,India,Gold,2024-10-13,2026-07-02,5.71,10,703.56,7035.57,3,2,4.5,144,8,3,0,Cash On Delivery,0,0.0,1.8,2,2,1,2,8370.49,Regular,68,0,Loyal Customers,21.38,0
+C00069,27,Male,Lucknow,Uttar Pradesh,India,Basic,2025-08-09,2026-06-20,1.09,1,2217.39,2217.39,7,4,17.45,90,42,0,2,Cash On Delivery,0,0.0,1.2,1,2,1,1,2217.39,Regular,15,1,Average,58.58,1
+C00070,39,Male,Nagpur,Maharashtra,India,Silver,2024-11-12,2026-06-30,4.2,7,1126.87,7888.09,5,4,4.8,126,14,6,2,Cash On Delivery,0,0.0,2.4,2,0,0,2,8720.33,Regular,56,0,Recent Users,34.09,0
+C00071,53,Male,Ahmedabad,Gujarat,India,Gold,2025-12-07,2026-06-12,25.71,15,526.91,7903.66,1,1,1.8,66,5,2,3,Wallet,2,0.0,1.9,2,0,0,2,10420.17,Regular,67,0,At Risk,8.53,0
+C00072,34,Female,Mumbai,Maharashtra,India,Silver,2025-01-11,2026-06-23,2.0,3,2191.42,6574.27,6,4,15.4,96,36,1,3,Cash On Delivery,0,0.0,1.2,2,1,1,1,7430.51,Regular,37,0,Recent Users,53.12,0
+C00073,53,Female,Jaipur,Rajasthan,India,Basic,2026-05-06,2026-06-15,30.0,5,2316.1637499999997,12158.1975,5,3,10.5,162,23,3,3,Credit Card,0,0.0,5.0,5,0,0,5,13349.52,Regular,25,1,Lost,41.99,1
+C00074,18,Male,Pune,Maharashtra,India,Gold,2025-02-10,2026-06-30,7.06,10,953.16,9531.62,4,3,2.6,96,5,3,2,Credit Card,0,0.0,2.2,2,0,0,2,10820.65,Regular,64,0,Loyal Customers,18.24,0
+C00075,44,Male,Nagpur,Maharashtra,India,Silver,2024-11-12,2026-07-02,2.4,4,313.67,1254.67,6,4,11.9,216,27,5,2,Debit Card,0,0.0,1.0,1,2,1,1,1811.51,Regular,39,0,Recent Users,52.59,0
+C00076,36,Female,Delhi,Delhi,India,Gold,2025-01-11,2026-06-26,6.67,10,461.07,4610.71,1,1,6.8,162,18,1,1,Wallet,0,0.0,1.9,2,0,0,2,6161.88,Regular,62,0,Loyal Customers,20.38,0
+C00077,31,Male,Patna,Bihar,India,Silver,2025-01-11,2026-06-09,3.33,5,1042.43,5212.14,1,1,5.5,120,13,2,1,Debit Card,0,0.0,3.0,3,0,0,3,7614.12,Regular,43,0,Lost,18.69,0
+C00078,36,Male,Bhopal,Madhya Pradesh,India,Silver,2025-05-11,2026-06-26,4.29,5,1205.52,6027.6,1,1,1.6,36,3,3,3,Credit Card,0,0.0,5.0,5,0,0,5,8290.01,Regular,38,0,Recent Users,9.99,0
+C00079,18,Female,Hyderabad,Telangana,India,Basic,2026-02-05,2026-06-28,14.4,6,383.93,2303.57,0,0,9.0,132,16,6,6,Credit Card,3,0.0,4.2,4,2,1,4,3428.66,Regular,25,0,Recent Users,34.89,0
+C00080,32,Male,Bhopal,Madhya Pradesh,India,Gold,2025-04-11,2026-06-09,11.2,14,461.43,6459.95,5,4,3.0,192,5,2,0,UPI,0,0.0,2.1,3,0,0,2,6459.95,Regular,74,1,At Risk,18.66,1
+C00081,39,Female,Delhi,Delhi,India,Silver,2025-12-07,2026-07-03,17.14,10,864.58,8645.81,1,1,1.7,84,2,3,2,Cash On Delivery,0,0.0,2.9,4,0,0,3,11719.26,Regular,48,0,Loyal Customers,10.01,0
+C00082,52,Male,Lucknow,Uttar Pradesh,India,Gold,2025-04-11,2026-06-12,9.6,12,490.58,5886.91,3,3,3.9,198,6,4,2,Credit Card,0,0.0,4.1,4,0,0,4,7832.67,Regular,66,0,At Risk,21.93,0
+C00083,28,Female,Delhi,Delhi,India,Silver,2025-02-10,2026-06-12,7.06,10,241.3,2412.98,3,2,1.9,84,4,5,2,Debit Card,0,0.0,4.2,4,0,0,4,3121.68,Regular,59,0,Average,19.28,0
+C00084,25,Male,Bangalore,Karnataka,India,Gold,2024-12-12,2026-06-08,8.21,13,148.51,1930.62,2,2,3.1,204,5,1,1,Debit Card,0,0.0,2.1,2,0,0,2,2776.97,Regular,73,0,At Risk,11.0,0
+C00085,28,Male,Bangalore,Karnataka,India,Gold,2025-04-11,2026-06-14,10.4,13,533.29,6932.72,1,1,1.0,48,1,4,2,Cash On Delivery,0,0.0,1.0,1,0,0,1,9413.32,Regular,70,0,At Risk,10.54,0
+C00086,45,Female,Bhopal,Madhya Pradesh,India,Silver,2025-09-08,2026-06-19,13.2,11,213.13,2344.44,2,2,6.5,210,15,4,2,Cash On Delivery,0,0.0,2.0,2,0,0,2,3330.34,Regular,52,0,Loyal Customers,27.95,0
+C00087,38,Male,Chennai,Tamil Nadu,India,Basic,2026-01-06,2026-06-26,12.0,6,1014.72,6088.29,3,2,4.9,132,8,1,2,UPI,0,0.0,3.2,3,2,1,3,8612.16,Regular,29,0,Recent Users,17.6,0
+C00088,28,Female,Hyderabad,Telangana,India,Silver,2025-03-12,2026-06-22,6.0,8,225.2,1801.6,0,0,2.9,90,4,6,1,Wallet,0,0.0,3.7,5,0,0,4,1801.6,Regular,49,1,Loyal Customers,18.38,1
+C00089,41,Male,Bangalore,Karnataka,India,Silver,2025-03-12,2026-06-07,6.0,8,536.64,4293.13,4,3,2.8,84,5,5,2,Debit Card,0,0.0,1.6,2,0,0,2,5838.94,Regular,51,0,Average,23.4,0
+C00090,36,Female,Chandigarh,Punjab,India,Silver,2025-08-09,2026-06-08,12.0,11,260.01,2860.09,4,3,4.0,120,7,5,0,Cash On Delivery,0,0.0,1.3,1,0,0,1,3374.5,Regular,54,0,At Risk,26.57,0
+C00091,46,Female,Delhi,Delhi,India,Silver,2025-07-10,2026-06-16,9.0,9,568.01,5112.13,0,0,6.2,240,14,6,2,Debit Card,0,0.0,2.1,1,0,0,2,6816.15,Regular,49,0,Average,28.06,0
+C00092,26,Female,Patna,Bihar,India,Silver,2025-10-08,2026-06-15,10.67,8,1171.86,9374.85,0,0,4.3,78,7,3,2,Cash On Delivery,0,0.0,5.0,5,0,0,5,12852.67,Regular,44,0,Average,15.17,0
+C00093,31,Female,Mumbai,Maharashtra,India,Silver,2026-01-06,2026-06-18,26.0,13,256.92,3339.91,3,2,0.9,54,2,1,3,Credit Card,0,0.0,1.0,1,0,0,1,5006.17,Regular,54,0,Loyal Customers,7.17,0
+C00094,30,Male,Bangalore,Karnataka,India,Silver,2025-06-10,2026-06-29,10.15,11,307.1,3378.1,5,4,4.6,150,13,1,0,Debit Card,0,0.0,3.1,3,0,0,3,3757.18,Regular,57,0,Loyal Customers,21.67,0
+C00095,18,Male,Ahmedabad,Gujarat,India,Silver,2024-09-13,2026-07-01,1.09,2,1614.15,3228.31,3,2,17.45,132,72,6,1,Credit Card,0,0.0,4.1,4,0,0,4,3668.96,Regular,36,0,Recent Users,71.68,0
+C00096,38,Female,Hyderabad,Telangana,India,Silver,2026-07-05,2026-07-04,30.052500000000002,14,315.24,4413.41,0,0,3.0,138,6,2,2,Debit Card,0,0.0,1.7,2,0,0,2,4990.73,Regular,49,0,Loyal Customers,9.64,0
+C00097,38,Female,Kochi,Kerala,India,Gold,2025-03-12,2026-06-17,10.5,14,489.44,6852.12,4,3,5.6,168,15,4,5,Wallet,0,0.0,1.3,1,0,0,1,8629.18,Regular,76,0,Loyal Customers,29.59,0
+C00098,35,Female,Delhi,Delhi,India,Silver,2026-04-06,2026-06-16,30.052500000000002,12,625.71,7508.57,2,2,1.7,84,4,3,2,UPI,0,0.0,5.0,5,2,1,5,10727.01,Regular,49,0,At Risk,12.28,0
+C00099,32,Male,Nagpur,Maharashtra,India,Gold,2024-11-12,2026-06-26,6.0,10,360.6,3606.03,7,4,4.7,222,7,7,3,Credit Card,0,0.0,1.0,1,0,0,1,5184.11,Regular,64,0,Loyal Customers,38.41,0
+C00100,18,Male,Ahmedabad,Gujarat,India,Silver,2026-03-07,2026-06-22,30.052500000000002,12,430.74,5168.87,2,2,2.2,120,4,2,3,Cash On Delivery,0,0.0,4.9,5,0,0,5,7209.5,Regular,49,0,Loyal Customers,11.07,0
+C00101,29,Male,Chennai,Tamil Nadu,India,Gold,2024-12-12,2026-06-27,6.95,11,470.42,5174.65,1,1,2.3,60,6,4,0,Wallet,0,0.0,2.6,3,0,0,3,7548.53,Regular,68,0,Loyal Customers,14.58,0
+C00102,30,Male,Chandigarh,Punjab,India,Premium,2024-08-14,2026-06-12,7.83,15,79.38,1190.63,3,2,5.2,186,10,0,2,Debit Card,0,0.0,4.1,5,0,0,4,1463.46,Regular,86,0,At Risk,16.36,0
+C00103,25,Female,Chennai,Tamil Nadu,India,Silver,2024-09-13,2026-06-22,0.55,1,2316.1637499999997,5740.82,0,0,17.45,168,58,1,1,Credit Card,0,0.0,3.1,3,0,0,3,6517.33,Regular,35,0,Recent Users,51.41,0
+C00104,33,Female,Indore,Madhya Pradesh,India,Gold,2024-07-15,2026-06-20,5.0,10,687.14,6871.4,5,3,2.0,96,5,2,1,Debit Card,0,0.0,2.0,2,0,0,2,6871.4,Regular,73,1,Loyal Customers,16.37,1
+C00105,39,Female,Lucknow,Uttar Pradesh,India,Basic,2026-01-06,2026-06-24,4.0,2,2316.1637499999997,5406.51,4,3,17.45,162,64,7,2,Debit Card,0,0.0,1.3,1,0,0,1,7789.99,Regular,14,0,Recent Users,74.17,0
+C00106,57,Male,Chennai,Tamil Nadu,India,Basic,2025-10-08,2026-06-23,2.67,2,1406.71,2813.42,0,0,11.2,78,19,5,2,Debit Card,0,0.0,4.7,5,0,0,5,3916.77,Regular,16,0,Recent Users,38.21,0
+C00107,37,Male,Kochi,Kerala,India,Gold,2025-03-12,2026-06-21,9.0,12,414.98,4979.77,1,1,3.6,126,8,3,2,UPI,0,0.0,4.9,5,2,1,5,6869.32,Regular,67,0,Loyal Customers,15.63,0
+C00108,38,Male,Pune,Maharashtra,India,Silver,2024-03-17,2026-07-01,1.29,3,2316.1637499999997,8898.84,0,0,15.4,216,27,7,1,UPI,0,0.0,1.0,1,0,0,1,10997.81,Regular,54,0,Recent Users,54.22,0
+C00109,34,Female,Hyderabad,Telangana,India,Gold,2024-02-16,2026-07-04,4.14,10,580.25,5802.46,2,2,1.5,60,3,2,3,Cash On Delivery,0,0.0,1.0,1,2,1,1,7264.46,Regular,79,0,Loyal Customers,9.26,0
+C00110,18,Female,Ahmedabad,Gujarat,India,Basic,2026-01-06,2026-06-11,14.0,7,174.62,1222.36,0,0,5.7,114,10,3,6,Credit Card,0,0.0,2.0,3,0,0,2,1813.06,Regular,30,0,Lost,19.01,0
+C00111,34,Male,Mumbai,Maharashtra,India,Basic,2026-07-05,2026-07-01,20.0,2,739.63,1479.27,0,0,17.45,204,69,1,1,Wallet,0,0.0,3.1,4,0,0,3,1664.95,Regular,2,0,Recent Users,53.75,0
+C00112,35,Female,Surat,Gujarat,India,Silver,2026-01-06,2026-06-16,28.0,14,354.72,4966.02,1,1,3.6,234,9,3,4,Wallet,0,0.0,4.9,5,0,0,5,4966.02,Regular,59,1,At Risk,15.84,1
+C00113,64,Male,Indore,Madhya Pradesh,India,Silver,2024-06-15,2026-06-26,0.48,1,2316.1637499999997,10697.32,3,2,17.45,126,136,3,1,Wallet,0,0.0,1.8,3,0,0,2,10697.32,Regular,43,1,Recent Users,78.24,0
+C00114,32,Male,Pune,Maharashtra,India,Premium,2024-08-14,2026-06-25,7.3,14,681.97,9547.51,7,4,3.3,138,8,4,2,Debit Card,0,0.0,3.3,2,1,1,3,10651.41,Regular,88,0,Champions,28.37,0
+C00115,38,Female,Lucknow,Uttar Pradesh,India,Silver,2025-09-08,2026-07-01,7.2,6,499.14,2994.86,6,4,6.8,150,14,3,0,UPI,0,0.0,2.5,1,0,0,2,2994.86,Regular,33,1,Recent Users,33.46,0
+C00116,34,Male,Delhi,Delhi,India,Silver,2025-11-07,2026-06-15,13.5,9,260.16,2341.46,4,3,10.4,228,20,4,3,Credit Card,0,0.0,5.0,5,2,1,5,2341.46,Regular,41,1,Average,41.63,1
+C00117,20,Female,Surat,Gujarat,India,Gold,2025-08-09,2026-06-26,16.36,15,496.53,7447.96,0,0,6.2,210,15,2,1,Debit Card,0,0.0,1.0,1,0,0,1,10344.17,Regular,72,0,Champions,18.87,0
+C00118,48,Male,Chennai,Tamil Nadu,India,Basic,2026-05-06,2026-06-22,18.0,3,1840.23,5520.69,5,3,4.9,66,8,4,1,UPI,0,0.0,1.3,1,0,0,1,5520.69,Regular,12,1,Recent Users,28.34,1
+C00119,44,Female,Patna,Bihar,India,Basic,2026-04-06,2026-06-23,24.0,6,807.53,4845.21,1,1,4.3,120,8,6,1,UPI,0,0.0,2.7,3,0,0,3,6366.19,Regular,24,0,Recent Users,24.28,0
+C00120,44,Female,Pune,Maharashtra,India,Basic,2026-04-06,2026-06-24,12.0,3,2316.1637499999997,8202.33,6,4,9.4,126,17,3,1,Credit Card,0,0.0,3.9,3,0,0,4,8202.33,Regular,15,1,Recent Users,40.05,1
+C00121,24,Female,Hyderabad,Telangana,India,Premium,2024-04-16,2026-06-23,6.22,14,106.14,1485.94,0,0,3.0,198,7,4,0,Credit Card,4,0.0,2.9,3,2,1,3,1485.94,Regular,88,1,Loyal Customers,14.55,0
+C00122,51,Male,Hyderabad,Telangana,India,Gold,2024-07-15,2026-06-17,6.5,13,598.19,7776.46,1,1,3.3,156,9,1,3,Credit Card,0,0.0,3.8,4,0,0,4,9445.71,Regular,85,0,Loyal Customers,10.46,0
+C00123,18,Male,Patna,Bihar,India,Basic,2025-07-10,2026-06-23,1.0,1,2316.1637499999997,6620.76,1,1,17.45,168,113,6,0,Debit Card,0,0.0,1.9,1,0,0,2,9227.0,Regular,20,0,Recent Users,76.71,0
+C00124,42,Female,Surat,Gujarat,India,Gold,2024-09-13,2026-06-19,7.64,14,194.51,2723.17,0,0,5.4,240,11,4,0,Cash On Delivery,0,0.0,1.8,3,0,0,2,3637.22,Regular,82,0,Loyal Customers,20.89,0
+C00125,61,Female,Bhopal,Madhya Pradesh,India,Gold,2025-01-11,2026-06-30,8.67,13,395.48,5141.24,1,1,0.9,48,1,2,4,Credit Card,0,0.0,5.0,4,0,0,5,5681.54,Regular,74,0,Loyal Customers,5.62,0
+C00126,23,Male,Jaipur,Rajasthan,India,Silver,2025-10-08,2026-06-15,16.0,12,190.73,2288.79,0,0,1.3,78,2,0,3,Cash On Delivery,0,0.0,4.0,4,0,0,4,2288.79,Regular,54,1,At Risk,0.2,1
+C00127,28,Male,Delhi,Delhi,India,Basic,2026-03-07,2026-06-10,15.0,5,435.06,2175.29,0,0,8.5,114,23,2,3,Debit Card,0,0.0,4.9,5,0,0,5,2175.29,Regular,20,1,Lost,25.84,1
+C00128,36,Male,Patna,Bihar,India,Silver,2026-01-06,2026-06-23,20.0,10,479.04,4790.42,2,2,3.2,102,5,4,1,Cash On Delivery,0,0.0,1.0,1,2,1,1,6933.9,Regular,44,0,Loyal Customers,18.27,0
+C00129,28,Female,Ahmedabad,Gujarat,India,Gold,2024-08-14,2026-06-14,7.3,14,160.3,2244.25,4,3,0.7,36,2,3,1,Wallet,0,0.0,4.0,3,0,0,4,3261.11,Regular,83,0,At Risk,13.26,0
+C00130,18,Male,Nagpur,Maharashtra,India,Gold,2025-04-11,2026-06-10,10.4,13,445.94,5797.25,1,1,1.5,48,3,4,3,Cash On Delivery,0,0.0,3.2,3,0,0,3,7408.81,Regular,70,0,At Risk,12.11,0
+C00131,35,Male,Mumbai,Maharashtra,India,Silver,2026-07-05,2026-06-24,30.052500000000002,11,477.3,5250.35,1,1,7.1,174,21,4,0,Credit Card,0,0.0,1.0,1,0,0,1,6841.54,Regular,39,0,Loyal Customers,28.75,0
+C00132,22,Female,Indore,Madhya Pradesh,India,Silver,2025-08-09,2026-06-26,4.36,4,2201.52,8806.08,3,2,12.0,216,33,6,3,Debit Card,0,0.0,1.2,2,0,0,1,11151.15,Regular,32,0,Recent Users,50.91,0
+C00133,40,Male,Chennai,Tamil Nadu,India,Basic,2026-06-05,2026-06-17,30.052500000000002,7,597.53,4182.69,3,2,4.0,138,10,3,3,Credit Card,0,0.0,3.1,3,2,1,3,5352.9,Regular,24,0,Average,20.66,0
+C00134,23,Male,Lucknow,Uttar Pradesh,India,Basic,2026-01-06,2026-06-10,12.0,6,784.03,4704.17,2,2,7.5,144,14,2,2,Wallet,4,0.0,1.1,1,0,0,1,4704.17,Regular,28,1,Lost,25.33,1
+C00135,53,Male,Jaipur,Rajasthan,India,Silver,2025-09-08,2026-07-02,12.0,10,144.46,1444.58,6,4,3.7,84,5,5,1,Credit Card,0,0.0,4.3,4,0,0,4,2044.45,Regular,47,0,Loyal Customers,29.15,0
+C00136,25,Female,Nagpur,Maharashtra,India,Gold,2024-03-17,2026-06-15,3.0,7,577.95,4045.64,7,4,12.5,192,25,5,4,Credit Card,0,0.0,4.8,5,0,0,5,4654.95,Regular,65,0,Lost,55.39,0
+C00137,31,Female,Mumbai,Maharashtra,India,Gold,2024-02-16,2026-06-18,2.07,5,1343.0,6715.02,7,4,8.0,186,15,4,2,Credit Card,0,0.0,1.0,1,0,0,1,9025.81,Regular,61,0,Average,40.62,0
+C00138,44,Female,Mumbai,Maharashtra,India,Gold,2025-07-10,2026-06-21,15.0,15,372.5,5587.49,0,0,3.1,156,4,2,3,UPI,0,0.0,4.4,5,0,0,4,8372.09,Regular,72,0,Loyal Customers,9.44,0
+C00139,20,Female,Hyderabad,Telangana,India,Silver,2026-06-05,2026-07-04,30.052500000000002,15,588.61,8829.12,1,1,1.6,72,3,1,2,Wallet,0,0.0,1.9,2,2,1,2,8829.12,Regular,58,1,Champions,5.29,1
+C00140,37,Female,Nagpur,Maharashtra,India,Basic,2026-01-06,2026-06-18,8.0,4,1286.59,5146.38,5,3,3.5,48,7,5,3,Credit Card,0,0.0,3.4,4,0,0,4,5146.38,Regular,21,1,Average,27.28,1
+C00141,50,Female,Mumbai,Maharashtra,India,Silver,2025-05-11,2026-06-10,6.0,7,1427.39,9991.73,0,0,2.0,42,4,6,0,Credit Card,0,0.0,5.0,5,2,1,5,14064.6,Regular,48,0,Lost,16.32,0
+C00142,18,Female,Bangalore,Karnataka,India,Silver,2024-07-15,2026-06-08,3.5,7,805.59,5639.16,1,1,6.4,156,15,1,5,Credit Card,0,0.0,4.0,3,0,0,4,6993.27,Regular,60,0,Lost,18.83,0
+C00143,37,Male,Chennai,Tamil Nadu,India,Silver,2025-09-08,2026-06-27,7.2,6,625.17,3751.05,1,1,7.4,204,12,6,3,Debit Card,0,0.0,2.5,4,0,0,3,4684.09,Regular,34,0,Recent Users,32.23,0
+C00144,38,Male,Chennai,Tamil Nadu,India,Basic,2026-06-05,2026-06-30,30.052500000000002,8,652.94,5223.49,3,2,7.0,210,20,3,2,UPI,0,0.0,5.0,5,0,0,5,7258.72,Regular,29,0,Loyal Customers,29.66,0
+C00145,44,Female,Nagpur,Maharashtra,India,Basic,2026-01-06,2026-06-30,8.0,4,787.0,3147.99,3,2,7.7,126,13,4,4,Debit Card,0,0.0,1.9,2,0,0,2,4092.37,Regular,20,0,Recent Users,32.12,0
+C00146,20,Male,Patna,Bihar,India,Silver,2026-04-06,2026-06-26,30.052500000000002,10,374.75,3747.53,0,0,6.2,192,13,3,1,UPI,0,0.0,3.1,3,1,1,3,4977.58,Regular,38,0,Loyal Customers,20.8,0
+C00147,19,Male,Mumbai,Maharashtra,India,Basic,2025-09-08,2026-07-02,6.0,5,281.27,1406.34,2,2,10.8,228,24,3,2,Credit Card,0,0.0,4.0,4,0,0,4,1948.01,Regular,28,0,Recent Users,37.35,0
+C00148,41,Female,Mumbai,Maharashtra,India,Silver,2024-03-17,2026-06-16,1.71,4,2316.1637499999997,9499.72,1,1,5.6,90,15,4,1,Wallet,2,0.0,4.7,5,1,1,5,13404.39,Regular,58,0,Lost,24.05,0
+C00149,38,Male,Lucknow,Uttar Pradesh,India,Silver,2026-06-05,2026-06-12,30.052500000000002,12,153.56,1842.75,2,2,4.0,114,6,1,2,Cash On Delivery,0,0.0,1.8,3,0,0,2,2227.16,Regular,41,0,At Risk,13.27,0
+C00150,38,Male,Lucknow,Uttar Pradesh,India,Silver,2024-03-17,2026-06-26,0.43,1,2316.1637499999997,12158.1975,7,4,17.45,228,131,5,0,Cash On Delivery,0,0.0,2.8,4,0,0,3,12665.79,Regular,49,1,Recent Users,89.26,1
+C00151,39,Male,Hyderabad,Telangana,India,Gold,2025-04-11,2026-06-13,9.6,12,472.08,5665.02,3,2,3.1,102,7,2,1,Credit Card,2,0.0,2.2,3,0,0,2,6892.73,Regular,66,0,At Risk,15.62,0
+C00152,26,Male,Bangalore,Karnataka,India,Silver,2026-01-06,2026-06-17,16.0,8,525.48,4203.88,1,1,6.3,222,11,4,2,Debit Card,0,0.0,4.0,4,0,0,4,5477.72,Regular,36,0,Loyal Customers,24.8,0
+C00153,37,Male,Chandigarh,Punjab,India,Basic,2025-07-10,2026-06-19,1.0,1,2316.1637499999997,5107.21,0,0,17.45,234,174,5,2,Wallet,0,0.0,1.9,2,0,0,2,6316.89,Regular,19,0,Average,85.49,0
+C00154,38,Female,Lucknow,Uttar Pradesh,India,Basic,2026-03-07,2026-07-04,15.0,5,2048.02,10240.11,5,3,6.7,168,19,3,2,UPI,3,0.0,1.0,1,1,1,1,10240.11,Regular,26,1,Recent Users,32.45,1
+C00155,26,Female,Delhi,Delhi,India,Gold,2025-03-12,2026-07-03,11.25,15,666.79,10001.82,3,2,6.0,204,17,3,3,Credit Card,0,0.0,3.2,3,0,0,3,11215.9,Regular,82,0,Champions,26.73,0
+C00156,57,Female,Kochi,Kerala,India,Silver,2024-11-12,2026-06-21,3.6,6,830.63,4983.78,1,1,7.1,186,10,4,1,Wallet,0,0.0,2.3,1,0,0,2,6498.35,Regular,50,0,Average,26.41,0
+C00157,40,Male,Bhopal,Madhya Pradesh,India,Silver,2025-08-09,2026-06-21,6.55,6,1308.74,7852.46,4,3,7.2,174,13,2,2,Wallet,0,0.0,4.2,4,0,0,4,9793.54,Regular,38,0,Average,28.12,0
+C00158,20,Female,Mumbai,Maharashtra,India,Premium,2024-04-16,2026-07-04,5.78,13,475.31,6179.04,4,3,1.7,96,3,4,1,UPI,13,0.0,4.1,4,2,1,4,8118.43,Regular,88,0,Champions,18.11,0
+C00159,42,Male,Chennai,Tamil Nadu,India,Silver,2025-01-11,2026-06-09,3.33,5,1814.02,9070.11,5,4,2.9,42,6,0,3,Wallet,0,0.0,2.1,2,0,0,2,11510.09,Regular,46,0,Lost,13.94,0
+C00160,23,Male,Lucknow,Uttar Pradesh,India,Basic,2026-01-06,2026-06-09,6.0,3,2316.1637499999997,7189.89,5,3,9.8,102,18,0,1,Debit Card,0,0.0,3.8,4,2,1,4,8726.3,Regular,19,0,Lost,32.28,0
+C00161,44,Male,Ahmedabad,Gujarat,India,Gold,2026-02-05,2026-06-10,30.052500000000002,15,341.02,5115.36,1,1,2.6,168,4,4,1,Debit Card,0,0.0,5.0,5,0,0,5,7476.83,Regular,61,0,At Risk,14.84,0
+C00162,48,Male,Patna,Bihar,India,Basic,2025-12-07,2026-06-19,8.57,5,1117.62,5588.08,1,1,4.0,54,11,2,2,Debit Card,0,0.0,4.9,5,0,0,5,6559.88,Regular,27,0,Average,14.83,0
+C00163,25,Female,Mumbai,Maharashtra,India,Gold,2025-07-10,2026-06-20,12.0,12,619.18,7430.15,2,2,0.9,30,2,2,1,Wallet,0,0.0,4.6,5,0,0,5,10198.22,Regular,62,0,Loyal Customers,7.67,0
+C00164,46,Female,Jaipur,Rajasthan,India,Silver,2026-03-07,2026-06-09,24.0,8,1147.88,9183.06,3,2,2.1,60,3,1,4,Debit Card,0,0.0,1.2,1,0,0,1,13497.79,Regular,36,0,Average,10.13,0
+C00165,39,Male,Kochi,Kerala,India,Silver,2026-06-05,2026-06-20,30.052500000000002,14,207.77,2908.71,3,2,3.6,180,7,2,1,UPI,0,0.0,1.9,2,0,0,2,2908.71,Regular,50,1,Loyal Customers,16.76,0
+C00166,44,Female,Patna,Bihar,India,Basic,2025-11-07,2026-06-23,3.0,2,2316.1637499999997,8020.08,5,3,17.45,234,86,5,1,Wallet,0,0.0,1.2,1,0,0,1,11633.63,Regular,19,0,Recent Users,76.0,0
+C00167,57,Male,Patna,Bihar,India,Gold,2024-02-16,2026-06-19,2.48,6,993.52,5961.14,4,3,13.5,234,25,2,1,Cash On Delivery,0,0.0,4.2,4,0,0,4,6854.96,Regular,64,0,Average,45.09,0
+C00168,32,Female,Jaipur,Rajasthan,India,Silver,2025-09-08,2026-06-21,10.8,9,1111.18,10000.58,6,4,5.2,132,12,3,1,Wallet,0,0.0,1.1,1,0,0,1,12975.91,Regular,50,0,Loyal Customers,29.37,0
+C00169,25,Female,Chandigarh,Punjab,India,Gold,2024-08-14,2026-06-06,4.17,8,766.39,6131.12,3,2,6.1,210,15,0,2,UPI,0,0.0,4.1,4,0,0,4,7865.06,Regular,63,0,Average,19.48,0
+C00170,24,Male,Mumbai,Maharashtra,India,Silver,2026-02-05,2026-06-11,30.052500000000002,14,84.54,1183.53,0,0,3.4,186,9,2,3,Cash On Delivery,0,0.0,3.9,4,1,1,4,1305.73,Regular,55,0,At Risk,11.19,0
+C00171,25,Female,Mumbai,Maharashtra,India,Gold,2024-03-17,2026-06-20,4.71,11,338.94,3728.35,5,4,2.8,138,7,3,3,Wallet,0,0.0,3.4,3,0,0,3,4762.23,Regular,80,0,Loyal Customers,20.97,0
+C00172,34,Male,Surat,Gujarat,India,Gold,2024-06-15,2026-06-12,3.84,8,645.63,5165.03,0,0,3.8,150,8,4,4,Debit Card,0,0.0,5.0,5,1,1,5,6443.95,Regular,65,0,Average,16.59,0
+C00173,39,Female,Kochi,Kerala,India,Silver,2026-01-06,2026-06-20,16.0,8,712.4,5699.16,4,3,2.2,60,5,6,3,Credit Card,0,0.0,4.1,4,0,0,4,7795.99,Regular,37,0,Loyal Customers,24.38,0
+C00174,38,Male,Lucknow,Uttar Pradesh,India,Premium,2024-07-15,2026-06-16,7.5,15,84.01,1260.16,7,4,6.9,228,13,4,0,Credit Card,0,0.0,2.9,2,0,0,3,1859.15,Regular,87,0,At Risk,37.67,0
+C00175,44,Male,Ahmedabad,Gujarat,India,Silver,2026-01-06,2026-06-27,26.0,13,523.79,6809.21,6,4,3.7,102,8,3,1,Debit Card,0,0.0,4.8,5,0,0,5,7723.8,Regular,57,0,Champions,25.09,0
+C00176,35,Female,Hyderabad,Telangana,India,Silver,2025-01-11,2026-07-03,4.67,7,726.8,5087.62,1,1,6.2,126,13,2,1,Credit Card,0,0.0,4.1,4,0,0,4,6262.81,Regular,51,0,Recent Users,20.29,0
+C00177,52,Female,Chennai,Tamil Nadu,India,Silver,2026-02-05,2026-07-03,19.2,8,319.62,2556.94,4,3,4.5,174,7,5,1,Credit Card,0,0.0,4.0,3,0,0,4,3266.81,Regular,33,0,Loyal Customers,27.72,0
+C00178,31,Male,Delhi,Delhi,India,Silver,2025-09-08,2026-06-08,15.6,13,276.45,3593.91,5,3,2.2,102,4,3,3,Debit Card,0,0.0,1.0,1,0,0,1,3593.91,Regular,60,1,At Risk,18.96,1
+C00179,67,Female,Jaipur,Rajasthan,India,Gold,2024-03-17,2026-06-25,2.57,6,514.18,3085.06,7,4,5.0,84,9,3,3,Debit Card,0,0.0,1.0,1,0,0,1,4349.7,Regular,61,0,Recent Users,30.13,0
+C00180,42,Female,Surat,Gujarat,India,Basic,2025-09-08,2026-07-02,2.4,2,2316.1637499999997,5454.8,4,3,17.45,162,73,2,3,Wallet,0,0.0,4.7,5,0,0,5,6967.73,Regular,20,0,Recent Users,64.33,0
+C00181,24,Male,Delhi,Delhi,India,Basic,2026-01-06,2026-06-12,4.0,2,1184.79,2369.57,7,4,4.7,36,8,3,2,Wallet,0,0.0,4.2,5,0,0,4,2632.27,Regular,11,0,Lost,29.23,0
+C00182,22,Male,Mumbai,Maharashtra,India,Basic,2026-06-05,2026-06-18,30.052500000000002,8,474.59,3796.69,1,1,5.7,180,11,6,2,Debit Card,0,0.0,1.9,2,0,0,2,3796.69,Regular,28,1,Loyal Customers,28.12,0
+C00183,40,Female,Ahmedabad,Gujarat,India,Gold,2025-01-11,2026-06-27,7.33,11,1043.77,11481.51,6,4,5.1,138,10,1,3,UPI,0,0.0,1.0,1,0,0,1,11481.51,Regular,71,1,Champions,24.02,1
+C00184,32,Male,Chennai,Tamil Nadu,India,Basic,2026-04-06,2026-06-07,4.0,1,2316.1637499999997,2980.34,4,3,17.45,156,78,2,1,Credit Card,0,0.0,5.0,5,0,0,5,3891.02,Regular,4,0,Lost,65.4,0
+C00185,43,Male,Indore,Madhya Pradesh,India,Silver,2024-06-15,2026-06-12,2.88,6,844.49,5066.94,4,3,7.4,162,12,2,3,Wallet,3,0.0,3.8,4,2,1,4,6751.41,Regular,58,0,Lost,28.36,0
+C00186,40,Male,Jaipur,Rajasthan,India,Silver,2026-02-05,2026-07-01,30.052500000000002,13,339.45,4412.79,7,4,4.4,138,12,2,2,Credit Card,0,0.0,3.9,4,2,1,4,4412.79,Regular,53,1,Loyal Customers,27.04,1
+C00187,34,Female,Delhi,Delhi,India,Silver,2025-03-12,2026-06-21,4.5,6,1047.87,6287.25,7,4,5.3,150,14,7,5,Cash On Delivery,0,0.0,1.8,2,0,0,2,7470.88,Regular,45,0,Average,41.28,0
+C00188,24,Female,Hyderabad,Telangana,India,Gold,2024-07-15,2026-06-14,5.5,11,489.54,5384.92,5,4,7.1,174,16,1,2,Debit Card,0,0.0,5.0,5,0,0,5,6429.96,Regular,75,0,At Risk,28.03,0
+C00189,18,Male,Lucknow,Uttar Pradesh,India,Basic,2026-03-07,2026-06-25,12.0,4,1820.18,7280.71,3,2,9.8,186,24,3,2,UPI,0,0.0,4.4,4,0,0,4,9263.22,Regular,20,0,Recent Users,36.91,0
+C00190,29,Female,Chandigarh,Punjab,India,Premium,2024-03-17,2026-06-06,5.14,12,769.77,9237.21,4,3,3.0,180,4,8,1,Cash On Delivery,0,0.0,1.2,1,0,0,1,13590.32,Regular,88,0,At Risk,30.7,0
+C00191,45,Male,Hyderabad,Telangana,India,Gold,2024-04-16,2026-07-04,4.89,11,443.81,4881.96,3,3,4.7,210,9,1,2,Cash On Delivery,0,0.0,2.2,2,0,0,2,4881.96,Regular,79,1,Loyal Customers,17.35,1
+C00192,37,Female,Bhopal,Madhya Pradesh,India,Premium,2024-02-16,2026-07-01,5.38,13,158.59,2061.68,2,2,1.3,72,3,2,4,Cash On Delivery,0,0.0,4.9,5,0,0,5,2061.68,Regular,88,1,Loyal Customers,8.8,1
+C00193,20,Male,Ahmedabad,Gujarat,India,Gold,2026-01-06,2026-07-04,30.0,15,270.74,4061.14,5,4,2.5,114,4,4,1,Debit Card,0,0.0,2.4,2,0,0,2,4899.5,Regular,62,0,Loyal Customers,22.0,0
+C00194,37,Male,Nagpur,Maharashtra,India,Silver,2025-11-07,2026-06-18,16.5,11,312.59,3438.46,1,1,4.3,228,8,1,1,Wallet,0,0.0,1.1,2,0,0,1,4310.47,Regular,50,0,Loyal Customers,12.53,0
+C00195,39,Female,Delhi,Delhi,India,Gold,2024-07-15,2026-06-09,6.5,13,247.82,3221.65,5,4,2.4,114,5,4,1,Debit Card,0,0.0,5.0,5,0,0,5,4346.98,Regular,81,0,At Risk,21.98,0
+C00196,24,Male,Patna,Bihar,India,Silver,2026-07-05,2026-06-18,30.052500000000002,10,788.61,7886.07,5,4,1.3,54,2,4,3,Wallet,0,0.0,2.0,2,0,0,2,10062.73,Regular,37,0,Loyal Customers,18.83,0
+C00197,36,Female,Mumbai,Maharashtra,India,Basic,2026-07-05,2026-06-28,30.0,3,2153.44,6460.31,2,2,9.6,138,27,4,0,Cash On Delivery,0,0.0,2.9,4,1,1,3,6460.31,Regular,9,1,Recent Users,37.6,1
+C00198,35,Female,Chennai,Tamil Nadu,India,Gold,2025-01-11,2026-06-12,8.67,13,227.7,2960.09,5,3,0.8,54,1,2,3,Cash On Delivery,0,0.0,1.3,1,0,0,1,2960.09,Regular,72,1,At Risk,12.77,1
+C00199,21,Male,Chennai,Tamil Nadu,India,Silver,2026-02-05,2026-06-15,26.4,11,217.26,2389.82,6,4,1.5,72,4,5,0,UPI,0,0.0,1.1,1,0,0,1,2859.98,Regular,44,0,At Risk,23.91,0
+C00200,39,Male,Delhi,Delhi,India,Silver,2025-02-10,2026-06-20,2.12,3,989.72,2969.16,5,3,17.45,240,62,3,1,Wallet,0,0.0,1.3,1,2,1,1,3359.79,Regular,32,0,Average,66.19,0
+C00201,41,Female,Indore,Madhya Pradesh,India,Gold,2025-10-08,2026-06-22,20.0,15,286.31,4294.65,0,0,2.0,144,5,3,0,Cash On Delivery,0,0.0,3.1,3,0,0,3,4766.06,Regular,67,0,Loyal Customers,9.49,0
+C00202,47,Male,Delhi,Delhi,India,Premium,2024-04-16,2026-06-07,6.67,15,363.84,5457.53,5,3,1.5,90,2,3,0,Credit Card,0,0.0,2.8,3,0,0,3,6551.78,Regular,95,0,At Risk,16.94,0
+C00203,47,Male,Bangalore,Karnataka,India,Gold,2025-09-08,2026-07-03,15.6,13,418.2,5436.57,1,1,3.9,240,8,2,0,UPI,0,0.0,3.9,5,0,0,4,5436.57,Regular,62,1,Loyal Customers,13.97,1
+C00204,18,Male,Bhopal,Madhya Pradesh,India,Silver,2026-07-05,2026-06-07,30.052500000000002,13,254.29,3305.71,1,1,4.5,234,12,3,1,Debit Card,0,0.0,2.0,2,0,0,2,4081.02,Regular,45,0,At Risk,18.54,0
+C00205,23,Male,Ahmedabad,Gujarat,India,Basic,2026-07-05,2026-06-16,10.0,1,2316.1637499999997,4939.46,6,4,17.45,120,90,0,2,UPI,1,0.0,3.9,4,2,1,4,6960.56,Regular,1,0,Lost,66.94,0
+C00206,41,Male,Bhopal,Madhya Pradesh,India,Basic,2025-07-10,2026-06-11,3.0,3,2316.1637499999997,7073.3,5,3,9.0,84,18,1,1,Credit Card,0,0.0,1.8,2,0,0,2,9807.26,Regular,28,0,Lost,32.8,0
+C00207,41,Female,Indore,Madhya Pradesh,India,Basic,2026-03-07,2026-06-22,12.0,4,719.73,2878.93,5,4,14.0,204,32,1,3,Wallet,0,0.0,3.2,3,1,1,3,3870.35,Regular,16,0,Recent Users,47.21,0
+C00208,41,Female,Bhopal,Madhya Pradesh,India,Gold,2024-12-12,2026-06-11,6.95,11,570.07,6270.76,2,2,3.7,180,9,3,2,Debit Card,0,0.0,2.9,3,0,0,3,9036.17,Regular,68,0,At Risk,17.92,0
+C00209,70,Male,Mumbai,Maharashtra,India,Silver,2026-07-05,2026-06-24,30.052500000000002,11,1004.12,11045.31,1,1,5.4,174,11,5,4,Debit Card,0,0.0,4.0,3,0,0,4,13396.05,Regular,43,0,Champions,25.09,0
+C00210,41,Male,Hyderabad,Telangana,India,Silver,2024-12-12,2026-06-08,3.16,5,769.44,3847.19,6,4,11.6,216,33,1,0,Wallet,0,0.0,5.0,5,0,0,5,5593.9,Regular,44,0,Lost,43.78,0
+C00211,48,Male,Bangalore,Karnataka,India,Basic,2026-05-06,2026-06-13,18.0,3,1572.71,4718.12,2,2,17.45,174,37,7,3,UPI,0,0.0,3.9,4,0,0,4,5943.4,Regular,11,0,Lost,64.73,0
+C00212,46,Female,Pune,Maharashtra,India,Silver,2025-02-10,2026-06-20,4.24,6,338.16,2028.96,7,4,3.4,90,7,3,4,Cash On Delivery,0,0.0,2.3,2,0,0,2,2557.21,Regular,43,0,Average,26.04,0
+C00213,42,Male,Hyderabad,Telangana,India,Silver,2025-11-07,2026-06-25,16.5,11,873.15,9604.67,5,3,4.7,174,12,2,1,UPI,0,0.0,3.8,4,0,0,4,12122.44,Regular,54,0,Champions,24.03,0
+C00214,31,Female,Pune,Maharashtra,India,Gold,2025-06-10,2026-06-26,12.92,14,112.3,1572.2,4,3,3.1,96,7,6,4,Credit Card,0,0.0,1.1,1,0,0,1,1791.11,Regular,67,0,Loyal Customers,26.86,0
+C00215,44,Female,Mumbai,Maharashtra,India,Premium,2024-05-16,2026-06-08,6.92,15,880.59,12158.1975,5,3,5.1,192,14,5,2,Cash On Delivery,0,0.0,2.0,3,0,0,2,15296.138749999995,Regular,99,0,At Risk,32.43,0
+C00216,25,Female,Surat,Gujarat,India,Gold,2025-03-12,2026-06-07,9.0,12,391.92,4703.06,4,3,6.2,162,18,4,0,UPI,0,0.0,2.0,1,1,1,2,5433.93,Regular,66,0,At Risk,31.6,0
+C00217,32,Male,Chennai,Tamil Nadu,India,Silver,2024-09-13,2026-06-26,2.73,5,2316.1637499999997,11903.1,0,0,2.7,48,5,3,1,Wallet,0,0.0,4.7,5,0,0,5,14716.45,Regular,54,0,Recent Users,11.09,0
+C00218,29,Female,Chandigarh,Punjab,India,Basic,2025-06-10,2026-06-15,2.77,3,1845.13,5535.4,3,2,17.45,138,33,1,1,Credit Card,0,0.0,3.2,3,0,0,3,6795.92,Regular,28,0,Lost,51.63,0
+C00219,35,Male,Pune,Maharashtra,India,Gold,2024-03-17,2026-06-07,2.57,6,1464.64,8787.86,2,2,7.3,102,11,4,2,Credit Card,0,0.0,2.1,2,0,0,2,8787.86,Regular,65,1,Lost,28.93,1
+C00220,62,Female,Delhi,Delhi,India,Basic,2026-04-06,2026-07-04,24.0,6,572.27,3433.62,5,3,3.3,96,8,1,2,Credit Card,6,0.0,2.9,3,1,1,3,3986.1,Regular,23,0,Recent Users,17.63,0
+C00221,18,Male,Kochi,Kerala,India,Gold,2026-03-07,2026-06-18,30.052500000000002,15,519.83,7797.43,0,0,2.3,156,6,1,3,Cash On Delivery,0,0.0,4.1,4,0,0,4,8717.08,Regular,62,0,Loyal Customers,5.69,0
+C00222,43,Female,Hyderabad,Telangana,India,Premium,2024-06-15,2026-06-23,6.72,14,856.26,11987.62,5,3,2.0,96,3,5,2,Debit Card,0,0.0,1.1,1,1,1,1,14588.48,Regular,93,0,Champions,22.99,0
+C00223,18,Male,Delhi,Delhi,India,Silver,2024-11-12,2026-06-25,4.8,8,722.76,5782.07,0,0,4.8,192,8,2,3,Cash On Delivery,0,0.0,4.7,4,0,0,5,8364.71,Regular,58,0,Loyal Customers,14.18,0
+C00224,29,Female,Delhi,Delhi,India,Silver,2025-03-12,2026-06-30,1.5,2,2316.1637499999997,11340.27,5,3,10.5,42,16,4,1,UPI,0,0.0,2.8,4,0,0,3,14014.04,Regular,33,0,Recent Users,42.85,0
+C00225,48,Male,Kochi,Kerala,India,Silver,2024-10-13,2026-06-06,0.57,1,2316.1637499999997,7796.57,1,1,17.45,168,119,6,1,Debit Card,0,0.0,2.2,2,0,0,2,8961.98,Regular,35,0,Lost,77.98,0
+C00226,35,Male,Pune,Maharashtra,India,Silver,2024-03-17,2026-06-17,1.71,4,952.66,3810.64,1,1,12.9,198,25,3,3,UPI,3,0.0,3.1,3,2,1,3,3810.64,Regular,54,1,Average,40.52,0
+C00227,22,Male,Indore,Madhya Pradesh,India,Silver,2024-07-15,2026-06-20,3.5,7,700.72,4905.06,6,4,7.4,174,15,1,1,Debit Card,0,0.0,1.9,2,0,0,2,7350.92,Regular,60,0,Average,30.35,0
+C00228,26,Male,Pune,Maharashtra,India,Silver,2026-06-05,2026-06-29,30.052500000000002,15,156.22,2343.35,4,3,2.8,132,6,3,3,Cash On Delivery,0,0.0,2.8,3,0,0,3,2343.35,Regular,53,1,Loyal Customers,18.91,0
+C00229,43,Female,Pune,Maharashtra,India,Gold,2024-09-13,2026-06-28,6.0,11,118.15,1299.63,3,2,6.2,228,17,2,1,Credit Card,0,0.0,1.9,2,0,0,2,1574.93,Regular,69,0,Loyal Customers,24.84,0
+C00230,26,Female,Chandigarh,Punjab,India,Gold,2024-10-13,2026-06-18,5.71,10,273.94,2739.45,5,4,2.8,90,6,4,2,Wallet,0,0.0,3.9,4,0,0,4,4078.33,Regular,65,0,Loyal Customers,23.11,0
+C00231,37,Male,Indore,Madhya Pradesh,India,Basic,2026-03-07,2026-06-29,9.0,3,2316.1637499999997,7408.1,1,1,2.9,36,7,2,1,Credit Card,0,0.0,1.8,2,1,1,2,8678.67,Regular,16,0,Recent Users,11.47,0
+C00232,35,Female,Chennai,Tamil Nadu,India,Basic,2026-04-06,2026-06-27,12.0,3,1788.31,5364.93,5,3,16.6,120,29,5,2,Cash On Delivery,0,0.0,1.7,1,0,0,2,6998.47,Regular,13,0,Recent Users,61.92,0
+C00233,27,Male,Chennai,Tamil Nadu,India,Basic,2026-04-06,2026-06-23,20.0,5,743.63,3718.13,7,4,2.8,36,6,3,4,Debit Card,0,0.0,1.2,1,2,1,1,4446.37,Regular,19,0,Recent Users,24.45,0
+C00234,60,Male,Mumbai,Maharashtra,India,Basic,2026-02-05,2026-06-14,12.0,5,1201.72,6008.59,5,3,17.45,228,46,4,2,Credit Card,0,0.0,2.2,2,0,0,2,8850.3,Regular,24,0,Lost,65.14,0
+C00235,42,Female,Bangalore,Karnataka,India,Gold,2024-12-12,2026-06-21,8.21,13,379.56,4934.31,1,1,2.0,72,5,3,2,Cash On Delivery,0,0.0,1.0,1,0,0,1,7364.99,Regular,75,0,Loyal Customers,11.33,0
+C00236,18,Male,Hyderabad,Telangana,India,Gold,2024-11-12,2026-06-23,6.0,10,579.28,5792.79,6,4,5.5,198,9,3,3,UPI,0,0.0,5.0,5,0,0,5,8259.82,Regular,66,0,Loyal Customers,29.42,0
+C00237,37,Male,Bhopal,Madhya Pradesh,India,Basic,2025-07-10,2026-06-12,3.0,3,812.98,2438.94,1,1,17.45,192,41,0,3,Wallet,0,0.0,1.0,1,0,0,1,2989.93,Regular,24,0,Lost,47.29,0
+C00238,27,Female,Patna,Bihar,India,Silver,2024-10-13,2026-06-25,5.14,9,139.1,1251.94,0,0,1.9,78,3,3,1,Credit Card,0,0.0,3.9,4,0,0,4,1579.19,Regular,60,0,Loyal Customers,8.83,0
+C00239,45,Male,Kochi,Kerala,India,Basic,2026-03-07,2026-06-13,12.0,4,2171.9,8687.59,1,1,14.0,162,28,0,2,Debit Card,0,0.0,1.0,1,0,0,1,10398.37,Regular,21,0,Lost,36.63,0
+C00240,25,Male,Kochi,Kerala,India,Gold,2024-09-13,2026-06-15,7.09,13,460.14,5981.84,4,3,1.3,42,3,3,1,UPI,0,0.0,4.9,5,0,0,5,5981.84,Regular,80,1,At Risk,14.85,0
+C00241,33,Male,Nagpur,Maharashtra,India,Gold,2024-07-15,2026-06-20,6.5,13,395.24,5138.16,3,2,2.5,132,3,5,3,Cash On Delivery,0,0.0,4.4,4,2,1,4,5138.16,Regular,83,1,Loyal Customers,20.44,0
+C00242,41,Male,Kochi,Kerala,India,Premium,2024-06-15,2026-06-28,7.2,15,290.29,4354.42,1,1,1.1,36,2,2,3,Wallet,0,0.0,2.9,3,2,1,3,4354.42,Regular,91,1,Loyal Customers,6.29,1
+C00243,45,Female,Surat,Gujarat,India,Silver,2024-09-13,2026-06-09,1.64,3,2316.1637499999997,9104.9,3,2,17.45,222,38,0,1,Debit Card,0,0.0,2.8,2,2,1,3,12406.46,Regular,45,0,Lost,50.34,0
+C00244,20,Female,Delhi,Delhi,India,Silver,2026-01-06,2026-06-26,22.0,11,270.45,2974.91,0,0,5.2,234,8,5,3,Cash On Delivery,0,0.0,1.0,1,2,1,1,3469.4,Regular,46,0,Loyal Customers,22.15,0
+C00245,30,Female,Ahmedabad,Gujarat,India,Silver,2024-12-12,2026-06-25,1.26,2,1133.17,2266.35,6,4,14.7,78,31,3,1,Cash On Delivery,0,0.0,1.2,1,0,0,1,2266.35,Regular,31,1,Recent Users,55.15,1
+C00246,29,Male,Patna,Bihar,India,Silver,2026-07-05,2026-06-25,30.052500000000002,10,194.66,1946.57,4,4,3.4,72,6,2,2,Credit Card,0,0.0,4.7,5,0,0,5,2632.93,Regular,32,0,Loyal Customers,17.94,0
+C00247,27,Male,Pune,Maharashtra,India,Gold,2025-06-10,2026-06-19,12.0,13,186.37,2422.76,3,2,4.6,186,9,3,3,Credit Card,0,0.0,4.8,5,0,0,5,2422.76,Regular,64,1,Loyal Customers,21.82,0
+C00248,56,Female,Surat,Gujarat,India,Gold,2024-08-14,2026-06-06,5.74,11,345.36,3799.01,6,4,3.3,84,8,2,3,Debit Card,0,0.0,2.3,2,0,0,2,3799.01,Regular,73,1,At Risk,21.83,1
+C00249,39,Male,Patna,Bihar,India,Silver,2026-04-06,2026-06-28,30.052500000000002,9,257.46,2317.11,1,1,10.2,216,23,3,3,Cash On Delivery,0,0.0,5.0,5,0,0,5,2317.11,Regular,33,1,Loyal Customers,33.92,1
+C00250,19,Male,Bangalore,Karnataka,India,Silver,2025-03-12,2026-06-07,3.0,4,1916.32,7665.3,2,2,13.6,150,22,4,0,Credit Card,0,0.0,2.0,1,0,0,2,10897.89,Regular,38,0,Lost,45.68,0
+C00251,46,Male,Pune,Maharashtra,India,Silver,2024-11-12,2026-06-30,1.8,3,1243.29,3729.87,4,3,11.8,102,34,1,0,Wallet,0,0.0,4.4,5,0,0,4,5429.7,Regular,38,0,Recent Users,40.76,0
+C00252,60,Male,Mumbai,Maharashtra,India,Silver,2025-06-10,2026-06-12,6.46,7,352.95,2470.68,1,1,8.1,204,19,3,5,Wallet,0,0.0,1.0,1,0,0,1,2470.68,Regular,41,1,Lost,28.27,1
+C00253,47,Female,Chennai,Tamil Nadu,India,Silver,2025-04-11,2026-07-02,6.4,8,364.35,2914.81,1,1,4.1,132,10,2,0,Cash On Delivery,0,0.0,3.9,4,0,0,4,4044.91,Regular,48,0,Loyal Customers,14.85,0
+C00254,18,Female,Pune,Maharashtra,India,Silver,2025-06-10,2026-06-17,10.15,11,474.55,5220.0,1,1,5.3,222,8,2,1,Credit Card,0,0.0,4.9,5,0,0,5,6887.88,Regular,58,0,Loyal Customers,17.17,0
+C00255,29,Female,Hyderabad,Telangana,India,Gold,2025-04-11,2026-06-24,11.2,14,130.57,1828.01,5,3,6.5,222,10,0,0,Debit Card,0,0.0,3.8,4,0,0,4,2207.71,Regular,70,0,Loyal Customers,23.03,0
+C00256,50,Male,Bhopal,Madhya Pradesh,India,Silver,2024-08-14,2026-06-20,1.04,2,2316.1637499999997,5821.71,0,0,13.1,66,20,3,3,Debit Card,0,0.0,4.3,5,0,0,4,5821.71,Regular,40,1,Average,38.07,1
+C00257,26,Female,Patna,Bihar,India,Silver,2024-12-12,2026-06-14,4.42,7,1930.72,12158.1975,6,4,0.9,30,1,3,1,Debit Card,0,0.0,4.1,4,0,0,4,15296.138749999995,Regular,59,0,Lost,17.2,0
+C00258,40,Female,Surat,Gujarat,India,Gold,2024-03-17,2026-06-15,5.14,12,206.84,2482.03,3,2,5.3,234,11,2,3,Wallet,0,0.0,5.0,5,0,0,5,3406.49,Regular,83,0,At Risk,21.5,0
+C00259,44,Male,Nagpur,Maharashtra,India,Silver,2024-04-16,2026-06-30,2.22,5,717.25,3586.23,0,0,9.6,222,27,1,1,Credit Card,0,0.0,4.2,4,2,1,4,4923.76,Regular,56,0,Recent Users,26.85,0
+C00260,23,Male,Patna,Bihar,India,Gold,2025-12-07,2026-06-11,25.71,15,129.68,1945.2,3,2,0.9,42,1,3,7,Credit Card,0,0.0,1.9,4,0,0,2,2797.39,Regular,62,0,At Risk,11.66,0
+C00261,34,Female,Mumbai,Maharashtra,India,Gold,2024-08-14,2026-06-23,5.74,11,563.88,6202.64,7,4,4.8,204,9,4,3,Wallet,0,0.0,4.8,5,0,0,5,6202.64,Regular,74,1,Champions,32.02,0
+C00262,18,Female,Mumbai,Maharashtra,India,Basic,2026-05-06,2026-07-01,30.0,5,925.8,4629.0,4,3,7.1,126,16,4,2,Debit Card,0,0.0,4.0,4,2,1,4,5499.71,Regular,19,0,Recent Users,33.23,0
+C00263,22,Female,Indore,Madhya Pradesh,India,Silver,2024-07-15,2026-06-20,1.5,3,1475.04,4425.11,1,1,9.5,84,15,5,1,Debit Card,0,0.0,4.8,5,0,0,5,6045.65,Regular,44,0,Average,35.32,0
+C00264,31,Female,Indore,Madhya Pradesh,India,Silver,2025-01-11,2026-06-26,3.33,5,637.6,3188.01,1,1,12.7,216,30,5,2,Cash On Delivery,0,0.0,3.0,3,0,0,3,3188.01,Regular,42,1,Recent Users,45.83,1
+C00265,20,Male,Bangalore,Karnataka,India,Silver,2026-07-05,2026-06-28,30.052500000000002,12,834.09,10009.08,4,3,1.7,72,3,2,2,UPI,0,0.0,2.2,2,0,0,2,13753.83,Regular,46,0,Champions,13.41,0
+C00266,54,Female,Lucknow,Uttar Pradesh,India,Basic,2026-06-05,2026-06-25,20.0,2,2316.1637499999997,5436.8,0,0,17.45,228,117,3,4,Credit Card,0,0.0,4.0,4,0,0,4,6879.71,Regular,6,0,Recent Users,68.66,0
+C00267,18,Female,Delhi,Delhi,India,Silver,2025-05-11,2026-06-06,3.43,4,533.2,2132.79,0,0,6.1,72,18,3,1,Credit Card,0,0.0,3.0,3,0,0,3,2654.52,Regular,31,0,Lost,21.63,0
+C00268,29,Male,Bangalore,Karnataka,India,Silver,2024-10-13,2026-06-07,3.43,6,1298.2,7789.22,3,2,5.9,156,11,2,5,Credit Card,0,0.0,3.0,2,0,0,3,10867.36,Regular,54,0,Lost,22.87,0
+C00269,36,Female,Bangalore,Karnataka,India,Silver,2024-04-16,2026-06-12,0.44,1,2316.1637499999997,4293.74,5,3,16.4,78,37,2,1,UPI,1,0.0,5.0,5,2,1,5,5996.19,Regular,41,0,Lost,56.12,0
+C00270,52,Male,Delhi,Delhi,India,Silver,2025-10-08,2026-06-22,13.33,10,736.26,7362.58,0,0,4.7,144,13,4,2,Cash On Delivery,0,0.0,2.9,3,0,0,3,7362.58,Regular,50,1,Loyal Customers,19.72,1
+C00271,18,Male,Delhi,Delhi,India,Silver,2025-02-10,2026-06-06,2.82,4,427.68,1710.71,4,3,14.9,174,39,1,1,UPI,0,0.0,1.6,2,0,0,2,1710.71,Regular,35,1,Lost,48.92,1
+C00272,48,Male,Pune,Maharashtra,India,Silver,2024-10-13,2026-06-27,3.43,6,1102.75,6616.48,4,4,4.6,72,10,6,2,Debit Card,0,0.0,2.1,2,0,0,2,6616.48,Regular,53,1,Recent Users,30.93,1
+C00273,35,Female,Surat,Gujarat,India,Silver,2025-06-10,2026-06-23,8.31,9,1161.53,10453.78,1,1,3.8,138,11,1,2,Debit Card,0,0.0,1.2,1,0,0,1,10453.78,Regular,55,1,Loyal Customers,12.03,0
+C00274,23,Female,Patna,Bihar,India,Gold,2025-03-12,2026-06-13,10.5,14,139.71,1955.91,1,1,3.0,126,4,4,0,Credit Card,0,0.0,2.1,2,0,0,2,2769.95,Regular,72,0,At Risk,15.76,0
+C00275,40,Male,Ahmedabad,Gujarat,India,Gold,2024-05-16,2026-06-11,5.08,11,952.76,10480.38,1,1,0.8,42,2,2,4,Wallet,0,0.0,2.9,3,0,0,3,12426.83,Regular,82,0,At Risk,5.6,0
+C00276,37,Female,Bhopal,Madhya Pradesh,India,Silver,2025-07-10,2026-06-16,11.0,11,435.02,4785.2,5,3,6.2,204,9,4,2,Credit Card,4,0.0,1.8,2,2,1,2,5922.24,Regular,57,0,At Risk,31.53,0
+C00277,27,Female,Kochi,Kerala,India,Silver,2026-07-05,2026-06-09,30.052500000000002,13,459.86,5978.14,5,3,2.5,102,5,3,3,Wallet,0,0.0,5.0,5,0,0,5,8667.3,Regular,47,0,At Risk,19.86,0
+C00278,35,Male,Nagpur,Maharashtra,India,Basic,2026-03-07,2026-06-09,6.0,2,1711.0,3422.01,2,2,17.45,150,55,5,0,UPI,0,0.0,1.0,1,0,0,1,3832.8,Regular,9,0,Lost,63.86,0
+C00279,30,Male,Chandigarh,Punjab,India,Gold,2024-06-15,2026-07-04,5.28,11,604.35,6647.81,1,1,2.8,138,5,5,2,Debit Card,0,0.0,3.0,2,0,0,3,8674.9,Regular,78,0,Champions,17.86,0
+C00280,36,Female,Chandigarh,Punjab,India,Silver,2025-07-10,2026-06-19,7.0,7,496.13,3472.9,2,2,5.8,138,12,1,1,Wallet,0,0.0,1.4,1,0,0,1,3472.9,Regular,40,1,Average,18.66,1
+C00281,42,Male,Bhopal,Madhya Pradesh,India,Silver,2024-05-16,2026-06-13,2.77,6,1037.28,6223.67,1,1,2.8,54,5,4,3,UPI,0,0.0,2.8,4,0,0,3,8716.2,Regular,60,0,Lost,15.51,0
+C00282,54,Female,Indore,Madhya Pradesh,India,Silver,2024-07-15,2026-06-18,1.0,2,1650.83,3301.66,2,2,12.0,120,35,2,1,Debit Card,0,0.0,5.0,5,0,0,5,4004.11,Regular,40,0,Average,40.09,0
+C00283,20,Female,Nagpur,Maharashtra,India,Silver,2025-06-10,2026-06-10,7.38,8,1309.01,10472.08,3,2,7.8,126,21,3,7,Wallet,0,0.0,1.0,1,0,0,1,12436.92,Regular,51,0,Average,31.7,0
+C00284,60,Female,Chennai,Tamil Nadu,India,Silver,2024-08-14,2026-06-17,3.65,7,977.64,6843.49,6,4,5.7,186,14,1,2,Credit Card,0,0.0,3.6,4,0,0,4,10063.03,Regular,60,0,Average,26.24,0
+C00285,18,Female,Delhi,Delhi,India,Silver,2026-05-06,2026-06-24,30.052500000000002,11,369.9,4068.95,3,2,7.6,204,18,4,0,Credit Card,1,0.0,3.0,3,2,1,3,5406.35,Regular,41,0,Loyal Customers,32.95,0
+C00286,33,Male,Chennai,Tamil Nadu,India,Silver,2025-05-11,2026-06-17,4.29,5,1207.57,6037.85,4,3,6.6,144,18,3,3,Credit Card,0,0.0,4.2,4,0,0,4,6894.47,Regular,38,0,Average,30.16,0
+C00287,42,Male,Lucknow,Uttar Pradesh,India,Gold,2025-01-11,2026-06-28,8.0,12,512.3,6147.55,2,2,1.0,48,2,4,5,UPI,0,0.0,1.0,1,2,1,1,7236.98,Regular,71,0,Champions,12.6,0
+C00288,38,Male,Nagpur,Maharashtra,India,Silver,2025-03-12,2026-06-17,3.75,5,543.54,2717.7,1,1,5.2,78,11,4,1,Credit Card,0,0.0,3.7,3,0,0,4,4075.27,Regular,38,0,Average,22.28,0
+C00289,27,Male,Jaipur,Rajasthan,India,Gold,2024-02-16,2026-06-09,2.9,7,495.6,3469.22,3,2,2.0,66,5,4,1,Cash On Delivery,0,0.0,4.0,5,0,0,4,4087.59,Regular,66,0,Lost,17.38,0
+C00290,32,Female,Ahmedabad,Gujarat,India,Silver,2026-05-06,2026-06-27,30.052500000000002,9,997.13,8974.18,0,0,2.9,54,5,3,1,Debit Card,0,0.0,1.0,1,0,0,1,12063.0,Regular,37,0,Loyal Customers,11.55,0
+C00291,29,Female,Lucknow,Uttar Pradesh,India,Silver,2025-04-11,2026-06-29,8.8,11,270.86,2979.5,1,1,3.7,108,5,1,2,UPI,0,0.0,5.0,5,0,0,5,3778.16,Regular,60,0,Loyal Customers,10.52,0
+C00292,27,Male,Surat,Gujarat,India,Gold,2025-06-10,2026-06-28,13.85,15,79.93,1198.99,0,0,1.4,78,2,5,1,Credit Card,13,0.0,4.2,4,0,0,4,1198.99,Regular,71,1,Loyal Customers,12.18,0
+C00293,45,Female,Bangalore,Karnataka,India,Silver,2025-08-09,2026-06-12,9.82,9,550.04,4950.33,1,1,2.8,78,4,5,4,Debit Card,0,0.0,3.8,4,0,0,4,6940.7,Regular,48,0,Average,17.65,0
+C00294,39,Female,Patna,Bihar,India,Gold,2024-04-16,2026-06-13,4.0,9,290.08,2610.73,5,3,1.2,42,3,4,2,Wallet,0,0.0,4.9,5,0,0,5,3495.19,Regular,70,0,Average,18.81,0
+C00295,26,Female,Patna,Bihar,India,Silver,2025-08-09,2026-06-25,6.55,6,968.08,5808.49,4,3,2.9,36,6,5,3,Credit Card,0,0.0,4.2,4,0,0,4,6414.29,Regular,37,0,Recent Users,23.84,0
+C00296,45,Male,Jaipur,Rajasthan,India,Gold,2024-03-17,2026-06-24,4.29,10,232.19,2321.89,4,3,2.3,54,5,3,2,Debit Card,0,0.0,3.8,5,0,0,4,3371.19,Regular,75,0,Loyal Customers,17.56,0
+C00297,38,Male,Chandigarh,Punjab,India,Silver,2025-09-08,2026-06-10,7.2,6,1016.08,6096.48,0,0,4.6,66,9,2,0,Cash On Delivery,0,0.0,3.8,4,1,1,4,7790.49,Regular,36,0,Lost,13.94,0
+C00298,44,Male,Lucknow,Uttar Pradesh,India,Silver,2025-03-12,2026-06-22,2.25,3,1890.93,5672.78,5,4,15.6,120,29,5,1,Wallet,0,0.0,1.8,3,0,0,2,8353.91,Regular,33,0,Recent Users,59.64,0
+C00299,42,Female,Mumbai,Maharashtra,India,Basic,2025-12-07,2026-06-26,1.71,1,2316.1637499999997,3131.51,1,1,17.45,138,82,6,5,Cash On Delivery,0,0.0,5.0,5,0,0,5,4065.38,Regular,10,0,Recent Users,70.11,0
+C00300,25,Male,Hyderabad,Telangana,India,Silver,2025-03-12,2026-06-28,5.25,7,801.27,5608.92,4,3,2.0,60,5,3,4,Debit Card,0,0.0,4.1,4,0,0,4,7727.35,Regular,48,0,Recent Users,16.87,0
+C00301,28,Male,Bangalore,Karnataka,India,Silver,2024-11-12,2026-06-26,2.4,4,1462.21,5848.85,1,1,6.4,120,15,0,1,Cash On Delivery,0,0.0,4.9,5,1,1,5,6595.85,Regular,43,0,Recent Users,16.48,0
+C00302,43,Male,Surat,Gujarat,India,Silver,2024-07-15,2026-06-22,0.5,1,2316.1637499999997,6148.95,0,0,17.45,102,65,3,3,Debit Card,0,0.0,3.0,3,2,1,3,8596.61,Regular,38,0,Recent Users,57.6,0
+C00303,42,Male,Lucknow,Uttar Pradesh,India,Gold,2024-09-13,2026-06-09,8.18,15,105.33,1579.97,6,4,1.7,66,4,1,2,Debit Card,0,0.0,3.3,3,0,0,3,1951.58,Regular,85,0,At Risk,14.97,0
+C00304,34,Male,Patna,Bihar,India,Silver,2024-12-12,2026-07-02,5.05,8,472.37,3778.97,0,0,1.1,30,2,0,3,Cash On Delivery,0,0.0,3.8,4,0,0,4,4687.98,Regular,55,0,Loyal Customers,0.0,0
+C00305,36,Male,Chennai,Tamil Nadu,India,Silver,2025-09-08,2026-07-02,14.4,12,552.9,6634.82,1,1,4.0,126,9,1,1,Debit Card,0,0.0,4.6,5,0,0,5,6634.82,Regular,59,1,Champions,12.06,1
+C00306,50,Female,Jaipur,Rajasthan,India,Silver,2024-07-15,2026-07-04,3.0,6,1456.8,8740.82,6,4,10.4,174,30,4,1,Credit Card,0,0.0,5.0,5,0,0,5,10128.36,Regular,59,0,Recent Users,47.45,0
+C00307,27,Female,Delhi,Delhi,India,Silver,2024-07-15,2026-06-14,3.0,6,973.98,5843.91,7,4,3.7,78,9,2,1,Debit Card,0,0.0,5.0,5,0,0,5,6862.52,Regular,57,0,Lost,24.8,0
+C00308,41,Male,Chandigarh,Punjab,India,Basic,2026-06-05,2026-06-15,20.0,2,2316.1637499999997,6128.93,0,0,13.6,60,20,8,1,UPI,0,0.0,1.9,2,0,0,2,7546.44,Regular,7,0,Lost,50.96,0
+C00309,32,Male,Lucknow,Uttar Pradesh,India,Gold,2025-10-08,2026-07-03,20.0,15,104.16,1562.35,5,3,5.4,216,12,7,2,Debit Card,0,0.0,3.1,3,0,0,3,2276.01,Regular,65,0,Loyal Customers,37.39,0
+C00310,32,Female,Patna,Bihar,India,Basic,2025-10-08,2026-06-10,1.33,1,2316.1637499999997,4701.43,1,1,17.45,90,47,3,2,UPI,0,0.0,5.0,5,0,0,5,5864.11,Regular,14,0,Lost,55.61,0
+C00311,48,Female,Nagpur,Maharashtra,India,Silver,2025-09-08,2026-07-02,15.6,13,236.71,3077.18,3,2,1.8,78,4,3,0,Debit Card,7,0.0,4.6,5,2,1,5,4276.5,Regular,60,0,Loyal Customers,14.36,0
+C00312,44,Male,Bangalore,Karnataka,India,Premium,2024-04-16,2026-06-20,6.22,14,281.68,3943.53,3,2,4.5,210,8,3,1,Debit Card,0,0.0,1.9,1,0,0,2,4468.41,Regular,90,0,Loyal Customers,21.38,0
+C00313,44,Male,Patna,Bihar,India,Gold,2026-02-05,2026-06-11,30.052500000000002,14,768.63,10760.85,0,0,7.1,204,19,0,0,Cash On Delivery,0,0.0,2.5,3,0,0,2,10760.85,Regular,62,1,At Risk,17.08,1
+C00314,50,Male,Nagpur,Maharashtra,India,Basic,2026-04-06,2026-06-29,8.0,2,1700.39,3400.78,1,1,17.45,126,67,3,2,Credit Card,0,0.0,5.0,5,0,0,5,3400.78,Regular,8,1,Recent Users,59.87,1
+C00315,35,Male,Surat,Gujarat,India,Silver,2024-08-14,2026-06-22,2.09,4,1661.27,6645.08,1,1,7.2,132,13,3,0,Credit Card,0,0.0,1.1,1,2,1,1,9909.03,Regular,48,0,Recent Users,24.93,0
+C00316,43,Female,Ahmedabad,Gujarat,India,Basic,2025-08-09,2026-06-14,2.18,2,2316.1637499999997,7273.04,0,0,15.6,78,44,4,3,Wallet,0,0.0,5.0,5,0,0,5,10462.15,Regular,23,0,Lost,51.25,0
+C00317,31,Male,Nagpur,Maharashtra,India,Basic,2025-09-08,2026-07-04,1.2,1,2284.19,2284.19,1,1,14.8,48,24,1,2,Cash On Delivery,0,0.0,5.0,5,2,1,5,2928.18,Regular,14,0,Recent Users,39.96,0
+C00318,38,Male,Delhi,Delhi,India,Silver,2024-09-13,2026-06-15,3.82,7,1171.91,8203.4,3,3,10.5,150,16,3,2,Cash On Delivery,0,0.0,2.2,2,2,1,2,11567.26,Regular,59,0,Lost,36.81,0
+C00319,33,Male,Ahmedabad,Gujarat,India,Gold,2024-09-13,2026-06-16,6.0,11,604.91,6654.03,0,0,1.3,48,2,4,4,Credit Card,0,0.0,2.1,2,0,0,2,7833.23,Regular,73,0,At Risk,9.6,0
+C00320,36,Male,Pune,Maharashtra,India,Gold,2024-05-16,2026-07-04,5.08,11,345.26,3797.91,4,3,5.6,126,8,4,2,Cash On Delivery,0,0.0,5.0,5,0,0,5,5031.98,Regular,77,0,Loyal Customers,28.1,0
+C00321,42,Female,Patna,Bihar,India,Premium,2024-06-15,2026-06-07,7.2,15,138.32,2074.87,1,1,3.4,228,9,2,1,Credit Card,5,0.0,4.9,5,2,1,5,2344.29,Regular,90,0,At Risk,13.04,0
+C00322,25,Female,Lucknow,Uttar Pradesh,India,Gold,2024-07-15,2026-06-14,6.0,12,263.24,3158.9,0,0,4.2,228,6,5,0,Cash On Delivery,0,0.0,5.0,5,0,0,5,3914.62,Regular,77,0,At Risk,19.43,0
+C00323,60,Female,Delhi,Delhi,India,Silver,2025-07-10,2026-06-13,8.0,8,542.46,4339.71,1,1,2.2,78,4,2,1,Debit Card,1,0.0,1.9,2,2,1,2,5165.75,Regular,45,0,Average,9.23,0
+C00324,22,Male,Mumbai,Maharashtra,India,Basic,2026-03-07,2026-07-03,18.0,6,634.13,3804.8,0,0,9.5,162,15,4,1,Credit Card,0,0.0,5.0,4,2,1,5,3804.8,Regular,25,1,Recent Users,31.12,1
+C00325,20,Male,Jaipur,Rajasthan,India,Basic,2026-02-05,2026-06-20,9.6,4,1333.23,5332.91,1,1,7.3,132,14,3,2,Credit Card,0,0.0,4.8,5,0,0,5,6911.64,Regular,20,0,Average,25.37,0
+C00326,48,Female,Nagpur,Maharashtra,India,Silver,2026-07-05,2026-06-21,30.052500000000002,14,654.54,9163.55,5,3,4.3,216,7,3,1,UPI,0,0.0,3.8,4,0,0,4,12832.89,Regular,53,0,Loyal Customers,24.41,0
+C00327,44,Male,Bhopal,Madhya Pradesh,India,Basic,2026-02-05,2026-06-16,14.4,6,311.25,1867.49,4,3,4.8,90,12,2,4,Cash On Delivery,3,0.0,1.0,1,2,1,1,2439.16,Regular,25,0,Lost,22.42,0
+C00328,42,Male,Chandigarh,Punjab,India,Silver,2025-02-10,2026-06-24,2.12,3,1758.04,5274.11,1,1,2.6,30,4,2,1,Cash On Delivery,0,0.0,2.8,2,0,0,3,5983.97,Regular,34,0,Recent Users,10.14,0
+C00329,42,Female,Mumbai,Maharashtra,India,Gold,2024-10-13,2026-06-20,6.86,12,157.66,1891.88,0,0,2.7,66,7,1,2,Credit Card,0,0.0,1.0,1,0,0,1,2637.56,Regular,72,0,Loyal Customers,6.81,0
+C00330,34,Female,Ahmedabad,Gujarat,India,Silver,2025-11-07,2026-06-29,12.0,8,731.84,5854.72,3,2,5.2,102,14,3,0,Debit Card,0,0.0,4.0,4,0,0,4,8391.52,Regular,40,0,Loyal Customers,24.26,0
+C00331,24,Female,Patna,Bihar,India,Gold,2024-08-14,2026-06-15,5.22,10,626.92,6269.2,4,3,2.3,96,3,5,1,Debit Card,0,0.0,3.1,2,0,0,3,9161.89,Regular,71,0,Average,21.83,0
+C00332,35,Female,Bhopal,Madhya Pradesh,India,Premium,2024-07-15,2026-06-26,7.0,14,395.65,5539.12,5,3,5.2,198,14,1,2,Debit Card,2,0.0,5.0,5,2,1,5,7360.36,Regular,87,0,Loyal Customers,23.25,0
+C00333,26,Male,Lucknow,Uttar Pradesh,India,Premium,2024-03-17,2026-06-30,5.57,13,234.45,3047.9,3,2,3.5,174,5,2,2,Cash On Delivery,0,0.0,3.9,4,2,1,4,4271.43,Regular,87,0,Loyal Customers,16.11,0
+C00334,46,Male,Hyderabad,Telangana,India,Gold,2025-05-11,2026-06-15,11.14,13,359.53,4673.89,1,1,2.2,90,4,3,5,UPI,0,0.0,5.0,5,0,0,5,6547.27,Regular,67,0,At Risk,11.58,0
+C00335,33,Female,Lucknow,Uttar Pradesh,India,Silver,2024-06-15,2026-07-03,0.96,2,2316.1637499999997,7103.73,0,0,13.8,126,21,2,3,Credit Card,0,0.0,2.2,2,0,0,2,8256.66,Regular,44,0,Recent Users,37.53,0
+C00336,25,Male,Mumbai,Maharashtra,India,Basic,2025-12-07,2026-06-29,8.57,5,1988.59,9942.93,1,1,2.0,48,4,3,0,Wallet,0,0.0,4.1,4,0,0,4,9942.93,Regular,30,1,Recent Users,11.12,0
+C00337,31,Female,Hyderabad,Telangana,India,Basic,2025-01-11,2026-06-09,0.67,1,2316.1637499999997,3578.95,6,4,17.45,216,105,4,1,UPI,0,0.0,2.0,2,2,1,2,4038.32,Regular,27,0,Lost,79.54,0
+C00338,39,Female,Chandigarh,Punjab,India,Silver,2024-08-14,2026-06-17,3.13,6,410.92,2465.53,5,3,13.5,228,36,1,0,Wallet,0,0.0,4.1,5,0,0,4,3027.59,Regular,53,0,Average,46.92,0
+C00339,28,Male,Ahmedabad,Gujarat,India,Basic,2025-04-11,2026-06-07,1.6,2,2316.1637499999997,7663.51,7,4,17.45,234,90,1,2,UPI,0,0.0,4.2,4,0,0,4,9881.36,Regular,29,0,Lost,71.14,0
+C00340,25,Female,Bangalore,Karnataka,India,Basic,2026-02-05,2026-06-06,9.6,4,2316.1637499999997,10482.91,5,3,15.3,210,39,3,2,Debit Card,0,0.0,2.2,2,0,0,2,15296.138749999995,Regular,24,0,Lost,56.38,0
+C00341,37,Male,Chennai,Tamil Nadu,India,Gold,2024-03-17,2026-06-12,2.57,6,868.72,5212.33,5,3,5.4,66,9,3,5,Cash On Delivery,0,0.0,3.3,3,0,0,3,6632.15,Regular,62,0,Lost,27.35,0
+C00342,37,Male,Chennai,Tamil Nadu,India,Silver,2026-02-05,2026-06-16,24.0,10,780.66,7806.6,5,4,2.0,42,5,3,2,Wallet,0,0.0,1.0,1,2,1,1,10855.05,Regular,44,0,Average,18.72,0
+C00343,28,Male,Hyderabad,Telangana,India,Gold,2024-10-13,2026-06-26,6.29,11,396.64,4363.0,5,4,3.7,150,6,2,2,UPI,0,0.0,5.0,5,0,0,5,6009.42,Regular,70,0,Loyal Customers,20.47,0
+C00344,29,Male,Indore,Madhya Pradesh,India,Basic,2026-05-06,2026-06-08,30.052500000000002,8,456.11,3648.86,1,1,7.8,222,13,1,3,Cash On Delivery,0,0.0,4.3,5,0,0,4,4312.2,Regular,29,0,Average,21.6,0
+C00345,37,Female,Ahmedabad,Gujarat,India,Silver,2025-10-08,2026-06-14,16.0,12,323.63,3883.53,5,4,1.1,66,1,3,5,Wallet,0,0.0,4.9,5,0,0,5,4362.77,Regular,55,0,At Risk,15.81,0
+C00346,18,Male,Mumbai,Maharashtra,India,Basic,2026-07-05,2026-06-11,30.052500000000002,8,419.26,3354.07,1,1,1.4,30,2,5,5,Credit Card,0,0.0,1.9,2,2,1,2,4422.01,Regular,26,0,Average,14.02,0
+C00347,18,Female,Ahmedabad,Gujarat,India,Gold,2024-04-16,2026-06-08,4.89,11,822.76,9050.39,1,1,6.5,198,14,0,2,UPI,0,0.0,5.0,5,0,0,5,12490.64,Regular,83,0,At Risk,16.49,0
+C00348,26,Female,Delhi,Delhi,India,Silver,2025-06-10,2026-06-29,5.54,6,298.11,1788.66,1,1,3.4,48,9,8,1,Credit Card,0,0.0,2.2,3,0,0,2,2681.74,Regular,37,0,Recent Users,27.14,0
+C00349,32,Female,Pune,Maharashtra,India,Basic,2026-04-06,2026-06-21,16.0,4,1933.36,7733.42,5,3,6.0,114,9,4,0,Debit Card,0,0.0,5.0,5,0,0,5,9616.08,Regular,19,0,Average,31.07,0
+C00350,38,Female,Chandigarh,Punjab,India,Gold,2024-06-15,2026-06-07,3.84,8,964.71,7717.71,5,3,5.0,174,12,1,1,Credit Card,0,0.0,1.0,1,2,1,1,11256.63,Regular,67,0,Average,22.37,0
+C00351,52,Male,Delhi,Delhi,India,Gold,2025-08-09,2026-06-09,14.18,13,473.07,6149.93,7,4,1.3,78,3,6,1,Credit Card,0,0.0,1.0,1,0,0,1,6149.93,Regular,64,1,At Risk,27.43,1
+C00352,45,Male,Mumbai,Maharashtra,India,Silver,2026-02-05,2026-06-11,19.2,8,738.29,5906.29,4,3,1.3,48,3,0,1,UPI,0,0.0,1.0,1,0,0,1,8125.67,Regular,35,0,Average,7.8,0
+C00353,33,Female,Ahmedabad,Gujarat,India,Silver,2025-09-08,2026-06-06,12.0,10,1110.94,11109.44,5,4,5.4,192,10,7,2,Debit Card,0,0.0,1.0,1,0,0,1,14878.89,Regular,55,0,Average,36.96,0
+C00354,34,Female,Jaipur,Rajasthan,India,Gold,2025-08-09,2026-06-22,15.27,14,98.89,1384.48,4,3,3.5,162,7,1,2,Credit Card,10,0.0,1.0,1,0,0,1,1552.27,Regular,64,0,Loyal Customers,16.03,0
+C00355,22,Male,Chandigarh,Punjab,India,Basic,2025-10-08,2026-06-24,1.33,1,2316.1637499999997,8867.4,0,0,17.45,240,231,3,1,Cash On Delivery,0,0.0,1.0,1,0,0,1,10032.18,Regular,17,0,Recent Users,92.91,0
+C00356,34,Female,Nagpur,Maharashtra,India,Silver,2025-02-10,2026-06-23,2.82,4,1439.9,5759.59,0,0,6.8,102,16,1,1,Wallet,0,0.0,2.1,1,1,1,2,6383.39,Regular,38,0,Recent Users,18.11,0
+C00357,31,Male,Delhi,Delhi,India,Basic,2026-01-06,2026-06-16,8.0,4,957.3,3829.18,6,4,3.1,42,6,1,1,Credit Card,0,0.0,4.3,4,0,0,4,4780.09,Regular,20,0,Lost,18.59,0
+C00358,38,Female,Surat,Gujarat,India,Silver,2026-01-06,2026-06-16,14.0,7,619.68,4337.75,3,3,7.9,186,13,2,2,Debit Card,0,0.0,5.0,5,0,0,5,4337.75,Regular,32,1,Lost,27.87,0
+C00359,25,Male,Nagpur,Maharashtra,India,Gold,2025-09-08,2026-06-14,16.8,14,169.05,2366.74,5,3,2.0,138,3,8,2,Credit Card,0,0.0,1.0,2,0,0,1,2766.96,Regular,63,0,At Risk,30.04,0
+C00360,41,Female,Hyderabad,Telangana,India,Silver,2026-04-06,2026-06-08,30.052500000000002,14,619.14,8667.94,1,1,1.0,72,2,2,1,Wallet,0,0.0,2.2,2,0,0,2,11635.33,Regular,57,0,At Risk,6.06,0
+C00361,53,Female,Delhi,Delhi,India,Gold,2024-12-12,2026-06-09,6.95,11,754.63,8300.95,3,2,4.0,192,10,6,3,Debit Card,0,0.0,1.7,3,0,0,2,10090.06,Regular,70,0,At Risk,27.71,0
+C00362,33,Male,Indore,Madhya Pradesh,India,Basic,2026-07-05,2026-06-16,30.052500000000002,7,1219.41,8535.85,7,4,2.4,72,4,3,2,UPI,2,0.0,2.1,1,1,1,2,12110.64,Regular,26,0,Lost,23.11,0
+C00363,39,Female,Delhi,Delhi,India,Gold,2025-07-10,2026-06-11,13.0,13,345.41,4490.35,3,2,1.6,84,3,3,1,Debit Card,0,0.0,4.0,5,0,0,4,6373.42,Regular,64,0,At Risk,13.69,0
+C00364,43,Female,Jaipur,Rajasthan,India,Gold,2025-02-10,2026-06-09,7.76,11,524.51,5769.59,3,2,1.7,48,3,5,1,UPI,4,0.0,5.0,5,0,0,5,5769.59,Regular,65,1,At Risk,18.61,1
+C00365,30,Male,Lucknow,Uttar Pradesh,India,Gold,2025-11-07,2026-06-22,22.5,15,726.55,10898.18,7,4,3.5,114,7,8,1,Debit Card,0,0.0,3.9,4,0,0,4,14275.89,Regular,70,0,Champions,38.02,0
+C00366,37,Female,Bhopal,Madhya Pradesh,India,Gold,2024-06-15,2026-06-07,3.84,8,591.2,4729.58,5,3,3.7,120,9,3,3,Wallet,0,0.0,2.8,3,0,0,3,4729.58,Regular,65,1,Average,23.46,1
+C00367,35,Male,Indore,Madhya Pradesh,India,Gold,2024-08-14,2026-06-21,5.74,11,378.26,4160.85,6,4,3.0,138,8,2,1,Wallet,0,0.0,2.0,2,0,0,2,4160.85,Regular,73,1,Loyal Customers,21.14,0
+C00368,36,Male,Delhi,Delhi,India,Silver,2024-08-14,2026-06-11,2.61,5,788.52,3942.61,2,2,16.8,180,33,2,5,Debit Card,0,0.0,3.3,3,0,0,3,4630.36,Regular,50,0,Lost,50.64,0
+C00369,25,Female,Chennai,Tamil Nadu,India,Silver,2025-11-07,2026-06-17,10.5,7,957.66,6703.62,4,3,6.6,222,18,3,1,Credit Card,0,0.0,1.2,1,1,1,1,8150.96,Regular,37,0,Average,30.16,0
+C00370,35,Female,Indore,Madhya Pradesh,India,Silver,2024-09-13,2026-06-23,4.36,8,487.25,3898.0,0,0,3.3,60,5,6,3,Wallet,0,0.0,1.0,1,0,0,1,4574.61,Regular,60,0,Loyal Customers,19.51,0
+C00371,40,Female,Surat,Gujarat,India,Premium,2024-03-17,2026-07-01,6.43,15,423.27,6349.06,5,4,1.0,42,1,3,5,UPI,0,0.0,3.7,4,0,0,4,8696.21,Regular,97,0,Champions,15.58,0
+C00372,52,Female,Lucknow,Uttar Pradesh,India,Silver,2025-11-07,2026-06-25,13.5,9,328.26,2954.34,5,4,1.0,36,1,4,1,UPI,2,0.0,4.7,4,2,1,5,4060.72,Regular,42,0,Loyal Customers,17.93,0
+C00373,46,Female,Ahmedabad,Gujarat,India,Basic,2025-10-08,2026-06-06,4.0,3,1889.38,5668.14,5,3,8.0,60,13,4,0,Cash On Delivery,0,0.0,3.3,3,0,0,3,7714.36,Regular,22,0,Lost,36.5,0
+C00374,60,Female,Mumbai,Maharashtra,India,Silver,2024-04-16,2026-06-18,1.33,3,903.14,2709.41,0,0,17.45,168,47,3,3,UPI,0,0.0,4.8,5,0,0,5,3430.76,Regular,47,0,Average,53.77,0
+C00375,25,Female,Chandigarh,Punjab,India,Basic,2026-06-05,2026-07-01,30.052500000000002,4,1074.79,4299.16,0,0,15.0,180,24,4,2,Cash On Delivery,0,0.0,3.9,4,0,0,4,4901.34,Regular,13,0,Recent Users,45.62,0
+C00376,45,Male,Mumbai,Maharashtra,India,Basic,2026-02-05,2026-06-23,12.0,5,852.68,4263.38,4,3,9.2,198,25,5,0,Debit Card,0,0.0,1.3,1,0,0,1,4263.38,Regular,23,1,Recent Users,42.3,1
+C00377,37,Female,Chennai,Tamil Nadu,India,Silver,2025-05-11,2026-06-22,8.57,10,628.9,6289.03,1,1,2.6,84,4,6,0,Debit Card,0,0.0,4.7,5,0,0,5,8195.19,Regular,57,0,Loyal Customers,19.54,0
+C00378,61,Male,Bangalore,Karnataka,India,Basic,2026-05-06,2026-06-06,6.0,1,2316.1637499999997,9569.14,5,4,17.45,96,63,3,2,Debit Card,0,0.0,5.0,4,0,0,5,9569.14,Regular,7,1,Lost,66.4,1
+C00379,25,Female,Lucknow,Uttar Pradesh,India,Gold,2025-09-08,2026-06-08,18.0,15,169.47,2542.08,5,4,2.4,132,3,4,1,Credit Card,0,0.0,1.0,1,0,0,1,3395.02,Regular,67,0,At Risk,21.56,0
+C00380,24,Female,Surat,Gujarat,India,Gold,2026-02-05,2026-06-06,30.052500000000002,15,276.93,4153.94,2,2,1.4,42,4,6,2,Credit Card,3,0.0,2.8,3,2,1,3,4889.67,Regular,61,0,At Risk,18.64,0
+C00381,27,Male,Bhopal,Madhya Pradesh,India,Basic,2026-05-06,2026-07-01,30.052500000000002,7,1070.66,7494.64,3,3,4.5,156,11,2,2,Cash On Delivery,0,0.0,1.0,1,0,0,1,8641.47,Regular,28,0,Recent Users,19.67,0
+C00382,18,Female,Pune,Maharashtra,India,Gold,2024-08-14,2026-06-25,4.7,9,896.37,8067.34,3,2,12.2,234,18,8,2,UPI,0,0.0,4.9,5,0,0,5,10182.68,Regular,68,0,Loyal Customers,52.88,0
+C00383,28,Female,Kochi,Kerala,India,Silver,2025-09-08,2026-06-10,9.6,8,393.89,3151.09,3,2,2.8,108,7,3,3,UPI,0,0.0,3.1,3,0,0,3,3151.09,Regular,41,1,Average,17.28,1
+C00384,25,Male,Chennai,Tamil Nadu,India,Gold,2025-05-11,2026-07-02,12.86,15,749.23,11238.39,0,0,3.4,186,7,1,2,Debit Card,0,0.0,2.9,3,0,0,3,13460.4,Regular,80,0,Champions,8.41,0
+C00385,36,Female,Patna,Bihar,India,Gold,2025-07-10,2026-06-20,15.0,15,411.99,6179.78,5,4,1.9,138,5,4,1,Wallet,0,0.0,1.0,1,0,0,1,6179.78,Regular,73,1,Loyal Customers,20.84,1
+C00386,39,Female,Pune,Maharashtra,India,Silver,2024-12-12,2026-07-03,3.16,5,2263.13,11315.64,3,2,4.6,54,10,4,2,Credit Card,2,0.0,5.0,5,2,1,5,14849.56,Regular,49,0,Recent Users,24.39,0
+C00387,57,Female,Kochi,Kerala,India,Premium,2024-04-16,2026-06-10,6.22,14,271.55,3801.67,0,0,3.1,150,7,1,2,Credit Card,0,0.0,3.7,3,2,1,4,4917.03,Regular,90,0,At Risk,7.73,0
+C00388,46,Male,Mumbai,Maharashtra,India,Gold,2025-10-08,2026-06-10,18.67,14,425.9,5962.67,5,3,2.6,90,6,1,2,Debit Card,0,0.0,5.0,5,0,0,5,8203.39,Regular,64,0,At Risk,15.6,0
+C00389,28,Female,Delhi,Delhi,India,Basic,2026-02-05,2026-06-18,9.6,4,2238.5,8954.01,3,2,4.2,36,8,5,4,Credit Card,3,0.0,1.8,2,2,1,2,8954.01,Regular,23,1,Average,25.4,0
+C00390,24,Female,Jaipur,Rajasthan,India,Gold,2025-05-11,2026-06-29,10.29,12,669.63,8035.61,6,4,3.5,162,5,4,4,Debit Card,0,0.0,3.9,4,0,0,4,8035.61,Regular,66,1,Champions,26.35,1
+C00391,40,Female,Chandigarh,Punjab,India,Silver,2024-07-15,2026-06-09,3.5,7,694.66,4862.59,3,2,11.4,210,31,3,0,Cash On Delivery,0,0.0,3.0,3,0,0,3,6970.1,Regular,60,0,Lost,42.06,0
+C00392,19,Female,Ahmedabad,Gujarat,India,Silver,2025-02-10,2026-06-27,3.53,5,475.87,2379.34,3,3,5.4,102,11,2,3,UPI,0,0.0,4.0,5,0,0,4,3173.11,Regular,40,0,Recent Users,21.73,0
+C00393,56,Male,Bangalore,Karnataka,India,Silver,2025-02-10,2026-07-02,4.94,7,582.6,4078.22,3,2,7.0,114,15,1,1,Wallet,4,0.0,3.1,3,2,1,3,4724.48,Regular,48,0,Recent Users,23.89,0
+C00394,49,Male,Bhopal,Madhya Pradesh,India,Silver,2026-01-06,2026-06-08,24.0,12,540.71,6488.55,7,4,6.0,216,9,5,3,UPI,0,0.0,3.1,2,0,0,3,7908.63,Regular,53,0,At Risk,37.11,0
+C00395,29,Female,Kochi,Kerala,India,Basic,2025-05-11,2026-06-10,0.86,1,2316.1637499999997,3185.86,0,0,17.45,198,102,5,3,UPI,0,0.0,3.8,3,0,0,4,3185.86,Regular,20,1,Lost,70.17,1
+C00396,18,Female,Chandigarh,Punjab,India,Basic,2025-02-10,2026-06-17,0.71,1,2316.1637499999997,4771.97,5,4,17.45,180,162,2,2,Cash On Delivery,0,0.0,3.0,3,2,1,3,4771.97,Regular,26,1,Average,85.12,0
+C00397,51,Male,Indore,Madhya Pradesh,India,Gold,2025-02-10,2026-06-13,7.06,10,1267.53,12158.1975,0,0,2.2,84,4,4,2,Credit Card,0,0.0,2.3,3,0,0,3,15172.85,Regular,66,0,Average,12.08,0
+C00398,33,Male,Indore,Madhya Pradesh,India,Gold,2024-12-12,2026-07-04,8.84,14,98.11,1373.51,1,1,4.0,222,8,6,1,Wallet,0,0.0,2.0,1,0,0,2,1804.73,Regular,76,0,Loyal Customers,23.6,0
+C00399,49,Female,Jaipur,Rajasthan,India,Silver,2025-11-07,2026-06-06,19.5,13,390.61,5077.98,7,4,1.0,60,2,2,2,Credit Card,0,0.0,4.9,5,0,0,5,6976.48,Regular,58,0,At Risk,17.14,0
+C00400,18,Male,Lucknow,Uttar Pradesh,India,Silver,2024-08-14,2026-06-19,1.57,3,628.91,1886.72,6,4,17.45,162,49,4,0,UPI,2,0.0,4.8,5,0,0,5,2414.05,Regular,41,0,Average,67.62,0
+C00401,27,Female,Bangalore,Karnataka,India,Silver,2026-06-05,2026-06-28,30.052500000000002,14,283.19,3964.6,4,3,0.6,36,1,3,1,Debit Card,4,0.0,2.1,2,0,0,2,3964.6,Regular,51,1,Loyal Customers,12.82,1
+C00402,35,Male,Hyderabad,Telangana,India,Silver,2025-12-07,2026-07-02,18.86,11,165.27,1818.02,3,2,3.1,168,6,4,2,UPI,0,0.0,4.2,4,0,0,4,2632.1,Regular,47,0,Loyal Customers,20.1,0
+C00403,35,Male,Delhi,Delhi,India,Silver,2024-12-12,2026-06-12,1.26,2,2316.1637499999997,4690.2,0,0,10.7,90,31,5,1,Credit Card,0,0.0,1.0,1,0,0,1,4690.2,Regular,33,1,Lost,39.62,1
+C00404,29,Male,Delhi,Delhi,India,Basic,2026-06-05,2026-07-01,20.0,2,2316.1637499999997,8833.8,0,0,17.45,126,45,0,2,UPI,1,0.0,1.0,1,2,1,1,13155.03,Regular,9,0,Recent Users,46.29,0
+C00405,42,Male,Patna,Bihar,India,Silver,2025-09-08,2026-06-26,8.4,7,858.13,6006.89,4,3,3.7,102,6,4,2,Debit Card,0,0.0,1.0,1,0,0,1,6006.89,Regular,39,1,Recent Users,23.32,1
+C00406,22,Female,Kochi,Kerala,India,Gold,2024-06-15,2026-06-30,5.76,12,286.18,3434.19,4,3,1.3,66,2,1,1,Cash On Delivery,0,0.0,1.7,2,0,0,2,3782.23,Regular,79,0,Loyal Customers,9.93,0
+C00407,33,Male,Hyderabad,Telangana,India,Silver,2026-01-06,2026-06-16,20.0,10,370.25,3702.53,3,2,4.2,162,9,1,0,Credit Card,0,0.0,1.9,3,0,0,2,4636.56,Regular,43,0,Average,16.21,0
+C00408,36,Male,Chennai,Tamil Nadu,India,Basic,2026-02-05,2026-06-20,4.8,2,2030.27,4060.54,3,2,17.45,216,96,3,2,UPI,0,0.0,3.2,2,0,0,3,4060.54,Regular,11,1,Average,69.73,1
+C00409,41,Female,Pune,Maharashtra,India,Premium,2024-02-16,2026-06-27,4.55,11,963.81,10601.96,7,4,8.2,234,15,2,3,Credit Card,0,0.0,1.0,2,0,0,1,14330.46,Regular,87,0,Champions,36.37,0
+C00410,43,Male,Nagpur,Maharashtra,India,Basic,2025-10-08,2026-06-29,5.33,4,1708.38,6833.53,1,1,4.1,72,11,1,3,Cash On Delivery,0,0.0,3.6,4,0,0,4,8819.21,Regular,27,0,Recent Users,12.71,0
+C00411,21,Male,Surat,Gujarat,India,Basic,2026-03-07,2026-06-17,6.0,2,2210.6,4421.2,3,2,17.45,180,52,2,1,UPI,0,0.0,3.6,4,0,0,4,4421.2,Regular,10,1,Average,58.02,1
+C00412,18,Female,Mumbai,Maharashtra,India,Silver,2025-09-08,2026-06-16,7.2,6,1341.23,8047.36,5,3,6.7,168,17,2,2,UPI,1,0.0,1.0,1,0,0,1,8047.36,Regular,37,1,Lost,29.67,1
+C00413,50,Male,Indore,Madhya Pradesh,India,Basic,2026-07-05,2026-06-11,30.052500000000002,8,728.62,5828.94,2,2,4.1,102,7,4,3,Credit Card,0,0.0,1.2,1,0,0,1,8398.68,Regular,28,0,Average,20.76,0
+C00414,38,Female,Jaipur,Rajasthan,India,Silver,2026-06-05,2026-06-20,30.052500000000002,10,144.12,1441.2,0,0,1.0,36,2,5,1,Credit Card,0,0.0,1.0,2,0,0,1,2085.65,Regular,34,0,Loyal Customers,11.26,0
+C00415,26,Female,Pune,Maharashtra,India,Silver,2024-08-14,2026-06-09,2.09,4,1509.78,6039.12,1,1,17.45,174,50,3,2,Debit Card,2,0.0,2.1,2,0,0,2,8270.93,Regular,48,0,Lost,56.25,0
+C00416,53,Female,Nagpur,Maharashtra,India,Silver,2026-07-05,2026-06-28,30.052500000000002,15,492.24,7383.66,7,4,6.0,228,9,3,1,Cash On Delivery,12,0.0,2.3,2,0,0,2,10083.77,Regular,56,0,Champions,32.41,0
+C00417,36,Female,Chennai,Tamil Nadu,India,Silver,2025-01-11,2026-06-25,3.33,5,940.48,4702.41,0,0,6.7,162,15,1,4,Debit Card,0,0.0,2.4,2,0,0,2,6296.87,Regular,43,0,Recent Users,17.67,0
+C00418,49,Male,Indore,Madhya Pradesh,India,Basic,2026-06-05,2026-06-29,30.052500000000002,4,1893.79,7575.16,0,0,6.4,120,10,0,2,UPI,0,0.0,5.0,5,0,0,5,8947.55,Regular,15,0,Recent Users,13.57,0
+C00419,35,Female,Lucknow,Uttar Pradesh,India,Silver,2024-11-12,2026-06-21,1.8,3,1366.28,4098.85,1,1,11.6,138,32,3,5,Credit Card,0,0.0,4.1,5,0,0,4,5210.87,Regular,38,0,Average,39.04,0
+C00420,59,Male,Delhi,Delhi,India,Silver,2024-12-12,2026-06-18,3.16,5,1044.58,5222.88,7,4,4.3,72,12,7,2,UPI,0,0.0,3.6,4,2,1,4,7199.0,Regular,45,0,Average,38.56,0
+C00421,56,Male,Nagpur,Maharashtra,India,Premium,2024-03-17,2026-06-26,6.0,14,295.97,4143.62,3,3,3.3,186,7,1,4,UPI,0,0.0,3.4,3,0,0,3,5448.45,Regular,92,0,Loyal Customers,13.72,0
+C00422,32,Male,Chennai,Tamil Nadu,India,Gold,2024-09-13,2026-06-16,4.91,9,565.24,5087.14,6,4,5.4,186,11,8,3,Wallet,0,0.0,1.9,2,0,0,2,5633.66,Regular,64,0,Average,41.37,0
+C00423,46,Male,Hyderabad,Telangana,India,Silver,2024-11-12,2026-06-30,4.8,8,666.0,5327.99,3,2,2.0,60,3,4,0,Wallet,0,0.0,4.8,5,2,1,5,7893.01,Regular,58,0,Loyal Customers,16.95,0
+C00424,42,Male,Jaipur,Rajasthan,India,Gold,2024-08-14,2026-06-12,4.17,8,959.46,7675.65,0,0,12.4,216,31,5,3,UPI,0,0.0,4.9,5,0,0,5,11037.02,Regular,64,0,Average,43.51,0
+C00425,51,Male,Chennai,Tamil Nadu,India,Silver,2026-04-06,2026-06-28,30.052500000000002,8,757.58,6060.68,3,2,2.7,84,5,3,1,Credit Card,0,0.0,4.3,3,0,0,4,7298.38,Regular,33,0,Loyal Customers,16.63,0
+C00426,23,Male,Kochi,Kerala,India,Silver,2025-08-09,2026-06-16,13.09,12,218.33,2620.01,4,3,4.5,234,8,4,3,UPI,0,0.0,2.4,2,0,0,2,3528.06,Regular,57,0,At Risk,25.58,0
+C00427,43,Male,Delhi,Delhi,India,Silver,2024-10-13,2026-06-15,4.57,8,485.66,3885.31,2,2,2.7,108,5,4,2,Wallet,0,0.0,3.0,3,0,0,3,3885.31,Regular,58,1,Average,17.13,1
+C00428,47,Male,Bangalore,Karnataka,India,Silver,2024-12-12,2026-06-09,4.42,7,888.55,6219.84,6,4,4.6,66,7,3,1,Credit Card,6,0.0,2.2,1,1,1,2,7080.69,Regular,53,0,Lost,26.94,0
+C00429,18,Male,Kochi,Kerala,India,Silver,2025-02-10,2026-06-28,5.65,8,608.51,4868.05,3,2,3.0,102,7,4,0,UPI,0,0.0,1.0,1,0,0,1,6334.36,Regular,53,0,Loyal Customers,20.09,0
+C00430,20,Female,Lucknow,Uttar Pradesh,India,Silver,2026-07-05,2026-06-11,30.052500000000002,11,247.41,2721.5,5,3,2.9,120,4,4,1,Cash On Delivery,9,0.0,1.8,3,2,1,2,3490.32,Regular,37,0,At Risk,22.91,0
+C00431,18,Female,Chandigarh,Punjab,India,Premium,2024-02-16,2026-07-03,5.79,14,317.83,4449.64,3,3,0.9,42,2,4,1,Cash On Delivery,0,0.0,1.3,1,0,0,1,5624.71,Regular,94,0,Loyal Customers,14.22,0
+C00432,31,Female,Bhopal,Madhya Pradesh,India,Gold,2024-02-16,2026-06-10,3.31,8,1404.66,11237.25,5,3,7.9,150,14,3,4,UPI,0,0.0,1.0,1,0,0,1,15296.138749999995,Regular,76,0,Average,34.13,0
+C00433,43,Male,Surat,Gujarat,India,Silver,2026-07-05,2026-06-12,30.052500000000002,13,314.55,4089.13,4,4,3.7,156,6,7,1,Credit Card,0,0.0,3.3,2,0,0,3,5120.65,Regular,45,0,At Risk,30.37,0
+C00434,53,Female,Ahmedabad,Gujarat,India,Premium,2024-08-14,2026-06-19,7.3,14,522.45,7314.29,4,3,4.3,186,10,3,2,UPI,0,0.0,4.3,3,0,0,4,8231.98,Regular,87,0,Loyal Customers,23.2,0
+C00435,35,Female,Hyderabad,Telangana,India,Silver,2025-06-10,2026-06-22,7.38,8,1218.35,9746.82,0,0,1.5,36,4,1,3,UPI,0,0.0,2.1,2,0,0,2,10978.19,Regular,51,0,Loyal Customers,3.43,0
+C00436,54,Female,Bhopal,Madhya Pradesh,India,Silver,2026-04-06,2026-06-27,30.052500000000002,12,188.92,2266.99,4,3,2.9,144,7,5,3,Wallet,7,0.0,1.4,2,2,1,1,2532.45,Regular,45,0,Loyal Customers,24.06,0
+C00437,18,Male,Mumbai,Maharashtra,India,Silver,2026-03-07,2026-06-29,30.0,10,512.12,5121.23,3,2,1.0,42,1,3,1,Cash On Delivery,0,0.0,2.4,2,0,0,2,5121.23,Regular,41,1,Loyal Customers,11.89,1
+C00438,18,Male,Surat,Gujarat,India,Silver,2025-09-08,2026-06-29,8.4,7,969.52,6786.66,3,2,6.8,180,11,4,2,Wallet,0,0.0,4.0,4,0,0,4,9415.56,Regular,40,0,Recent Users,29.63,0
+C00439,34,Male,Ahmedabad,Gujarat,India,Gold,2024-08-14,2026-06-26,6.26,12,661.51,7938.12,3,2,0.7,42,1,3,4,Wallet,0,0.0,3.8,4,0,0,4,9378.8,Regular,80,0,Champions,11.2,0
+C00440,39,Male,Hyderabad,Telangana,India,Silver,2024-04-16,2026-07-01,0.44,1,2316.1637499999997,3424.87,7,4,17.45,222,157,3,5,UPI,0,0.0,4.6,5,0,0,5,4652.99,Regular,40,0,Recent Users,90.1,0
+C00441,34,Female,Hyderabad,Telangana,India,Silver,2024-09-13,2026-06-08,2.18,4,332.42,1329.7,3,2,16.5,180,28,4,1,Wallet,0,0.0,4.4,5,0,0,4,1329.7,Regular,43,1,Lost,55.44,0
+C00442,18,Female,Bhopal,Madhya Pradesh,India,Gold,2025-07-10,2026-06-24,13.0,13,204.23,2655.02,6,4,2.7,138,7,0,2,Cash On Delivery,0,0.0,2.9,3,0,0,3,3191.55,Regular,63,0,Loyal Customers,15.54,0
+C00443,33,Female,Hyderabad,Telangana,India,Gold,2025-04-11,2026-06-30,10.4,13,1093.48,12158.1975,7,4,3.6,120,9,3,3,Wallet,0,0.0,1.2,2,0,0,1,15296.138749999995,Regular,76,0,Champions,26.92,0
+C00444,19,Female,Patna,Bihar,India,Silver,2024-08-14,2026-06-10,2.09,4,483.82,1935.29,5,3,5.1,60,15,5,2,Cash On Delivery,0,0.0,4.9,5,0,0,5,1935.29,Regular,45,1,Lost,32.64,1
+C00445,43,Male,Chandigarh,Punjab,India,Silver,2025-07-10,2026-06-18,5.0,5,724.69,3623.43,0,0,6.7,90,19,3,2,Wallet,0,0.0,3.3,2,0,0,3,3623.43,Regular,33,1,Average,23.22,0
+C00446,39,Male,Chennai,Tamil Nadu,India,Gold,2024-08-14,2026-06-15,5.22,10,740.67,7406.66,5,3,9.5,210,26,2,3,Cash On Delivery,0,0.0,1.9,2,2,1,2,7406.66,Regular,72,1,Average,37.99,0
+C00447,23,Male,Indore,Madhya Pradesh,India,Silver,2024-10-13,2026-06-28,3.43,6,402.6,2415.59,3,3,8.3,222,13,2,2,Wallet,3,0.0,1.0,1,1,1,1,3255.4,Regular,49,0,Recent Users,28.79,0
+C00448,28,Female,Delhi,Delhi,India,Silver,2024-06-15,2026-06-08,1.92,4,1179.21,4716.85,6,4,2.7,30,4,4,0,Wallet,3,0.0,4.0,5,0,0,4,7033.48,Regular,50,0,Lost,24.3,0
+C00449,22,Male,Kochi,Kerala,India,Silver,2026-06-05,2026-06-20,30.052500000000002,15,228.74,3431.16,7,4,3.0,156,7,5,4,Credit Card,0,0.0,1.0,1,0,0,1,4360.1,Regular,54,0,Loyal Customers,29.82,0
+C00450,34,Male,Kochi,Kerala,India,Basic,2025-04-11,2026-06-10,1.6,2,2316.1637499999997,9134.8,2,2,17.45,180,97,6,1,Cash On Delivery,0,0.0,2.1,1,1,1,2,11479.65,Regular,30,0,Lost,75.15,0
+C00451,46,Female,Indore,Madhya Pradesh,India,Basic,2026-02-05,2026-06-20,14.4,6,579.84,3479.02,2,2,6.6,162,14,4,0,Cash On Delivery,0,0.0,5.0,5,0,0,5,4473.0,Regular,26,0,Average,27.97,0
+C00452,23,Female,Lucknow,Uttar Pradesh,India,Gold,2025-06-10,2026-06-21,13.85,15,414.3,6214.45,5,3,1.1,48,2,3,3,Cash On Delivery,0,0.0,5.0,5,1,1,5,7025.36,Regular,74,0,Loyal Customers,16.02,0
+C00453,41,Male,Mumbai,Maharashtra,India,Basic,2026-07-05,2026-06-22,30.052500000000002,8,740.72,5925.76,1,1,2.3,78,4,7,3,Debit Card,0,0.0,4.9,4,0,0,5,5925.76,Regular,28,1,Loyal Customers,21.21,0
+C00454,28,Male,Lucknow,Uttar Pradesh,India,Gold,2025-03-12,2026-06-24,11.25,15,211.35,3170.29,1,1,1.7,84,4,2,2,Wallet,0,0.0,3.9,5,0,0,4,3904.15,Regular,77,0,Loyal Customers,8.08,0
+C00455,25,Male,Nagpur,Maharashtra,India,Silver,2025-09-08,2026-06-07,9.6,8,192.22,1537.75,3,2,9.9,204,14,2,3,Cash On Delivery,0,0.0,2.9,3,2,1,3,1766.21,Regular,40,0,Average,32.66,0
+C00456,33,Male,Surat,Gujarat,India,Silver,2025-01-11,2026-06-22,4.67,7,457.48,3202.34,1,1,5.1,126,9,3,1,Debit Card,7,0.0,3.4,3,2,1,3,4119.82,Regular,49,0,Recent Users,19.28,0
+C00457,22,Male,Chandigarh,Punjab,India,Basic,2026-05-06,2026-06-09,30.052500000000002,6,660.34,3962.03,3,2,9.2,132,20,2,1,Credit Card,0,0.0,1.0,1,0,0,1,4363.6,Regular,22,0,Lost,32.34,0
+C00458,28,Male,Lucknow,Uttar Pradesh,India,Basic,2025-09-08,2026-06-13,2.4,2,2316.1637499999997,6038.57,7,4,17.45,228,88,3,2,Cash On Delivery,0,0.0,3.6,3,0,0,4,7612.91,Regular,20,0,Lost,75.41,0
+C00459,20,Female,Bangalore,Karnataka,India,Premium,2024-03-17,2026-06-07,6.43,15,356.0,5339.97,5,3,3.7,162,6,2,3,Cash On Delivery,0,0.0,4.9,4,0,0,5,6099.82,Regular,97,0,At Risk,20.47,0
+C00460,58,Female,Kochi,Kerala,India,Basic,2026-03-07,2026-06-11,21.0,7,696.74,4877.17,0,0,6.5,216,15,2,4,Debit Card,1,0.0,5.0,5,0,0,5,5412.28,Regular,29,0,Lost,19.56,0
+C00461,35,Female,Chandigarh,Punjab,India,Gold,2025-03-12,2026-06-06,8.25,11,550.39,6054.29,5,3,5.2,126,13,3,2,Wallet,0,0.0,2.4,2,0,0,2,8656.36,Regular,64,0,At Risk,27.74,0
+C00462,26,Male,Nagpur,Maharashtra,India,Gold,2024-06-15,2026-06-26,5.76,12,440.19,5282.22,3,2,1.2,60,2,6,4,Credit Card,0,0.0,2.2,2,0,0,2,7746.37,Regular,81,0,Loyal Customers,19.61,0
+C00463,37,Female,Nagpur,Maharashtra,India,Gold,2024-10-13,2026-06-25,8.0,14,485.98,6803.79,2,2,6.4,228,9,2,1,Cash On Delivery,9,0.0,4.8,4,2,1,5,8049.36,Regular,83,0,Champions,21.75,0
+C00464,33,Male,Mumbai,Maharashtra,India,Silver,2026-01-06,2026-07-01,28.0,14,252.52,3535.25,4,3,3.0,126,6,7,0,Wallet,0,0.0,5.0,4,0,0,5,3535.25,Regular,58,1,Loyal Customers,28.77,1
+C00465,32,Male,Mumbai,Maharashtra,India,Basic,2025-10-08,2026-06-18,6.67,5,693.17,3465.86,2,2,4.1,66,7,3,3,Credit Card,0,0.0,4.0,4,0,0,4,4197.79,Regular,28,0,Average,18.41,0
+C00466,42,Female,Chennai,Tamil Nadu,India,Silver,2024-04-16,2026-06-21,2.67,6,388.44,2330.62,1,1,3.4,96,9,4,6,UPI,3,0.0,3.2,3,0,0,3,3023.82,Regular,59,0,Average,17.74,0
+C00467,44,Male,Lucknow,Uttar Pradesh,India,Gold,2024-03-17,2026-06-11,4.29,10,844.88,8448.8,1,1,1.5,42,2,1,3,UPI,0,0.0,1.8,3,0,0,2,8448.8,Regular,80,1,Average,4.85,1
+C00468,28,Male,Kochi,Kerala,India,Silver,2025-09-08,2026-06-17,9.6,8,1009.52,8076.12,3,2,6.9,126,17,0,3,Credit Card,0,0.0,2.5,4,0,0,3,9752.89,Regular,45,0,Loyal Customers,21.74,0
+C00469,28,Female,Ahmedabad,Gujarat,India,Silver,2026-05-06,2026-06-24,30.052500000000002,14,291.56,4081.78,3,2,5.1,210,8,3,3,Debit Card,0,0.0,3.7,4,0,0,4,4081.78,Regular,52,1,Loyal Customers,22.76,1
+C00470,31,Female,Pune,Maharashtra,India,Silver,2024-12-12,2026-06-19,5.05,8,314.22,2513.73,1,1,12.3,228,26,4,4,Credit Card,0,0.0,4.3,5,0,0,5,2892.29,Regular,54,0,Loyal Customers,41.71,0
+C00471,18,Female,Chennai,Tamil Nadu,India,Basic,2025-10-08,2026-07-04,4.0,3,2316.1637499999997,8439.46,2,2,17.45,228,74,2,2,Credit Card,0,0.0,3.4,3,2,1,3,8439.46,Regular,24,1,Recent Users,60.85,1
+C00472,18,Male,Nagpur,Maharashtra,India,Gold,2024-05-16,2026-06-06,5.54,12,293.6,3523.18,2,2,1.2,54,2,3,1,Debit Card,12,0.0,5.0,5,2,1,5,4957.36,Regular,81,0,At Risk,10.71,0
+C00473,51,Female,Kochi,Kerala,India,Silver,2025-10-08,2026-06-28,16.0,12,298.76,3585.08,4,3,4.1,108,8,6,5,Debit Card,0,0.0,4.8,5,0,0,5,3585.08,Regular,55,1,Loyal Customers,29.36,1
+C00474,54,Female,Hyderabad,Telangana,India,Gold,2025-06-10,2026-06-07,12.92,14,522.95,7321.36,0,0,1.2,36,2,3,3,Wallet,4,0.0,1.1,1,2,1,1,9513.45,Regular,71,0,At Risk,7.02,0
+C00475,32,Male,Bhopal,Madhya Pradesh,India,Silver,2025-08-09,2026-06-25,7.64,7,310.85,2175.97,1,1,7.2,210,14,2,3,Wallet,0,0.0,3.0,3,0,0,3,2175.97,Regular,38,1,Recent Users,22.79,1
+C00476,41,Female,Chennai,Tamil Nadu,India,Basic,2025-05-11,2026-06-26,0.86,1,2316.1637499999997,7360.73,5,3,17.45,108,85,1,0,Debit Card,0,0.0,3.1,4,0,0,3,9561.33,Regular,24,0,Recent Users,66.38,0
+C00477,38,Female,Lucknow,Uttar Pradesh,India,Basic,2025-10-08,2026-06-08,1.33,1,2316.1637499999997,3399.98,0,0,17.45,162,133,3,0,UPI,0,0.0,5.0,5,0,0,5,4334.33,Regular,13,0,Lost,72.06,0
+C00478,70,Female,Pune,Maharashtra,India,Gold,2024-02-16,2026-06-07,2.9,7,540.5,3783.53,3,2,9.3,180,26,4,2,UPI,0,0.0,3.9,5,0,0,4,3783.53,Regular,66,1,Lost,38.54,1
+C00479,48,Male,Delhi,Delhi,India,Gold,2025-10-08,2026-06-07,20.0,15,256.61,3849.18,3,2,2.0,120,4,3,2,Credit Card,0,0.0,1.0,1,0,0,1,5003.46,Regular,67,0,At Risk,14.81,0
+C00480,33,Male,Chandigarh,Punjab,India,Premium,2024-06-15,2026-06-10,7.2,15,321.53,4822.99,4,3,2.3,96,4,2,2,Cash On Delivery,0,0.0,5.0,5,1,1,5,6324.9,Regular,92,0,At Risk,15.0,0
+C00481,23,Male,Ahmedabad,Gujarat,India,Silver,2025-01-11,2026-07-02,6.67,10,192.67,1926.72,2,2,6.7,234,10,3,0,Credit Card,0,0.0,2.2,2,0,0,2,2652.63,Regular,60,0,Loyal Customers,24.99,0
+C00482,18,Male,Mumbai,Maharashtra,India,Silver,2026-07-05,2026-06-13,30.052500000000002,9,837.94,7541.44,6,4,11.0,234,24,0,0,Credit Card,8,0.0,2.0,3,2,1,2,10440.99,Regular,33,0,Average,38.15,0
+C00483,37,Female,Chandigarh,Punjab,India,Silver,2024-08-14,2026-06-12,3.65,7,580.68,4064.78,3,3,3.4,90,9,2,2,Cash On Delivery,0,0.0,1.4,2,0,0,1,5085.25,Regular,58,0,Lost,16.73,0
+C00484,25,Male,Bhopal,Madhya Pradesh,India,Gold,2024-03-17,2026-06-21,4.29,10,389.03,3890.26,0,0,4.5,132,8,6,0,Debit Card,0,0.0,3.9,4,0,0,4,4922.8,Regular,76,0,Loyal Customers,22.89,0
+C00485,18,Male,Jaipur,Rajasthan,India,Silver,2024-06-15,2026-06-09,2.4,5,264.16,1320.81,3,3,12.1,234,32,2,0,UPI,4,0.0,4.8,5,1,1,5,1320.81,Regular,51,1,Lost,41.53,1
+C00486,27,Female,Mumbai,Maharashtra,India,Silver,2025-10-08,2026-06-10,10.67,8,726.99,5815.9,1,1,0.8,30,1,3,5,Credit Card,0,0.0,3.1,4,0,0,3,7645.67,Regular,41,0,Average,7.74,0
+C00487,22,Female,Indore,Madhya Pradesh,India,Basic,2026-06-05,2026-06-20,20.0,2,2244.98,4489.95,4,3,14.9,114,40,5,1,Cash On Delivery,0,0.0,1.0,1,0,0,1,5753.16,Regular,5,0,Average,58.53,0
+C00488,55,Female,Indore,Madhya Pradesh,India,Silver,2025-03-12,2026-07-03,6.75,9,587.85,5290.69,3,2,2.1,54,3,3,2,Wallet,0,0.0,4.1,5,0,0,4,5290.69,Regular,55,1,Loyal Customers,14.83,1
+C00489,45,Male,Jaipur,Rajasthan,India,Gold,2024-02-16,2026-06-11,2.48,6,862.83,5176.95,2,2,8.3,138,23,3,1,Credit Card,0,0.0,2.8,3,0,0,3,5176.95,Regular,64,1,Lost,31.42,1
+C00490,34,Male,Surat,Gujarat,India,Gold,2024-08-14,2026-06-21,6.78,13,146.01,1898.17,5,4,0.9,36,2,2,0,UPI,0,0.0,1.9,2,0,0,2,2770.31,Regular,79,0,Loyal Customers,13.21,0
+C00491,52,Male,Hyderabad,Telangana,India,Silver,2026-01-06,2026-06-19,18.0,9,482.8,4345.2,4,4,5.1,114,9,3,0,Debit Card,0,0.0,2.4,2,0,0,2,6012.26,Regular,40,0,Loyal Customers,24.81,0
+C00492,35,Female,Kochi,Kerala,India,Basic,2026-01-06,2026-06-28,4.0,2,2316.1637499999997,5069.88,5,4,15.3,78,29,0,0,Credit Card,0,0.0,2.9,3,0,0,3,7545.99,Regular,14,0,Recent Users,47.2,0
+C00493,24,Female,Ahmedabad,Gujarat,India,Silver,2024-12-12,2026-07-01,1.89,3,2316.1637499999997,12158.1975,0,0,11.0,144,23,2,0,Credit Card,0,0.0,1.0,1,2,1,1,15296.138749999995,Regular,43,0,Recent Users,31.55,0
+C00494,53,Male,Lucknow,Uttar Pradesh,India,Gold,2024-05-16,2026-06-17,5.54,12,348.7,4184.45,6,4,6.3,240,18,1,2,Cash On Delivery,0,0.0,2.2,3,0,0,2,6215.67,Regular,81,0,Loyal Customers,28.47,0
+C00495,41,Female,Bhopal,Madhya Pradesh,India,Silver,2025-11-07,2026-06-11,12.0,8,1022.34,8178.72,0,0,7.5,198,13,1,4,Wallet,5,0.0,4.8,5,0,0,5,9514.04,Regular,42,0,Average,19.07,0
+C00496,22,Female,Bangalore,Karnataka,India,Silver,2024-10-13,2026-06-08,0.57,1,2316.1637499999997,3422.42,4,4,17.45,210,91,3,0,Wallet,1,0.0,2.9,2,0,0,3,3836.5,Regular,31,0,Lost,70.51,0
+C00497,32,Female,Bangalore,Karnataka,India,Silver,2026-06-05,2026-06-30,30.052500000000002,15,111.18,1667.73,0,0,2.9,162,6,7,1,Debit Card,0,0.0,3.1,3,2,1,3,2220.83,Regular,53,0,Loyal Customers,21.16,0
+C00498,24,Male,Lucknow,Uttar Pradesh,India,Silver,2025-06-10,2026-06-29,9.23,10,595.26,5952.64,4,3,1.6,36,3,3,3,UPI,0,0.0,2.2,2,0,0,2,5952.64,Regular,55,1,Loyal Customers,15.53,1
+C00499,18,Female,Chandigarh,Punjab,India,Gold,2025-03-12,2026-06-08,11.25,15,283.99,4259.8,4,3,1.1,72,2,2,1,Debit Card,8,0.0,1.2,1,0,0,1,4259.8,Regular,77,1,At Risk,11.82,1
+C00500,46,Female,Hyderabad,Telangana,India,Silver,2026-07-05,2026-06-28,30.052500000000002,15,315.2,4728.06,2,2,5.8,222,14,2,2,Credit Card,0,0.0,4.9,5,0,0,5,5601.89,Regular,54,0,Loyal Customers,21.44,0
+C00501,57,Male,Bhopal,Madhya Pradesh,India,Gold,2025-11-07,2026-06-20,22.5,15,273.83,4107.46,0,0,1.7,108,3,3,1,Credit Card,0,0.0,1.1,2,0,0,1,5375.09,Regular,65,0,Loyal Customers,8.37,0
+C00502,18,Male,Nagpur,Maharashtra,India,Silver,2024-12-12,2026-06-09,4.42,7,277.35,1941.48,1,1,1.8,54,5,6,4,Wallet,0,0.0,3.9,4,2,1,4,2639.48,Regular,50,0,Lost,17.93,0
+C00503,41,Female,Indore,Madhya Pradesh,India,Silver,2024-11-12,2026-07-04,4.2,7,160.59,1124.16,3,2,6.2,180,13,3,3,UPI,0,0.0,3.9,5,0,0,4,1124.16,Regular,51,1,Recent Users,26.34,0
+C00504,27,Female,Bhopal,Madhya Pradesh,India,Gold,2025-01-11,2026-06-11,8.67,13,472.86,6147.16,5,3,1.9,90,3,2,1,Cash On Delivery,0,0.0,2.2,2,0,0,2,8519.4,Regular,74,0,At Risk,15.71,0
+C00505,29,Male,Delhi,Delhi,India,Basic,2026-04-06,2026-07-01,4.0,1,2316.1637499999997,4065.77,0,0,17.45,84,107,3,2,UPI,0,0.0,1.9,2,0,0,2,6058.18,Regular,4,0,Recent Users,66.53,0
+C00506,27,Male,Chandigarh,Punjab,India,Gold,2024-04-16,2026-06-06,4.0,9,700.42,6303.76,7,4,8.7,240,21,6,1,Credit Card,0,0.0,2.1,3,0,0,2,6303.76,Regular,73,1,Average,48.19,1
+C00507,24,Female,Jaipur,Rajasthan,India,Silver,2025-12-07,2026-06-10,13.71,8,402.42,3219.37,1,1,6.9,210,13,1,4,Cash On Delivery,4,0.0,4.0,4,2,1,4,3219.37,Regular,36,1,Average,19.54,1
+C00508,35,Female,Kochi,Kerala,India,Silver,2025-07-10,2026-07-04,4.0,4,1728.0,6911.99,3,3,9.0,114,21,2,0,UPI,1,0.0,1.0,2,1,1,1,6911.99,Regular,32,1,Recent Users,32.09,1
+C00509,25,Female,Delhi,Delhi,India,Silver,2026-04-06,2026-06-24,30.052500000000002,10,317.34,3173.39,3,2,5.1,234,9,5,5,UPI,0,0.0,1.2,1,0,0,1,3962.35,Regular,38,0,Loyal Customers,27.67,0
+C00510,38,Female,Bangalore,Karnataka,India,Silver,2025-11-07,2026-06-17,16.5,11,314.49,3459.38,0,0,5.2,168,11,4,2,Cash On Delivery,0,0.0,2.1,2,1,1,2,4351.28,Regular,50,0,Loyal Customers,20.43,0
+C00511,34,Male,Nagpur,Maharashtra,India,Basic,2025-11-07,2026-06-21,7.5,5,724.64,3623.2,1,1,12.9,186,36,2,3,Credit Card,0,0.0,4.6,5,0,0,5,4130.91,Regular,27,0,Average,40.51,0
+C00512,32,Female,Kochi,Kerala,India,Silver,2024-10-13,2026-06-13,1.14,2,1329.85,2659.71,0,0,6.4,36,10,2,3,UPI,0,0.0,1.1,1,0,0,1,2659.71,Regular,34,1,Lost,18.27,1
+C00513,24,Female,Indore,Madhya Pradesh,India,Gold,2025-02-10,2026-06-24,9.18,13,309.96,4029.5,6,4,1.4,54,2,3,1,Cash On Delivery,0,0.0,3.8,4,0,0,4,4029.5,Regular,71,1,Loyal Customers,18.55,1
+C00514,28,Male,Chandigarh,Punjab,India,Silver,2025-08-09,2026-06-25,9.82,9,638.98,5750.82,3,2,4.9,162,13,3,2,Credit Card,0,0.0,3.2,3,0,0,3,8349.78,Regular,48,0,Loyal Customers,23.36,0
+C00515,44,Female,Surat,Gujarat,India,Gold,2025-10-08,2026-06-08,20.0,15,188.85,2832.7,0,0,3.5,216,10,3,0,Cash On Delivery,0,0.0,2.7,3,0,0,3,4166.27,Regular,66,0,At Risk,13.98,0
+C00516,41,Male,Ahmedabad,Gujarat,India,Silver,2025-09-08,2026-06-18,14.4,12,218.92,2627.01,4,3,3.4,162,7,6,1,Cash On Delivery,3,0.0,2.9,3,1,1,3,2915.38,Regular,56,0,Loyal Customers,27.55,0
+C00517,23,Female,Bangalore,Karnataka,India,Silver,2026-01-06,2026-07-01,24.0,12,650.4,7804.77,2,2,1.1,60,2,0,0,UPI,0,0.0,5.0,4,0,0,5,7804.77,Regular,54,1,Champions,3.43,1
+C00518,36,Female,Delhi,Delhi,India,Silver,2025-11-07,2026-06-11,9.0,6,728.77,4372.64,4,3,1.9,54,4,4,4,Credit Card,0,0.0,2.0,2,1,1,2,4372.64,Regular,31,1,Lost,18.78,1
+C00519,44,Male,Jaipur,Rajasthan,India,Basic,2026-02-05,2026-06-20,7.2,3,2316.1637499999997,7186.71,0,0,15.7,210,45,1,4,UPI,0,0.0,4.2,4,0,0,4,9401.34,Regular,17,0,Average,44.64,0
+C00520,18,Male,Ahmedabad,Gujarat,India,Gold,2025-01-11,2026-06-09,8.0,12,703.25,8438.96,3,2,2.4,60,6,4,3,Debit Card,0,0.0,4.7,5,1,1,5,10597.74,Regular,72,0,At Risk,18.5,0
+C00521,41,Female,Lucknow,Uttar Pradesh,India,Silver,2025-04-11,2026-06-19,5.6,7,529.58,3707.06,5,3,4.7,138,8,1,1,Debit Card,0,0.0,4.3,5,0,0,4,4846.64,Regular,45,0,Average,20.83,0
+C00522,27,Female,Ahmedabad,Gujarat,India,Gold,2024-02-16,2026-06-14,3.72,9,787.89,7091.01,6,4,1.5,36,3,1,4,Credit Card,0,0.0,4.1,3,0,0,4,7091.01,Regular,77,1,Average,14.3,1
+C00523,41,Female,Bhopal,Madhya Pradesh,India,Silver,2025-05-11,2026-06-22,2.57,3,2316.1637499999997,8209.55,7,4,6.7,48,14,3,1,Cash On Delivery,0,0.0,2.3,2,0,0,2,8209.55,Regular,32,1,Recent Users,35.08,1
+C00524,25,Male,Mumbai,Maharashtra,India,Basic,2026-01-06,2026-06-26,4.0,2,2316.1637499999997,10555.56,0,0,17.45,174,59,2,5,UPI,0,0.0,3.2,2,1,1,3,10555.56,Regular,18,1,Recent Users,53.97,1
+C00525,18,Female,Bhopal,Madhya Pradesh,India,Silver,2025-04-11,2026-06-24,5.6,7,452.19,3165.36,2,2,8.4,174,20,0,0,UPI,0,0.0,2.0,2,0,0,2,4268.33,Regular,45,0,Recent Users,23.96,0
+C00526,18,Male,Pune,Maharashtra,India,Basic,2026-03-07,2026-06-24,21.0,7,390.34,2732.37,1,1,6.7,102,16,2,3,Credit Card,0,0.0,4.7,5,2,1,5,3306.54,Regular,28,0,Recent Users,22.07,0
+C00527,35,Male,Patna,Bihar,India,Silver,2025-04-11,2026-06-29,3.2,4,1098.04,4392.15,2,2,8.1,78,24,3,0,Credit Card,0,0.0,4.9,4,0,0,5,4862.35,Regular,34,0,Recent Users,31.18,0
+C00528,38,Female,Kochi,Kerala,India,Silver,2026-07-05,2026-07-04,30.052500000000002,11,348.79,3836.65,6,4,9.0,198,14,3,4,Debit Card,0,0.0,5.0,5,0,0,5,5068.53,Regular,38,0,Loyal Customers,38.49,0
+C00529,24,Male,Mumbai,Maharashtra,India,Silver,2025-01-11,2026-06-13,6.0,9,818.48,7366.29,5,3,1.8,78,3,2,1,Wallet,0,0.0,2.3,2,2,1,2,7366.29,Regular,60,1,Average,15.49,1
+C00530,42,Female,Nagpur,Maharashtra,India,Silver,2026-03-07,2026-06-29,30.052500000000002,14,436.38,6109.37,1,1,5.0,144,10,10,2,Credit Card,0,0.0,3.9,4,0,0,4,6109.37,Regular,57,1,Champions,35.71,1
+C00531,18,Female,Mumbai,Maharashtra,India,Silver,2026-01-06,2026-06-22,16.0,8,340.61,2724.88,0,0,11.1,234,22,4,2,Wallet,0,0.0,3.4,3,0,0,4,2724.88,Regular,35,1,Loyal Customers,36.27,1
+C00532,34,Female,Chandigarh,Punjab,India,Gold,2025-01-11,2026-06-13,8.67,13,634.68,8250.84,1,1,1.4,60,2,2,2,Credit Card,13,0.0,1.0,1,0,0,1,8250.84,Regular,76,1,At Risk,6.97,0
+C00533,20,Female,Nagpur,Maharashtra,India,Gold,2024-10-13,2026-06-11,7.43,13,936.33,12158.1975,0,0,5.7,228,9,2,1,Cash On Delivery,0,0.0,4.9,5,2,1,5,15296.138749999995,Regular,84,0,At Risk,16.45,0
+C00534,27,Female,Jaipur,Rajasthan,India,Basic,2026-03-07,2026-06-13,3.0,1,2316.1637499999997,3263.4,1,1,13.9,66,35,3,2,Cash On Delivery,0,0.0,4.0,4,0,0,4,3740.79,Regular,5,0,Lost,44.94,0
+C00535,35,Male,Bangalore,Karnataka,India,Silver,2024-03-17,2026-06-30,0.43,1,2316.1637499999997,4772.36,0,0,17.45,150,199,3,3,Debit Card,0,0.0,1.1,1,2,1,1,4772.36,Regular,43,1,Recent Users,86.11,0
+C00536,24,Male,Pune,Maharashtra,India,Silver,2025-03-12,2026-06-20,3.75,5,859.08,4295.38,0,0,6.1,108,13,3,1,Debit Card,0,0.0,4.2,5,0,0,4,4295.38,Regular,40,1,Average,20.57,1
+C00537,30,Female,Pune,Maharashtra,India,Gold,2024-06-15,2026-06-08,2.88,6,1707.41,10244.48,1,1,9.7,234,22,0,2,Wallet,0,0.0,5.0,5,1,1,5,11516.44,Regular,62,0,Lost,25.51,0
+C00538,47,Female,Chennai,Tamil Nadu,India,Silver,2024-10-13,2026-06-17,1.71,3,2316.1637499999997,12158.1975,1,1,6.3,90,11,0,4,Credit Card,0,0.0,3.1,3,2,1,3,15296.138749999995,Regular,46,0,Average,15.4,0
+C00539,28,Male,Chandigarh,Punjab,India,Premium,2024-02-16,2026-06-15,5.38,13,527.66,6859.6,0,0,2.3,114,6,4,2,UPI,0,0.0,4.6,5,0,0,5,9763.48,Regular,92,0,At Risk,12.74,0
+C00540,45,Male,Ahmedabad,Gujarat,India,Silver,2025-12-07,2026-06-21,15.43,9,762.37,6861.3,6,4,5.9,234,15,2,1,Debit Card,0,0.0,1.9,2,0,0,2,6861.3,Regular,43,1,Loyal Customers,29.26,1
+C00541,21,Male,Chandigarh,Punjab,India,Premium,2024-03-17,2026-06-20,5.14,12,527.48,6329.76,1,1,5.3,144,12,4,0,UPI,0,0.0,4.5,4,0,0,4,7476.64,Regular,86,0,Loyal Customers,22.72,0
+C00542,41,Male,Bhopal,Madhya Pradesh,India,Gold,2024-03-17,2026-06-09,4.29,10,678.48,6784.79,3,2,4.4,138,8,2,2,UPI,0,0.0,4.1,4,0,0,4,9803.46,Regular,79,0,Average,18.8,0
+C00543,52,Female,Lucknow,Uttar Pradesh,India,Silver,2026-07-05,2026-06-30,30.052500000000002,14,220.35,3084.84,5,3,1.9,84,3,1,2,Credit Card,0,0.0,2.1,2,0,0,2,3816.0,Regular,48,0,Loyal Customers,13.36,0
+C00544,18,Female,Mumbai,Maharashtra,India,Silver,2026-06-05,2026-06-09,30.052500000000002,15,345.48,5182.14,0,0,2.6,180,4,2,2,Wallet,0,0.0,2.1,2,0,0,2,7662.33,Regular,55,0,At Risk,8.3,0
+C00545,25,Male,Nagpur,Maharashtra,India,Gold,2024-02-16,2026-07-01,2.48,6,520.65,3123.88,0,0,2.4,36,5,2,2,Credit Card,0,0.0,3.1,3,0,0,3,3525.92,Regular,62,0,Recent Users,8.05,0
+C00546,41,Female,Patna,Bihar,India,Silver,2025-05-11,2026-07-03,3.43,4,823.93,3295.7,3,3,4.3,42,11,4,0,Debit Card,0,0.0,3.5,4,0,0,4,4266.23,Regular,32,0,Recent Users,23.91,0
+C00547,32,Male,Hyderabad,Telangana,India,Gold,2024-12-12,2026-06-28,7.58,12,605.97,7271.62,7,4,4.4,156,12,2,3,UPI,0,0.0,4.0,4,0,0,4,9735.61,Regular,73,0,Champions,27.04,0
+C00548,39,Female,Lucknow,Uttar Pradesh,India,Gold,2024-04-16,2026-06-25,3.11,7,844.12,5908.82,4,3,6.7,102,14,3,1,Credit Card,0,0.0,3.0,4,0,0,3,7085.03,Regular,65,0,Recent Users,29.54,0
+C00549,27,Male,Nagpur,Maharashtra,India,Silver,2025-02-10,2026-06-19,5.65,8,527.23,4217.85,1,1,11.2,228,29,0,3,Credit Card,0,0.0,1.3,1,2,1,1,5941.06,Regular,52,0,Loyal Customers,30.44,0
+C00550,36,Female,Patna,Bihar,India,Silver,2025-09-08,2026-06-25,10.8,9,339.9,3059.14,5,3,5.0,222,14,2,5,Credit Card,0,0.0,3.0,4,0,0,3,4132.16,Regular,45,0,Loyal Customers,25.15,0
+C00551,33,Male,Kochi,Kerala,India,Gold,2024-07-15,2026-06-17,6.5,13,395.4,5140.24,0,0,4.2,180,8,1,4,Debit Card,0,0.0,4.7,5,0,0,5,5140.24,Regular,83,1,Loyal Customers,10.46,1
+C00552,49,Male,Lucknow,Uttar Pradesh,India,Silver,2025-10-08,2026-06-18,14.67,11,378.15,4159.7,5,3,4.8,204,10,5,2,Wallet,0,0.0,4.1,4,0,0,4,5587.92,Regular,52,0,Loyal Customers,30.89,0
+C00553,38,Female,Bhopal,Madhya Pradesh,India,Silver,2024-08-14,2026-06-14,3.13,6,546.01,3276.06,3,2,6.7,168,19,4,2,Credit Card,3,0.0,1.8,3,2,1,2,4247.71,Regular,53,0,Lost,31.11,0
+C00554,39,Male,Chennai,Tamil Nadu,India,Premium,2024-08-14,2026-06-07,7.83,15,426.09,6391.29,1,1,1.2,54,2,6,5,Debit Card,13,0.0,4.8,5,2,1,5,6391.29,Regular,90,1,At Risk,15.91,1
+C00555,30,Female,Lucknow,Uttar Pradesh,India,Basic,2026-04-06,2026-06-22,24.0,6,798.21,4789.26,4,3,13.1,192,37,3,0,UPI,4,0.0,3.8,3,2,1,4,7175.74,Regular,24,0,Recent Users,49.07,0
+C00556,29,Female,Chennai,Tamil Nadu,India,Silver,2026-03-07,2026-07-04,24.0,8,430.33,3442.68,0,0,3.4,72,10,11,2,Cash On Delivery,7,0.0,3.1,3,2,1,3,5022.4,Regular,32,0,Loyal Customers,32.55,0
+C00557,29,Male,Bangalore,Karnataka,India,Silver,2026-04-06,2026-07-04,30.052500000000002,12,293.25,3519.01,1,1,2.7,96,6,1,4,Debit Card,0,0.0,5.0,5,0,0,5,4282.65,Regular,46,0,Loyal Customers,8.45,0
+C00558,39,Female,Kochi,Kerala,India,Silver,2025-07-10,2026-06-20,5.0,5,1844.5,9222.5,0,0,10.4,204,28,1,6,Cash On Delivery,0,0.0,4.1,4,1,1,4,12140.76,Regular,37,0,Average,28.9,0
+C00559,29,Female,Bhopal,Madhya Pradesh,India,Premium,2024-07-15,2026-07-04,7.0,14,426.31,5968.4,7,4,3.2,144,8,2,0,Credit Card,0,0.0,1.1,1,0,0,1,7320.84,Regular,87,0,Champions,23.44,0
+C00560,38,Female,Nagpur,Maharashtra,India,Basic,2025-07-10,2026-06-29,3.0,3,502.23,1506.68,3,2,17.45,210,88,4,2,Credit Card,0,0.0,1.1,1,0,0,1,2124.72,Regular,24,0,Recent Users,70.38,0
+C00561,59,Female,Bangalore,Karnataka,India,Gold,2025-02-10,2026-06-10,8.47,12,135.05,1620.55,5,4,1.7,72,3,2,1,Debit Card,3,0.0,2.0,2,2,1,2,2385.66,Regular,66,0,At Risk,15.26,0
+C00562,45,Female,Jaipur,Rajasthan,India,Silver,2024-03-17,2026-06-09,1.29,3,1582.09,4746.27,2,2,10.9,156,17,2,1,Cash On Delivery,0,0.0,4.1,3,0,0,4,5902.14,Regular,51,0,Lost,33.74,0
+C00563,31,Male,Patna,Bihar,India,Premium,2024-05-16,2026-06-22,6.0,13,546.16,7100.02,5,3,0.8,48,1,2,3,Credit Card,0,0.0,1.0,1,0,0,1,10097.89,Regular,87,0,Champions,12.77,0
+C00564,49,Female,Surat,Gujarat,India,Silver,2024-08-14,2026-06-08,3.13,6,803.83,4823.0,1,1,6.3,168,15,3,3,UPI,0,0.0,3.0,4,0,0,3,6266.83,Regular,54,0,Lost,23.3,0
+C00565,30,Female,Delhi,Delhi,India,Basic,2026-06-05,2026-06-07,20.0,2,2316.1637499999997,6843.3,5,3,17.45,192,36,1,4,Wallet,0,0.0,3.8,4,0,0,4,8613.19,Regular,7,0,Lost,55.96,0
+C00566,18,Female,Ahmedabad,Gujarat,India,Silver,2025-04-11,2026-07-04,4.8,6,412.14,2472.81,3,2,8.4,150,12,0,2,Wallet,0,0.0,3.2,3,0,0,3,3648.31,Regular,40,0,Recent Users,24.11,0
+C00567,22,Female,Mumbai,Maharashtra,India,Silver,2026-07-05,2026-06-30,30.052500000000002,13,316.85,4119.06,3,2,1.5,84,2,1,4,Credit Card,0,0.0,3.0,3,0,0,3,5371.92,Regular,45,0,Loyal Customers,8.54,0
+C00568,18,Female,Bhopal,Madhya Pradesh,India,Silver,2024-06-15,2026-06-26,2.88,6,708.38,4250.3,3,2,2.5,36,6,3,4,Cash On Delivery,0,0.0,1.0,1,0,0,1,4250.3,Regular,57,1,Recent Users,16.38,1
+C00569,30,Male,Bangalore,Karnataka,India,Silver,2025-01-11,2026-06-10,5.33,8,288.95,2311.63,0,0,1.7,54,5,7,4,Credit Card,0,0.0,3.7,4,0,0,4,3164.56,Regular,52,0,Average,18.2,0
+C00570,35,Female,Bhopal,Madhya Pradesh,India,Silver,2025-11-07,2026-06-18,10.5,7,231.51,1620.59,1,1,5.9,162,17,4,3,Cash On Delivery,0,0.0,5.0,5,1,1,5,1951.99,Regular,33,0,Average,25.16,0
+C00571,55,Male,Chandigarh,Punjab,India,Gold,2024-04-16,2026-06-19,3.56,8,269.65,2157.18,4,3,13.7,228,30,6,3,UPI,0,0.0,1.1,1,0,0,1,2653.15,Regular,66,0,Loyal Customers,56.01,0
+C00572,38,Male,Mumbai,Maharashtra,India,Silver,2026-05-06,2026-06-27,30.052500000000002,14,158.07,2212.94,4,3,1.2,72,3,5,3,Cash On Delivery,0,0.0,1.1,2,0,0,1,3259.26,Regular,51,0,Loyal Customers,19.32,0
+C00573,32,Male,Surat,Gujarat,India,Gold,2024-07-15,2026-06-18,4.5,9,744.5,6700.51,7,4,4.4,186,11,2,1,Credit Card,0,0.0,3.8,3,2,1,4,9189.16,Regular,69,0,Loyal Customers,26.83,0
+C00574,44,Male,Indore,Madhya Pradesh,India,Basic,2026-01-06,2026-06-20,12.0,6,342.64,2055.86,2,2,12.5,210,28,3,1,UPI,0,0.0,3.8,4,1,1,4,2055.86,Regular,26,1,Average,42.09,1
+C00575,18,Female,Surat,Gujarat,India,Premium,2024-03-17,2026-06-11,6.0,14,358.58,5020.14,3,2,2.2,138,5,5,3,Debit Card,2,0.0,3.0,3,0,0,3,5020.14,Regular,93,1,At Risk,20.18,1
+C00576,37,Male,Patna,Bihar,India,Basic,2025-10-08,2026-07-04,4.0,3,649.53,1948.6,3,2,17.45,168,42,5,6,Wallet,0,0.0,3.9,5,0,0,4,2567.31,Regular,20,0,Recent Users,62.94,0
+C00577,44,Male,Mumbai,Maharashtra,India,Silver,2026-07-05,2026-06-23,30.052500000000002,10,646.1,6460.95,4,3,5.4,204,15,3,0,Credit Card,0,0.0,3.1,3,2,1,3,6460.95,Regular,36,1,Loyal Customers,26.78,1
+C00578,18,Female,Nagpur,Maharashtra,India,Basic,2025-10-08,2026-06-30,4.0,3,2316.1637499999997,11032.35,7,4,8.1,84,16,4,2,Credit Card,0,0.0,1.0,1,1,1,1,13542.01,Regular,26,0,Recent Users,41.06,0
+C00579,48,Female,Bangalore,Karnataka,India,Gold,2024-11-12,2026-06-11,6.6,11,264.78,2912.62,0,0,2.2,90,4,3,2,Credit Card,0,0.0,1.9,2,0,0,2,3390.84,Regular,67,0,At Risk,9.73,0
+C00580,39,Female,Nagpur,Maharashtra,India,Silver,2025-11-07,2026-06-29,18.0,12,238.95,2867.4,1,1,0.5,30,1,0,0,UPI,0,0.0,5.0,5,0,0,5,3740.11,Regular,53,0,Loyal Customers,0.0,0
+C00581,30,Male,Mumbai,Maharashtra,India,Silver,2024-04-16,2026-06-10,0.44,1,2316.1637499999997,2757.96,0,0,17.45,234,101,7,7,Debit Card,0,0.0,1.1,1,0,0,1,2757.96,Regular,40,1,Lost,74.66,1
+C00582,42,Female,Hyderabad,Telangana,India,Silver,2025-05-11,2026-07-04,9.43,11,333.03,3663.38,3,3,4.6,222,8,2,3,Cash On Delivery,0,0.0,4.0,4,0,0,4,4263.55,Regular,59,0,Loyal Customers,19.26,0
+C00583,62,Female,Nagpur,Maharashtra,India,Gold,2025-05-11,2026-06-10,12.86,15,75.79,1136.89,2,2,4.5,192,11,5,4,Debit Card,0,0.0,5.0,4,0,0,5,1654.65,Regular,72,0,At Risk,24.87,0
+C00584,37,Male,Indore,Madhya Pradesh,India,Silver,2026-05-06,2026-07-04,30.052500000000002,13,512.89,6667.58,1,1,0.8,48,1,1,6,UPI,0,0.0,1.5,2,0,0,2,9976.63,Regular,50,0,Champions,3.04,0
+C00585,37,Female,Patna,Bihar,India,Premium,2024-07-15,2026-06-25,7.5,15,384.83,5772.46,4,3,3.7,126,9,1,2,Credit Card,0,0.0,1.8,2,0,0,2,7662.55,Regular,91,0,Champions,16.91,0
+C00586,29,Female,Nagpur,Maharashtra,India,Basic,2026-03-07,2026-06-25,15.0,5,1142.28,5711.42,5,3,2.4,54,5,1,1,Wallet,0,0.0,2.9,3,0,0,3,8052.36,Regular,22,0,Recent Users,14.93,0
+C00587,24,Female,Lucknow,Uttar Pradesh,India,Silver,2025-11-07,2026-07-02,21.0,14,161.65,2263.12,5,3,0.9,36,2,3,2,Credit Card,0,0.0,5.0,4,0,0,5,3267.07,Regular,60,0,Loyal Customers,15.56,0
+C00588,44,Female,Patna,Bihar,India,Silver,2024-06-15,2026-06-18,1.92,4,2316.1637499999997,10690.92,1,1,17.45,162,45,3,0,Cash On Delivery,0,0.0,3.2,3,1,1,3,14757.67,Regular,54,0,Average,55.19,0
+C00589,24,Male,Nagpur,Maharashtra,India,Gold,2024-10-13,2026-06-16,5.14,9,1295.54,11659.83,1,1,6.5,234,14,1,1,Wallet,0,0.0,1.0,1,0,0,1,13031.75,Regular,68,0,Average,18.84,0
+C00590,35,Female,Nagpur,Maharashtra,India,Gold,2025-11-07,2026-06-07,22.5,15,147.63,2214.47,4,4,5.5,222,13,3,1,Credit Card,5,0.0,5.0,5,0,0,5,2575.55,Regular,64,0,At Risk,26.58,0
+C00591,29,Female,Hyderabad,Telangana,India,Gold,2024-09-13,2026-06-24,4.91,9,347.07,3123.67,6,4,7.1,174,17,3,5,Wallet,0,0.0,1.0,1,2,1,1,3524.74,Regular,63,0,Loyal Customers,34.79,0
+C00592,40,Male,Kochi,Kerala,India,Gold,2026-01-06,2026-06-06,30.0,15,136.11,2041.59,0,0,1.1,48,2,7,2,Debit Card,0,0.0,3.2,3,0,0,3,2253.82,Regular,61,0,At Risk,16.19,0
+C00593,39,Female,Delhi,Delhi,India,Gold,2024-08-14,2026-06-17,7.3,14,201.61,2822.56,1,1,2.9,90,7,4,2,UPI,0,0.0,4.8,5,0,0,5,3450.29,Regular,83,0,Loyal Customers,16.17,0
+C00594,47,Male,Chennai,Tamil Nadu,India,Silver,2024-09-13,2026-07-03,2.73,5,958.16,4790.79,1,1,7.6,96,21,3,4,Credit Card,0,0.0,3.0,3,0,0,3,4790.79,Regular,49,1,Recent Users,27.55,1
+C00595,28,Female,Hyderabad,Telangana,India,Silver,2025-08-09,2026-06-26,10.91,10,684.33,6843.32,1,1,9.5,192,16,3,1,Cash On Delivery,0,0.0,4.9,5,0,0,5,8187.43,Regular,53,0,Loyal Customers,30.83,0
+C00596,31,Male,Chennai,Tamil Nadu,India,Silver,2024-07-15,2026-06-11,2.0,4,825.94,3303.77,5,4,14.8,198,31,1,4,Debit Card,0,0.0,3.2,4,2,1,3,3719.52,Regular,47,0,Lost,48.83,0
+C00597,23,Male,Jaipur,Rajasthan,India,Gold,2024-05-16,2026-06-18,3.23,7,1608.45,11259.13,4,3,6.8,108,19,5,0,Credit Card,0,0.0,1.9,2,0,0,2,14771.36,Regular,68,0,Average,35.53,0
+C00598,29,Male,Surat,Gujarat,India,Gold,2025-11-07,2026-06-07,22.5,15,191.84,2877.63,3,2,2.0,120,4,2,5,Debit Card,0,0.0,3.0,3,0,0,3,3480.0,Regular,64,0,At Risk,12.46,0
+C00599,39,Male,Hyderabad,Telangana,India,Silver,2026-02-05,2026-06-21,14.4,6,2047.19,12158.1975,7,4,2.6,42,4,2,0,Cash On Delivery,0,0.0,2.1,2,0,0,2,15296.138749999995,Regular,33,0,Average,21.22,0
+C00600,44,Female,Kochi,Kerala,India,Silver,2024-09-13,2026-07-01,2.18,4,668.14,2672.58,1,1,4.7,90,10,2,0,Credit Card,0,0.0,3.1,3,0,0,3,2948.45,Regular,44,0,Recent Users,16.22,0
+C00601,23,Male,Chennai,Tamil Nadu,India,Silver,2026-06-05,2026-06-06,30.052500000000002,13,387.2,5033.58,7,4,2.1,126,3,5,2,Cash On Delivery,10,0.0,5.0,5,1,1,5,7233.31,Regular,48,0,At Risk,26.91,0
+C00602,45,Female,Chandigarh,Punjab,India,Silver,2025-11-07,2026-06-18,19.5,13,369.25,4800.31,0,0,1.4,54,2,2,2,Wallet,0,0.0,5.0,4,0,0,5,7113.59,Regular,58,0,Loyal Customers,5.13,0
+C00603,51,Male,Chennai,Tamil Nadu,India,Premium,2024-04-16,2026-06-18,6.67,15,166.89,2503.34,1,1,1.9,126,5,1,0,Cash On Delivery,0,0.0,4.9,5,0,0,5,3470.77,Regular,93,0,Loyal Customers,6.4,0
+C00604,39,Male,Kochi,Kerala,India,Gold,2024-03-17,2026-06-23,4.29,10,677.6,6776.04,0,0,4.8,210,11,7,2,Wallet,0,0.0,3.9,4,0,0,4,9442.12,Regular,79,0,Loyal Customers,26.57,0
+C00605,57,Male,Bhopal,Madhya Pradesh,India,Basic,2025-03-12,2026-06-07,1.5,2,1272.61,2545.22,1,1,15.1,150,29,6,5,Credit Card,0,0.0,1.0,1,0,0,1,3750.19,Regular,27,0,Lost,53.46,0
+C00606,25,Female,Jaipur,Rajasthan,India,Basic,2026-07-05,2026-06-15,10.0,1,2316.1637499999997,9277.04,7,4,12.7,48,38,2,2,Wallet,0,0.0,5.0,5,0,0,5,10980.57,Regular,4,0,Lost,51.56,0
+C00607,20,Male,Patna,Bihar,India,Silver,2025-01-11,2026-06-17,2.67,4,1370.32,5481.29,5,3,8.0,72,23,2,4,Credit Card,0,0.0,2.0,2,0,0,2,8210.02,Regular,40,0,Average,33.92,0
+C00608,18,Female,Kochi,Kerala,India,Silver,2024-04-16,2026-07-02,1.78,4,1330.59,5322.37,3,2,8.4,132,18,3,1,Credit Card,0,0.0,5.0,5,0,0,5,7501.31,Regular,53,0,Recent Users,32.43,0
+C00609,52,Female,Chennai,Tamil Nadu,India,Silver,2026-02-05,2026-06-24,30.052500000000002,13,291.05,3783.61,0,0,2.1,108,3,4,2,UPI,0,0.0,3.7,4,0,0,4,5261.6,Regular,53,0,Loyal Customers,11.64,0
+C00610,42,Female,Bhopal,Madhya Pradesh,India,Basic,2026-03-07,2026-06-10,3.0,1,2316.1637499999997,6798.91,7,4,17.45,108,76,2,0,Credit Card,0,0.0,2.1,2,0,0,2,8460.81,Regular,8,0,Lost,70.51,0
+C00611,34,Female,Delhi,Delhi,India,Basic,2026-06-05,2026-06-17,30.052500000000002,6,513.95,3083.67,5,3,8.2,144,21,2,1,Wallet,0,0.0,4.0,4,0,0,4,4065.24,Regular,20,0,Average,33.96,0
+C00612,38,Female,Chandigarh,Punjab,India,Basic,2025-11-07,2026-07-01,6.0,4,1390.18,5560.72,6,4,8.2,150,20,2,1,UPI,0,0.0,2.2,2,0,0,2,7571.29,Regular,25,0,Recent Users,35.59,0
+C00613,21,Female,Indore,Madhya Pradesh,India,Silver,2024-02-16,2026-06-18,0.41,1,2316.1637499999997,6352.7,0,0,17.45,198,115,4,0,UPI,1,0.0,3.0,3,2,1,3,8564.31,Regular,46,0,Average,70.58,0
+C00614,64,Female,Chennai,Tamil Nadu,India,Silver,2024-03-17,2026-06-17,0.43,1,2316.1637499999997,3208.63,3,2,17.45,102,97,5,0,Credit Card,0,0.0,1.0,2,0,0,1,3208.63,Regular,42,1,Average,74.64,0
+C00615,36,Female,Patna,Bihar,India,Premium,2024-06-15,2026-06-30,7.2,15,124.04,1860.66,6,4,5.8,198,11,3,3,Cash On Delivery,0,0.0,1.0,1,0,0,1,1860.66,Regular,89,1,Loyal Customers,30.53,1
+C00616,36,Female,Delhi,Delhi,India,Gold,2025-06-10,2026-06-21,12.0,13,689.1,8958.32,1,1,3.0,102,7,3,2,Cash On Delivery,0,0.0,4.0,4,0,0,4,11128.56,Regular,69,0,Loyal Customers,14.05,0
+C00617,43,Male,Ahmedabad,Gujarat,India,Basic,2026-04-06,2026-06-25,4.0,1,2316.1637499999997,4357.52,3,3,9.4,42,18,2,1,UPI,0,0.0,1.1,1,0,0,1,5549.74,Regular,5,0,Recent Users,32.37,0
+C00618,40,Male,Chennai,Tamil Nadu,India,Silver,2026-04-06,2026-06-20,30.052500000000002,8,580.81,4646.5,6,4,4.5,144,11,5,4,Credit Card,0,0.0,3.6,5,0,0,4,4646.5,Regular,31,1,Loyal Customers,32.26,1
+C00619,37,Male,Patna,Bihar,India,Gold,2024-11-12,2026-07-04,6.0,10,202.55,2025.51,4,3,4.0,156,9,2,2,Cash On Delivery,0,0.0,4.0,4,0,0,4,2367.92,Regular,63,0,Loyal Customers,19.95,0
+C00620,25,Male,Chennai,Tamil Nadu,India,Silver,2025-05-11,2026-06-19,6.86,8,709.37,5674.99,1,1,8.9,228,14,3,4,Credit Card,0,0.0,4.1,4,0,0,4,6557.85,Regular,49,0,Loyal Customers,29.03,0
+C00621,40,Male,Bhopal,Madhya Pradesh,India,Basic,2025-12-07,2026-06-24,3.43,2,885.6,1771.21,3,2,17.45,180,54,3,1,Credit Card,0,0.0,1.0,1,0,0,1,2207.91,Regular,13,0,Recent Users,60.8,0
+C00622,57,Female,Chandigarh,Punjab,India,Gold,2024-06-15,2026-06-12,5.28,11,366.89,4035.8,3,2,6.9,222,13,2,3,UPI,2,0.0,4.0,4,2,1,4,5235.95,Regular,76,0,At Risk,25.59,0
+C00623,51,Female,Chennai,Tamil Nadu,India,Silver,2026-04-06,2026-06-15,30.052500000000002,13,469.95,6109.35,1,1,5.0,222,9,1,0,UPI,2,0.0,1.0,1,2,1,1,6874.18,Regular,52,0,At Risk,14.35,0
+C00624,54,Female,Nagpur,Maharashtra,India,Silver,2025-04-11,2026-06-29,5.6,7,372.94,2610.56,5,3,5.1,156,12,1,2,Debit Card,0,0.0,3.9,5,0,0,4,3859.93,Regular,44,0,Recent Users,22.6,0
+C00625,28,Female,Indore,Madhya Pradesh,India,Gold,2024-11-12,2026-06-11,8.4,14,285.24,3993.37,5,4,2.0,138,3,4,3,Cash On Delivery,0,0.0,4.9,5,0,0,5,5615.07,Regular,80,0,At Risk,20.64,0
+C00626,23,Female,Surat,Gujarat,India,Gold,2024-04-16,2026-06-06,3.56,8,1767.23,12158.1975,1,1,3.9,150,10,1,0,Cash On Delivery,0,0.0,3.9,5,0,0,4,15296.138749999995,Regular,75,0,Average,12.04,0
+C00627,33,Female,Mumbai,Maharashtra,India,Silver,2026-04-06,2026-06-13,30.052500000000002,8,870.15,6961.24,0,0,6.1,234,9,3,4,Cash On Delivery,0,0.0,2.1,2,0,0,2,8138.69,Regular,33,0,Average,19.72,0
+C00628,35,Female,Hyderabad,Telangana,India,Gold,2024-02-16,2026-06-19,4.55,11,493.85,5432.33,5,3,5.4,192,13,2,3,Wallet,0,0.0,3.9,4,2,1,4,7287.58,Regular,83,0,Loyal Customers,25.85,0
+C00629,48,Male,Bangalore,Karnataka,India,Silver,2025-04-11,2026-07-03,8.0,10,646.61,6466.08,3,2,1.6,54,4,1,4,Credit Card,0,0.0,2.8,3,0,0,3,8482.79,Regular,59,0,Loyal Customers,9.2,0
+C00630,18,Male,Chandigarh,Punjab,India,Premium,2024-10-13,2026-07-04,8.57,15,383.05,5745.75,1,1,3.1,192,7,6,0,UPI,0,0.0,4.4,4,0,0,4,8578.33,Regular,86,0,Loyal Customers,21.32,0
+C00631,53,Male,Nagpur,Maharashtra,India,Silver,2025-08-09,2026-06-11,12.0,11,111.02,1221.22,2,2,1.3,66,2,2,0,Cash On Delivery,0,0.0,2.2,1,0,0,2,1221.22,Regular,52,1,At Risk,8.59,1
+C00632,33,Male,Patna,Bihar,India,Gold,2025-04-11,2026-06-11,10.4,13,287.95,3743.4,4,3,4.0,126,11,4,3,Debit Card,0,0.0,1.6,2,0,0,2,4979.86,Regular,68,0,At Risk,25.07,0
+C00633,29,Female,Ahmedabad,Gujarat,India,Silver,2025-01-11,2026-06-26,4.67,7,355.75,2490.25,3,2,3.5,72,6,4,4,Cash On Delivery,0,0.0,1.0,1,0,0,1,3586.77,Regular,49,0,Recent Users,21.02,0
+C00634,22,Female,Lucknow,Uttar Pradesh,India,Basic,2025-12-07,2026-06-13,8.57,5,884.07,4420.37,1,1,14.4,174,22,7,1,Credit Card,0,0.0,5.0,5,0,0,5,5136.64,Regular,26,0,Lost,52.72,0
+C00635,18,Female,Delhi,Delhi,India,Basic,2026-02-05,2026-06-23,2.4,1,2316.1637499999997,6995.0,5,3,17.45,216,120,2,4,Credit Card,0,0.0,4.1,4,0,0,4,7737.08,Regular,10,0,Recent Users,76.18,0
+C00636,44,Male,Hyderabad,Telangana,India,Silver,2025-10-08,2026-06-18,16.0,12,504.46,6053.57,0,0,2.6,90,4,8,2,UPI,0,0.0,1.0,1,0,0,1,8330.28,Regular,57,0,Loyal Customers,22.4,0
+C00637,35,Female,Hyderabad,Telangana,India,Silver,2026-03-07,2026-06-10,27.0,9,1115.07,10035.6,1,1,1.8,48,5,3,1,Wallet,0,0.0,5.0,5,0,0,5,11433.81,Regular,41,0,Average,10.88,0
+C00638,19,Female,Delhi,Delhi,India,Premium,2024-03-17,2026-06-07,5.57,13,437.11,5682.4,7,4,3.1,90,5,4,2,UPI,12,0.0,4.2,4,0,0,4,6513.02,Regular,89,0,At Risk,27.28,0
+C00639,19,Female,Bangalore,Karnataka,India,Silver,2025-02-10,2026-06-06,4.94,7,628.17,4397.16,1,1,8.2,174,22,4,1,Cash On Delivery,0,0.0,3.1,3,0,0,3,6146.67,Regular,49,0,Lost,31.48,0
+C00640,30,Male,Mumbai,Maharashtra,India,Basic,2025-10-08,2026-06-20,2.67,2,1602.72,3205.44,4,3,11.1,102,29,5,2,Debit Card,0,0.0,4.3,5,0,0,4,3872.86,Regular,17,0,Average,47.5,0
+C00641,55,Female,Chandigarh,Punjab,India,Silver,2025-10-08,2026-06-16,8.0,6,891.57,5349.43,1,1,5.6,90,10,1,3,UPI,0,0.0,2.1,3,0,0,2,7229.5,Regular,33,0,Lost,15.93,0
+C00642,31,Male,Lucknow,Uttar Pradesh,India,Basic,2026-01-06,2026-06-08,4.0,2,2316.1637499999997,5895.37,0,0,8.1,66,19,3,1,Wallet,0,0.0,2.1,3,0,0,2,8648.29,Regular,14,0,Lost,26.42,0
+C00643,18,Male,Chandigarh,Punjab,India,Gold,2025-02-10,2026-06-13,10.59,15,116.42,1746.25,0,0,2.3,132,3,2,2,UPI,0,0.0,3.3,3,0,0,3,2141.93,Regular,77,0,At Risk,7.4,0
+C00644,32,Male,Kochi,Kerala,India,Basic,2026-07-05,2026-06-25,10.0,1,2316.1637499999997,10940.44,5,4,17.45,90,43,1,4,Credit Card,1,0.0,1.2,1,1,1,1,12984.75,Regular,5,0,Recent Users,57.45,0
+C00645,31,Male,Bhopal,Madhya Pradesh,India,Silver,2026-01-06,2026-06-06,28.0,14,123.44,1728.22,3,2,5.5,186,8,2,0,Cash On Delivery,0,0.0,4.8,4,0,0,5,1728.22,Regular,57,1,At Risk,21.32,1
+C00646,18,Female,Chennai,Tamil Nadu,India,Silver,2024-11-12,2026-06-09,4.2,7,215.45,1508.15,5,3,1.4,48,4,3,4,Cash On Delivery,0,0.0,4.1,4,0,0,4,1737.67,Regular,51,0,Lost,17.13,0
+C00647,34,Male,Ahmedabad,Gujarat,India,Silver,2026-07-05,2026-06-08,30.052500000000002,13,502.42,6531.5,5,3,3.4,168,10,7,2,Cash On Delivery,0,0.0,1.9,2,0,0,2,7347.21,Regular,47,0,At Risk,32.39,0
+C00648,32,Male,Patna,Bihar,India,Basic,2025-05-11,2026-06-23,1.71,2,1294.33,2588.65,3,2,7.8,78,14,4,0,Cash On Delivery,0,0.0,1.1,1,0,0,1,2938.27,Regular,24,0,Recent Users,32.56,0
+C00649,43,Female,Indore,Madhya Pradesh,India,Silver,2026-04-06,2026-06-21,30.052500000000002,13,780.78,10150.1,0,0,2.1,132,3,1,1,Cash On Delivery,0,0.0,3.1,4,0,0,3,12919.07,Regular,55,0,Loyal Customers,4.59,0
+C00650,57,Female,Pune,Maharashtra,India,Premium,2024-04-16,2026-06-26,6.22,14,224.46,3142.37,0,0,2.4,90,6,1,1,Cash On Delivery,0,0.0,1.7,1,0,0,2,3859.92,Regular,90,0,Loyal Customers,5.91,0
+C00651,48,Male,Indore,Madhya Pradesh,India,Premium,2024-03-17,2026-06-08,6.0,14,353.14,4943.95,1,1,5.9,180,11,1,1,Debit Card,14,0.0,3.0,4,2,1,3,6835.63,Regular,92,0,At Risk,16.83,0
+C00652,31,Female,Indore,Madhya Pradesh,India,Silver,2024-12-12,2026-06-22,1.26,2,1224.3,2448.6,6,4,17.45,228,117,4,3,Wallet,0,0.0,4.1,4,0,0,4,3545.81,Regular,31,0,Recent Users,82.09,0
+C00653,21,Male,Pune,Maharashtra,India,Silver,2025-10-08,2026-07-02,17.33,13,372.96,4848.53,5,4,4.8,222,11,6,1,Cash On Delivery,0,0.0,4.9,5,0,0,5,6855.38,Regular,60,0,Loyal Customers,33.45,0
+C00654,65,Male,Indore,Madhya Pradesh,India,Gold,2024-09-13,2026-06-14,6.0,11,332.49,3657.38,5,4,5.4,150,10,6,1,Wallet,0,0.0,2.1,2,0,0,2,4799.41,Regular,71,0,At Risk,34.61,0
+C00655,35,Male,Ahmedabad,Gujarat,India,Basic,2025-11-07,2026-06-06,7.5,5,993.32,4966.61,1,1,10.1,126,27,0,4,Cash On Delivery,0,0.0,2.2,2,0,0,2,5666.79,Regular,28,0,Lost,27.49,0
+C00656,35,Male,Nagpur,Maharashtra,India,Silver,2026-06-05,2026-06-21,30.052500000000002,14,597.92,8370.94,5,4,4.3,204,9,8,1,UPI,0,0.0,4.0,5,2,1,4,11584.6,Regular,54,0,Loyal Customers,36.58,0
+C00657,34,Female,Chandigarh,Punjab,India,Silver,2024-04-16,2026-06-14,2.22,5,1790.76,8953.81,2,2,16.6,174,47,3,2,Cash On Delivery,0,0.0,1.0,1,0,0,1,11148.67,Regular,60,0,Lost,55.51,0
+C00658,37,Male,Indore,Madhya Pradesh,India,Silver,2025-06-10,2026-06-25,6.46,7,201.51,1410.57,1,1,4.0,66,11,4,2,Credit Card,0,0.0,5.0,5,0,0,5,1599.95,Regular,40,0,Recent Users,19.53,0
+C00659,33,Female,Bhopal,Madhya Pradesh,India,Basic,2025-04-11,2026-06-19,0.8,1,2316.1637499999997,5223.85,2,2,17.45,204,109,2,0,Debit Card,0,0.0,2.1,2,2,1,2,7506.6,Regular,24,0,Average,68.3,0
+C00660,28,Female,Ahmedabad,Gujarat,India,Basic,2026-07-05,2026-06-28,30.052500000000002,8,874.72,6997.75,1,1,6.9,120,10,2,1,UPI,0,0.0,5.0,5,0,0,5,8644.23,Regular,29,0,Loyal Customers,21.26,0
+C00661,28,Female,Bhopal,Madhya Pradesh,India,Basic,2026-06-05,2026-07-01,30.0,3,2316.1637499999997,10530.51,6,4,7.5,72,22,2,3,UPI,0,0.0,1.8,2,0,0,2,10530.51,Regular,14,1,Recent Users,34.41,1
+C00662,34,Female,Lucknow,Uttar Pradesh,India,Basic,2026-01-06,2026-06-08,8.0,4,650.33,2601.32,3,2,6.6,90,18,0,3,Credit Card,0,0.0,5.0,5,0,0,5,3768.22,Regular,19,0,Lost,21.26,0
+C00663,28,Male,Chandigarh,Punjab,India,Premium,2024-03-17,2026-06-15,6.43,15,282.0,4230.01,2,2,1.7,84,2,6,1,Cash On Delivery,0,0.0,3.1,4,0,0,3,6179.43,Regular,96,0,At Risk,18.9,0
+C00664,26,Female,Nagpur,Maharashtra,India,Silver,2025-10-08,2026-06-12,12.0,9,785.49,7069.39,2,2,3.3,138,9,4,1,Debit Card,0,0.0,2.3,2,0,0,2,8734.86,Regular,46,0,Average,19.35,0
+C00665,36,Male,Bangalore,Karnataka,India,Silver,2024-10-13,2026-06-10,2.29,4,1239.03,4956.14,1,1,5.4,78,11,3,0,UPI,0,0.0,5.0,5,0,0,5,6155.13,Regular,44,0,Lost,20.39,0
+C00666,31,Female,Bhopal,Madhya Pradesh,India,Gold,2024-12-12,2026-06-24,6.32,10,854.8,8548.04,5,3,1.6,54,3,3,0,Debit Card,0,0.0,1.0,1,0,0,1,11384.72,Regular,66,0,Loyal Customers,17.38,0
+C00667,53,Female,Bangalore,Karnataka,India,Silver,2026-07-05,2026-06-19,30.052500000000002,12,147.05,1764.63,6,4,1.4,54,3,1,2,UPI,0,0.0,2.7,3,0,0,3,2458.79,Regular,40,0,Loyal Customers,14.07,0
+C00668,18,Male,Mumbai,Maharashtra,India,Gold,2025-07-10,2026-06-15,15.0,15,610.58,9158.75,2,2,2.2,150,3,5,8,Cash On Delivery,0,0.0,3.1,4,0,0,3,10305.97,Regular,75,0,At Risk,17.91,0
+C00669,48,Male,Indore,Madhya Pradesh,India,Basic,2026-07-05,2026-07-01,30.052500000000002,5,1713.46,8567.31,5,3,7.9,186,23,3,2,UPI,0,0.0,1.0,1,0,0,1,11457.38,Regular,18,0,Recent Users,36.05,0
+C00670,49,Male,Hyderabad,Telangana,India,Silver,2026-03-07,2026-06-13,21.0,7,1021.74,7152.16,5,4,3.0,96,5,4,4,UPI,0,0.0,5.0,5,0,0,5,10593.26,Regular,31,0,Lost,23.36,0
+C00671,18,Female,Chandigarh,Punjab,India,Silver,2025-04-11,2026-06-13,3.2,4,1320.15,5280.6,6,4,2.2,36,5,2,2,Wallet,0,0.0,4.0,4,0,0,4,5280.6,Regular,35,1,Lost,18.67,1
+C00672,30,Female,Jaipur,Rajasthan,India,Gold,2025-05-11,2026-06-12,12.0,14,103.69,1451.72,3,2,1.6,54,2,0,2,Cash On Delivery,0,0.0,1.0,1,0,0,1,2124.64,Regular,69,0,At Risk,6.42,0
+C00673,30,Male,Chennai,Tamil Nadu,India,Basic,2025-03-12,2026-06-18,0.75,1,2316.1637499999997,10488.84,3,2,17.45,222,181,1,3,Credit Card,0,0.0,5.0,5,0,0,5,15296.138749999995,Regular,29,0,Average,83.12,0
+C00674,18,Male,Lucknow,Uttar Pradesh,India,Gold,2024-04-16,2026-06-22,4.0,9,474.3,4268.67,1,1,6.9,132,17,1,3,Credit Card,0,0.0,1.0,1,0,0,1,5155.11,Regular,71,0,Loyal Customers,20.4,0
+C00675,25,Male,Indore,Madhya Pradesh,India,Silver,2024-09-13,2026-06-24,2.18,4,385.58,1542.32,4,3,6.6,126,11,4,2,Cash On Delivery,1,0.0,1.0,1,0,0,1,1542.32,Regular,43,1,Recent Users,31.02,1
+C00676,21,Male,Chandigarh,Punjab,India,Silver,2025-04-11,2026-07-02,7.2,9,667.28,6005.49,5,3,1.0,36,2,0,3,Credit Card,0,0.0,1.9,3,2,1,2,7179.62,Regular,55,0,Loyal Customers,8.74,0
+C00677,56,Female,Chennai,Tamil Nadu,India,Silver,2025-07-10,2026-06-26,6.0,6,712.2,4273.23,2,2,7.3,186,16,2,1,Cash On Delivery,0,0.0,4.9,5,0,0,5,5961.35,Regular,37,0,Recent Users,25.29,0
+C00678,46,Male,Indore,Madhya Pradesh,India,Gold,2025-09-08,2026-06-29,18.0,15,148.31,2224.6,5,4,3.1,138,4,3,6,Credit Card,0,0.0,3.9,4,0,0,4,2224.6,Regular,67,1,Loyal Customers,21.02,1
+C00679,50,Male,Jaipur,Rajasthan,India,Basic,2025-03-12,2026-06-13,0.75,1,2233.19,2233.19,2,2,15.9,72,43,3,2,Wallet,0,0.0,2.0,2,0,0,2,2233.19,Regular,23,1,Lost,53.06,1
+C00680,43,Male,Indore,Madhya Pradesh,India,Gold,2025-03-12,2026-06-14,9.0,12,136.84,1642.02,7,4,1.6,54,3,3,4,Credit Card,0,0.0,1.2,1,0,0,1,1642.02,Regular,64,1,At Risk,21.07,1
+C00681,21,Male,Chennai,Tamil Nadu,India,Basic,2026-06-05,2026-06-24,30.0,3,1772.19,5316.56,5,4,17.45,108,42,1,3,UPI,2,0.0,1.0,2,0,0,1,7575.26,Regular,10,0,Recent Users,57.23,0
+C00682,28,Female,Jaipur,Rajasthan,India,Silver,2025-07-10,2026-06-19,11.0,11,416.16,4577.78,3,2,5.9,204,13,2,1,Cash On Delivery,0,0.0,1.2,1,2,1,1,5692.16,Regular,56,0,Loyal Customers,23.3,0
+C00683,40,Male,Surat,Gujarat,India,Basic,2025-06-10,2026-06-16,1.85,2,2310.37,4620.74,0,0,17.45,210,64,3,1,Debit Card,0,0.0,5.0,5,0,0,5,5392.78,Regular,24,0,Lost,57.38,0
+C00684,20,Female,Indore,Madhya Pradesh,India,Silver,2025-09-08,2026-06-08,10.8,9,983.26,8849.35,5,3,5.0,156,8,4,0,Debit Card,0,0.0,5.0,5,0,0,5,8849.35,Regular,49,1,Average,28.57,1
+C00685,43,Male,Chandigarh,Punjab,India,Premium,2024-04-16,2026-06-30,6.67,15,674.61,10119.08,7,4,2.6,180,5,4,0,Cash On Delivery,0,0.0,2.1,2,0,0,2,13459.92,Regular,99,0,Champions,26.13,0
+C00686,32,Male,Nagpur,Maharashtra,India,Silver,2025-10-08,2026-06-21,16.0,12,691.6,8299.2,6,4,1.9,54,4,1,3,Wallet,0,0.0,4.1,4,0,0,4,12376.09,Regular,59,0,Loyal Customers,15.42,0
+C00687,30,Female,Patna,Bihar,India,Basic,2026-05-06,2026-06-18,6.0,1,1132.1,1132.1,0,0,17.45,156,110,0,2,Credit Card,0,0.0,2.2,2,0,0,2,1617.97,Regular,1,0,Average,60.12,0
+C00688,43,Male,Delhi,Delhi,India,Premium,2024-03-17,2026-07-02,5.57,13,416.82,5418.6,1,1,3.7,168,10,3,4,Wallet,0,0.0,3.0,4,0,0,3,6905.12,Regular,89,0,Loyal Customers,16.29,0
+C00689,40,Female,Hyderabad,Telangana,India,Premium,2024-05-16,2026-07-01,6.46,14,229.33,3210.63,0,0,1.8,72,4,4,5,Debit Card,0,0.0,1.2,1,0,0,1,4220.85,Regular,88,0,Loyal Customers,11.17,0
+C00690,30,Female,Bangalore,Karnataka,India,Silver,2025-03-12,2026-06-19,6.75,9,558.17,5023.52,0,0,5.4,216,8,0,2,Cash On Delivery,0,0.0,1.1,1,0,0,1,6087.56,Regular,55,0,Loyal Customers,10.85,0
+C00691,48,Male,Hyderabad,Telangana,India,Silver,2025-05-11,2026-06-19,7.71,9,689.6,6206.36,5,4,1.9,72,3,1,0,Cash On Delivery,0,0.0,1.0,1,0,0,1,7231.81,Regular,53,0,Loyal Customers,13.36,0
+C00692,22,Female,Bangalore,Karnataka,India,Silver,2025-11-07,2026-06-14,12.0,8,789.07,6312.55,4,3,2.9,96,5,4,8,Wallet,0,0.0,2.2,1,0,0,2,8161.07,Regular,40,0,Average,21.28,0
+C00693,42,Female,Bangalore,Karnataka,India,Silver,2025-10-08,2026-06-09,10.67,8,869.47,6955.79,0,0,4.4,162,7,2,8,Wallet,4,0.0,2.0,2,2,1,2,8940.98,Regular,42,0,Average,13.05,0
+C00694,42,Female,Lucknow,Uttar Pradesh,India,Silver,2025-12-07,2026-06-10,18.86,11,202.58,2228.4,1,1,3.5,162,7,5,4,Credit Card,0,0.0,1.0,1,0,0,1,2916.47,Regular,47,0,At Risk,19.89,0
+C00695,31,Female,Bangalore,Karnataka,India,Gold,2024-11-12,2026-07-01,8.4,14,313.1,4383.35,2,2,4.6,174,8,5,0,UPI,0,0.0,1.9,2,2,1,2,6492.28,Regular,80,0,Loyal Customers,24.47,0
+C00696,38,Female,Surat,Gujarat,India,Silver,2025-07-10,2026-06-16,12.0,12,156.67,1880.05,0,0,1.1,54,2,4,2,UPI,0,0.0,5.0,4,0,0,5,2522.2,Regular,58,0,At Risk,9.14,0
+C00697,19,Female,Ahmedabad,Gujarat,India,Silver,2024-05-16,2026-06-09,0.46,1,2316.1637499999997,7826.93,0,0,17.45,210,113,2,1,Credit Card,0,0.0,5.0,5,2,1,5,10506.16,Regular,42,0,Lost,65.46,0
+C00698,46,Female,Patna,Bihar,India,Gold,2025-02-10,2026-06-18,7.76,11,179.69,1976.54,1,1,4.8,144,7,5,0,UPI,9,0.0,2.2,2,2,1,2,2275.41,Regular,62,0,Loyal Customers,22.86,0
+C00699,32,Female,Chennai,Tamil Nadu,India,Silver,2026-03-07,2026-06-22,24.0,8,234.25,1874.03,5,3,7.1,126,11,6,1,Debit Card,0,0.0,1.1,2,0,0,1,2808.41,Regular,31,0,Loyal Customers,38.71,0
+C00700,28,Male,Delhi,Delhi,India,Silver,2026-02-05,2026-06-09,24.0,10,361.71,3617.11,0,0,5.5,234,9,1,2,UPI,0,0.0,2.1,3,0,0,2,5097.01,Regular,41,0,Average,13.64,0
+C00701,47,Male,Kochi,Kerala,India,Premium,2024-02-16,2026-06-13,5.79,14,236.5,3310.95,0,0,3.2,186,6,2,2,Credit Card,4,0.0,2.3,1,0,0,2,4803.8,Regular,93,0,At Risk,10.09,0
+C00702,26,Female,Nagpur,Maharashtra,India,Silver,2025-03-12,2026-06-12,2.25,3,1320.36,3961.08,4,3,6.7,54,15,2,1,UPI,1,0.0,2.0,2,2,1,2,5013.62,Regular,32,0,Lost,27.4,0
+C00703,18,Male,Indore,Madhya Pradesh,India,Silver,2025-09-08,2026-06-09,13.2,11,427.2,4699.2,1,1,4.0,186,6,2,0,Cash On Delivery,0,0.0,2.8,3,0,0,3,6112.96,Regular,54,0,At Risk,13.77,0
+C00704,18,Female,Pune,Maharashtra,India,Silver,2024-12-12,2026-06-11,4.42,7,594.98,4164.85,0,0,1.4,48,2,3,0,Wallet,0,0.0,5.0,5,0,0,5,5451.1,Regular,52,0,Lost,7.48,0
+C00705,42,Female,Mumbai,Maharashtra,India,Silver,2025-04-11,2026-06-07,8.8,11,113.51,1248.66,5,3,1.4,36,2,1,4,Debit Card,0,0.0,3.9,4,0,0,4,1248.66,Regular,58,1,At Risk,12.01,1
+C00706,19,Male,Bhopal,Madhya Pradesh,India,Gold,2025-11-07,2026-07-04,22.5,15,190.7,2860.46,0,0,2.8,114,4,4,1,Cash On Delivery,0,0.0,3.9,4,2,1,4,3935.41,Regular,64,0,Loyal Customers,13.45,0
+C00707,56,Female,Delhi,Delhi,India,Basic,2026-06-05,2026-06-23,10.0,1,2316.1637499999997,8576.3,3,2,17.45,240,85,2,1,Cash On Delivery,0,0.0,2.6,3,2,1,3,8576.3,Regular,5,1,Recent Users,65.04,1
+C00708,18,Female,Surat,Gujarat,India,Basic,2026-03-07,2026-07-01,3.0,1,2316.1637499999997,7863.3,5,4,17.45,66,51,0,2,Credit Card,0,0.0,2.1,2,2,1,2,9164.54,Regular,9,0,Recent Users,56.8,0
+C00709,55,Female,Mumbai,Maharashtra,India,Silver,2026-07-05,2026-06-24,30.052500000000002,10,467.59,4675.87,3,2,4.5,174,11,1,1,Wallet,0,0.0,2.7,3,0,0,3,5304.9,Regular,34,0,Loyal Customers,17.32,0
+C00710,37,Female,Lucknow,Uttar Pradesh,India,Silver,2026-04-06,2026-06-30,30.052500000000002,13,482.2,6268.64,0,0,2.3,66,4,5,2,Wallet,0,0.0,2.8,3,0,0,3,8746.56,Regular,52,0,Champions,14.66,0
+C00711,33,Male,Hyderabad,Telangana,India,Basic,2026-04-06,2026-07-03,20.0,5,541.36,2706.78,1,1,10.7,180,18,5,1,Debit Card,0,0.0,1.1,1,0,0,1,3273.26,Regular,19,0,Recent Users,38.7,0
+C00712,28,Female,Kochi,Kerala,India,Silver,2024-10-13,2026-06-18,2.86,5,601.37,3006.85,7,4,6.5,138,18,3,2,Credit Card,0,0.0,5.0,5,0,0,5,4057.88,Regular,46,0,Average,35.47,0
+C00713,39,Female,Mumbai,Maharashtra,India,Gold,2024-06-15,2026-06-27,3.84,8,375.85,3006.78,2,2,5.4,174,10,2,4,Debit Card,0,0.0,3.9,3,0,0,4,4144.25,Regular,64,0,Loyal Customers,19.67,0
+C00714,34,Female,Pune,Maharashtra,India,Silver,2024-07-15,2026-06-29,3.5,7,831.91,5823.35,4,3,2.3,72,4,1,3,UPI,0,0.0,2.0,2,0,0,2,7155.52,Regular,60,0,Recent Users,12.65,0
+C00715,48,Male,Pune,Maharashtra,India,Silver,2026-05-06,2026-06-14,30.052500000000002,8,761.85,6094.77,1,1,5.0,186,13,2,1,Cash On Delivery,0,0.0,3.8,3,0,0,4,6094.77,Regular,31,1,Average,17.55,0
+C00716,36,Female,Delhi,Delhi,India,Silver,2025-11-07,2026-06-06,9.0,6,959.82,5758.93,3,2,9.3,240,25,3,2,Debit Card,0,0.0,3.9,4,0,0,4,5758.93,Regular,32,1,Lost,35.98,1
+C00717,36,Male,Kochi,Kerala,India,Silver,2024-10-13,2026-06-26,3.43,6,209.3,1255.83,5,3,7.0,168,15,3,2,Cash On Delivery,0,0.0,5.0,5,2,1,5,1255.83,Regular,49,1,Recent Users,32.28,0
+C00718,30,Male,Ahmedabad,Gujarat,India,Silver,2024-09-13,2026-06-22,1.09,2,1175.33,2350.65,0,0,17.45,132,70,5,0,Credit Card,0,0.0,3.9,4,0,0,4,3303.41,Regular,36,0,Recent Users,63.36,0
+C00719,34,Female,Ahmedabad,Gujarat,India,Silver,2025-08-09,2026-06-24,6.55,6,997.0,5981.98,5,3,10.3,222,18,3,5,UPI,0,0.0,4.0,4,2,1,4,8658.5,Regular,37,0,Recent Users,40.47,0
+C00720,38,Female,Chennai,Tamil Nadu,India,Basic,2025-10-08,2026-06-06,6.67,5,956.51,4782.56,3,2,3.4,36,5,2,3,Credit Card,0,0.0,2.7,2,0,0,3,4782.56,Regular,29,1,Lost,15.88,1
+C00721,18,Male,Lucknow,Uttar Pradesh,India,Silver,2026-06-05,2026-06-19,30.052500000000002,13,129.97,1689.56,3,2,3.2,186,7,5,3,UPI,0,0.0,5.0,4,0,0,5,2023.08,Regular,45,0,Loyal Customers,22.9,0
+C00722,18,Female,Lucknow,Uttar Pradesh,India,Basic,2025-09-08,2026-06-19,3.6,3,1988.39,5965.17,0,0,17.45,216,40,3,4,UPI,0,0.0,1.1,1,0,0,1,6776.45,Regular,24,0,Average,52.28,0
+C00723,43,Male,Surat,Gujarat,India,Silver,2025-10-08,2026-06-08,8.0,6,674.27,4045.61,4,3,1.9,42,4,4,5,Cash On Delivery,5,0.0,2.2,2,0,0,2,5165.57,Regular,32,0,Lost,18.78,0
+C00724,37,Male,Bhopal,Madhya Pradesh,India,Gold,2024-02-16,2026-07-03,3.31,8,1292.16,10337.26,3,3,5.5,126,16,4,1,Credit Card,6,0.0,4.3,4,0,0,4,15050.89,Regular,75,0,Loyal Customers,27.72,0
+C00725,32,Female,Kochi,Kerala,India,Gold,2024-10-13,2026-06-25,5.14,9,1276.5,11488.54,0,0,1.8,72,5,4,2,Credit Card,0,0.0,1.8,3,0,0,2,11488.54,Regular,68,1,Loyal Customers,11.38,0
+C00726,35,Female,Chennai,Tamil Nadu,India,Basic,2026-02-05,2026-06-23,2.4,1,2316.1637499999997,7356.5,5,3,17.45,150,59,5,2,Debit Card,0,0.0,1.0,1,0,0,1,10592.52,Regular,10,0,Recent Users,70.25,0
+C00727,39,Male,Chandigarh,Punjab,India,Silver,2025-02-10,2026-06-27,2.12,3,2313.57,6940.72,0,0,17.45,168,42,4,1,Credit Card,0,0.0,1.6,3,0,0,2,8543.13,Regular,35,0,Recent Users,55.05,0
+C00728,28,Male,Hyderabad,Telangana,India,Basic,2026-06-05,2026-06-24,30.0,3,1608.59,4825.76,1,1,7.0,96,15,4,4,Debit Card,0,0.0,1.6,2,0,0,1,5963.81,Regular,10,0,Recent Users,27.25,0
+C00729,25,Male,Ahmedabad,Gujarat,India,Gold,2024-02-16,2026-06-25,4.55,11,621.83,6840.14,3,2,4.1,126,11,0,0,Wallet,0,0.0,3.0,2,2,1,3,9974.46,Regular,84,0,Champions,14.06,0
+C00730,37,Male,Jaipur,Rajasthan,India,Basic,2026-06-05,2026-06-22,30.052500000000002,8,534.28,4274.21,1,1,3.1,90,5,4,5,Wallet,0,0.0,4.2,4,0,0,4,5429.64,Regular,28,0,Loyal Customers,16.2,0
+C00731,23,Female,Ahmedabad,Gujarat,India,Basic,2025-10-08,2026-06-10,1.33,1,2316.1637499999997,3855.79,6,4,17.45,108,35,2,0,Wallet,0,0.0,1.0,1,0,0,1,3855.79,Regular,13,1,Lost,59.94,1
+C00732,39,Female,Indore,Madhya Pradesh,India,Silver,2025-04-11,2026-06-18,4.0,5,1535.7,7678.52,5,4,4.4,66,7,5,1,Credit Card,0,0.0,2.2,1,0,0,2,9173.2,Regular,41,0,Average,29.33,0
+C00733,18,Female,Delhi,Delhi,India,Basic,2025-08-09,2026-06-28,3.27,3,1623.28,4869.85,4,4,14.8,216,29,5,2,Credit Card,0,0.0,4.4,3,0,0,4,7205.04,Regular,25,0,Recent Users,55.96,0
+C00734,47,Female,Mumbai,Maharashtra,India,Basic,2026-07-05,2026-06-11,20.0,2,2316.1637499999997,5703.13,0,0,6.3,30,12,2,1,Debit Card,0,0.0,3.0,3,0,0,3,7584.2,Regular,5,0,Lost,18.46,0
+C00735,40,Female,Pune,Maharashtra,India,Premium,2024-11-12,2026-07-02,9.0,15,490.98,7364.76,3,3,7.0,216,18,4,0,UPI,0,0.0,3.8,5,0,0,4,7364.76,Regular,86,1,Champions,31.58,1
+C00736,38,Male,Bangalore,Karnataka,India,Silver,2025-12-07,2026-06-15,13.71,8,511.18,4089.46,1,1,4.0,150,10,0,0,Debit Card,6,0.0,1.0,1,1,1,1,4644.83,Regular,37,0,Average,9.92,0
+C00737,46,Female,Kochi,Kerala,India,Basic,2025-04-11,2026-06-22,2.4,3,700.58,2101.73,1,1,15.4,102,30,2,0,Wallet,0,0.0,2.6,3,0,0,3,2101.73,Regular,29,1,Recent Users,44.96,1
+C00738,54,Female,Hyderabad,Telangana,India,Silver,2025-02-10,2026-06-16,4.94,7,662.26,4635.83,1,1,5.2,180,11,0,1,Debit Card,0,0.0,2.0,2,1,1,2,6770.24,Regular,49,0,Lost,12.88,0
+C00739,47,Female,Ahmedabad,Gujarat,India,Silver,2025-07-10,2026-06-28,12.0,12,323.98,3887.73,1,1,2.4,138,3,6,3,UPI,0,0.0,3.2,4,2,1,3,5640.38,Regular,60,0,Loyal Customers,18.87,0
+C00740,18,Female,Indore,Madhya Pradesh,India,Gold,2025-05-11,2026-06-26,9.43,11,679.18,7470.96,7,4,5.0,132,14,4,5,Credit Card,0,0.0,3.0,4,0,0,3,8357.95,Regular,62,0,Champions,33.54,0
+C00741,19,Female,Bhopal,Madhya Pradesh,India,Basic,2024-11-12,2026-06-16,0.6,1,2316.1637499999997,3429.56,1,1,14.9,54,43,5,1,Debit Card,0,0.0,4.9,5,0,0,5,4189.14,Regular,30,0,Lost,53.63,0
+C00742,27,Male,Lucknow,Uttar Pradesh,India,Silver,2025-08-09,2026-06-22,6.55,6,798.36,4790.15,4,3,7.4,114,21,6,0,Wallet,3,0.0,3.1,2,2,1,3,6118.59,Regular,36,0,Recent Users,39.68,0
+C00743,35,Male,Hyderabad,Telangana,India,Basic,2025-12-07,2026-06-13,5.14,3,2316.1637499999997,7539.2,7,4,7.9,78,22,5,0,Wallet,0,0.0,3.1,2,0,0,3,8812.62,Regular,21,0,Lost,44.23,0
+C00744,41,Male,Chandigarh,Punjab,India,Silver,2025-10-08,2026-06-27,10.67,8,149.32,1194.6,1,1,2.1,36,3,5,3,Credit Card,0,0.0,3.7,5,0,0,4,1662.88,Regular,38,0,Loyal Customers,15.84,0
+C00745,26,Female,Hyderabad,Telangana,India,Silver,2025-06-10,2026-06-13,5.54,6,948.34,5690.04,0,0,6.7,108,10,2,3,Debit Card,5,0.0,2.0,2,1,1,2,5690.04,Regular,40,1,Lost,18.95,0
+C00746,37,Male,Bangalore,Karnataka,India,Silver,2026-03-07,2026-06-17,30.052500000000002,12,674.44,8093.34,3,2,1.3,48,3,3,3,UPI,0,0.0,4.5,4,0,0,4,10024.86,Regular,51,0,Loyal Customers,13.0,0
+C00747,25,Male,Kochi,Kerala,India,Basic,2025-02-10,2026-06-06,1.41,2,1123.61,2247.23,2,2,12.7,84,36,9,1,Credit Card,0,0.0,3.7,3,0,0,4,3068.17,Regular,28,0,Lost,58.35,0
+C00748,27,Female,Pune,Maharashtra,India,Silver,2025-01-11,2026-06-12,4.0,6,1422.48,8534.91,2,2,1.6,48,2,0,0,Debit Card,0,0.0,1.0,1,0,0,1,8534.91,Regular,50,1,Lost,4.58,1
+C00749,18,Female,Patna,Bihar,India,Silver,2025-05-11,2026-07-03,6.0,7,724.95,5074.67,5,4,1.7,54,2,1,1,Cash On Delivery,0,0.0,4.4,4,0,0,4,7081.34,Regular,45,0,Recent Users,12.69,0
+C00750,23,Female,Jaipur,Rajasthan,India,Basic,2026-02-05,2026-06-17,12.0,5,521.07,2605.37,1,1,3.4,72,9,3,6,Wallet,0,0.0,5.0,5,0,0,5,3867.63,Regular,22,0,Average,15.39,0
+C00751,18,Male,Ahmedabad,Gujarat,India,Silver,2024-05-16,2026-06-17,1.38,3,837.16,2511.47,6,4,17.45,240,35,6,2,UPI,0,0.0,4.9,5,0,0,5,2511.47,Regular,46,1,Average,69.34,1
+C00752,23,Male,Kochi,Kerala,India,Basic,2025-09-08,2026-06-24,4.8,4,1517.83,6071.34,4,3,1.7,30,3,1,3,UPI,0,0.0,1.0,1,0,0,1,8401.68,Regular,28,0,Recent Users,11.06,0
+C00753,47,Female,Pune,Maharashtra,India,Silver,2024-11-12,2026-07-04,2.4,4,1040.12,4160.48,0,0,13.4,162,33,5,1,UPI,0,0.0,2.0,2,0,0,2,4959.86,Regular,42,0,Recent Users,46.22,0
+C00754,23,Female,Lucknow,Uttar Pradesh,India,Silver,2025-09-08,2026-06-21,7.2,6,670.22,4021.3,0,0,2.4,60,4,3,2,Wallet,0,0.0,1.9,3,0,0,2,5090.12,Regular,34,0,Average,10.19,0
+C00755,66,Male,Mumbai,Maharashtra,India,Gold,2024-12-12,2026-06-19,6.32,10,274.9,2748.98,3,2,4.5,222,7,5,0,Debit Card,0,0.0,4.0,4,0,0,4,3060.01,Regular,62,0,Loyal Customers,25.87,0
+C00756,40,Male,Ahmedabad,Gujarat,India,Basic,2024-12-12,2026-06-24,0.63,1,2316.1637499999997,4558.48,3,2,16.3,48,43,7,5,Credit Card,0,0.0,3.9,4,0,0,4,5262.14,Regular,29,0,Recent Users,65.22,0
+C00757,37,Female,Chandigarh,Punjab,India,Gold,2024-11-12,2026-07-04,6.6,11,727.62,8003.84,3,2,5.2,228,12,5,1,Debit Card,0,0.0,4.0,4,0,0,4,9828.0,Regular,71,0,Champions,28.54,0
+C00758,24,Female,Patna,Bihar,India,Silver,2025-02-10,2026-06-28,2.82,4,1995.65,7982.6,1,1,8.6,156,25,6,3,Credit Card,0,0.0,1.9,1,0,0,2,7982.6,Regular,40,1,Recent Users,37.74,1
+C00759,43,Male,Kochi,Kerala,India,Gold,2024-07-15,2026-06-06,5.0,10,353.1,3530.99,5,3,0.6,30,1,1,2,UPI,0,0.0,2.7,3,0,0,3,5154.66,Regular,70,0,Average,9.96,0
+C00760,28,Female,Chandigarh,Punjab,India,Gold,2025-02-10,2026-06-19,9.18,13,1029.55,12158.1975,5,3,4.0,216,6,2,2,Debit Card,0,0.0,5.0,5,0,0,5,15296.138749999995,Regular,78,0,Loyal Customers,21.16,0
+C00761,36,Male,Hyderabad,Telangana,India,Basic,2025-10-08,2026-06-21,5.33,4,820.6,3282.4,5,3,12.1,138,31,1,1,UPI,0,0.0,3.3,3,1,1,3,4887.08,Regular,24,0,Average,42.66,0
+C00762,65,Male,Bangalore,Karnataka,India,Silver,2026-06-05,2026-06-20,30.052500000000002,10,305.84,3058.36,4,3,2.8,84,6,5,2,Cash On Delivery,0,0.0,3.0,5,0,0,3,4097.07,Regular,35,0,Loyal Customers,23.62,0
+C00763,33,Male,Kochi,Kerala,India,Silver,2024-06-15,2026-06-21,0.48,1,2316.1637499999997,5402.39,2,2,17.45,192,169,2,0,UPI,0,0.0,1.9,2,0,0,2,6464.96,Regular,39,0,Average,81.07,0
+C00764,48,Male,Jaipur,Rajasthan,India,Gold,2024-02-16,2026-06-07,3.72,9,400.28,3602.5,0,0,5.8,222,15,2,2,UPI,0,0.0,3.2,4,0,0,3,4434.9,Regular,74,0,Average,17.96,0
+C00765,26,Female,Pune,Maharashtra,India,Basic,2025-11-07,2026-06-14,6.0,4,2086.64,8346.58,3,2,15.5,132,27,2,1,Credit Card,0,0.0,1.0,1,0,0,1,10249.05,Regular,27,0,Lost,48.24,0
+C00766,34,Female,Hyderabad,Telangana,India,Silver,2025-06-10,2026-06-24,6.46,7,830.09,5810.62,3,3,3.0,96,5,2,0,Cash On Delivery,0,0.0,4.4,4,0,0,4,7150.54,Regular,44,0,Recent Users,14.96,0
+C00767,56,Male,Chennai,Tamil Nadu,India,Gold,2025-01-11,2026-06-19,8.0,12,214.0,2567.96,3,2,7.0,198,11,2,6,UPI,0,0.0,1.0,1,0,0,1,2567.96,Regular,68,1,Loyal Customers,25.39,1
+C00768,27,Male,Chennai,Tamil Nadu,India,Gold,2025-10-08,2026-06-16,18.67,14,597.74,8368.41,4,3,4.9,174,10,2,2,UPI,0,0.0,5.0,5,0,0,5,10982.06,Regular,66,0,At Risk,22.22,0
+C00769,56,Male,Bhopal,Madhya Pradesh,India,Silver,2024-09-13,2026-06-18,1.64,3,1792.67,5378.0,5,4,17.45,216,44,6,4,Cash On Delivery,0,0.0,3.8,5,0,0,4,5378.0,Regular,42,1,Average,69.41,0
+C00770,43,Male,Ahmedabad,Gujarat,India,Silver,2026-04-06,2026-06-08,30.052500000000002,10,654.51,6545.09,0,0,4.1,174,9,0,0,Cash On Delivery,0,0.0,3.1,3,0,0,3,7589.92,Regular,40,0,Average,8.09,0
+C00771,28,Male,Patna,Bihar,India,Gold,2024-03-17,2026-06-09,5.14,12,316.95,3803.41,4,4,2.9,84,7,1,1,Debit Card,0,0.0,5.0,5,0,0,5,3803.41,Regular,84,1,At Risk,14.66,1
+C00772,42,Female,Chandigarh,Punjab,India,Silver,2024-03-17,2026-06-29,1.29,3,2316.1637499999997,7204.43,1,1,17.45,228,65,4,1,Credit Card,0,0.0,4.0,3,0,0,4,8555.5,Regular,52,0,Recent Users,61.79,0
+C00773,46,Female,Nagpur,Maharashtra,India,Silver,2026-02-05,2026-06-24,30.052500000000002,14,251.11,3515.57,2,2,1.1,54,1,6,2,Cash On Delivery,0,0.0,2.9,3,0,0,3,4018.26,Regular,56,0,Loyal Customers,17.32,0
+C00774,42,Female,Jaipur,Rajasthan,India,Silver,2025-06-10,2026-06-18,7.38,8,736.7,5893.58,1,1,4.0,84,6,3,1,Cash On Delivery,0,0.0,1.0,2,0,0,1,8334.57,Regular,48,0,Loyal Customers,16.12,0
+C00775,18,Female,Delhi,Delhi,India,Basic,2026-04-06,2026-06-26,30.052500000000002,8,131.47,1051.74,3,2,7.4,138,11,3,1,Wallet,0,0.0,4.1,4,0,0,4,1204.24,Regular,29,0,Loyal Customers,28.66,0
+C00776,26,Male,Bangalore,Karnataka,India,Gold,2024-06-15,2026-06-17,5.28,11,405.1,4456.11,5,4,3.0,150,5,3,1,Cash On Delivery,0,0.0,3.1,3,0,0,3,6192.62,Regular,76,0,Loyal Customers,21.01,0
+C00777,32,Male,Hyderabad,Telangana,India,Gold,2025-05-11,2026-06-18,10.29,12,246.04,2952.5,5,3,0.9,36,2,4,2,Credit Card,0,0.0,1.0,1,0,0,1,3703.21,Regular,62,0,Loyal Customers,17.91,0
+C00778,34,Male,Patna,Bihar,India,Basic,2025-04-11,2026-06-23,0.8,1,2316.1637499999997,3430.39,5,3,17.45,192,243,1,3,UPI,0,0.0,5.0,5,0,0,5,3874.12,Regular,22,0,Recent Users,100.0,0
+C00779,42,Male,Bangalore,Karnataka,India,Silver,2026-01-06,2026-06-12,20.0,10,468.75,4687.52,3,2,2.4,108,6,4,3,UPI,0,0.0,5.0,5,0,0,5,6680.15,Regular,44,0,Average,18.5,0
+C00780,37,Male,Chandigarh,Punjab,India,Basic,2025-03-12,2026-06-13,1.5,2,2316.1637499999997,6038.46,3,3,11.5,114,21,4,0,UPI,0,0.0,5.0,5,0,0,5,8042.34,Regular,29,0,Lost,42.51,0
+C00781,18,Female,Patna,Bihar,India,Silver,2025-01-11,2026-06-13,5.33,8,807.66,6461.28,7,4,6.5,198,12,4,7,UPI,0,0.0,5.0,5,0,0,5,7716.74,Regular,56,0,Average,36.55,0
+C00782,39,Male,Pune,Maharashtra,India,Silver,2024-03-17,2026-06-30,0.43,1,2316.1637499999997,7201.64,5,3,17.45,108,68,1,2,Wallet,0,0.0,2.0,2,0,0,2,10499.07,Regular,45,0,Recent Users,62.77,0
+C00783,42,Female,Surat,Gujarat,India,Gold,2025-01-11,2026-06-24,10.0,15,175.42,2631.25,5,4,0.6,42,0,2,2,Cash On Delivery,0,0.0,4.5,4,1,1,4,2942.01,Regular,79,0,Loyal Customers,12.1,0
+C00784,41,Female,Jaipur,Rajasthan,India,Gold,2025-03-12,2026-07-01,9.0,12,701.07,8412.8,1,1,1.1,66,2,1,2,UPI,0,0.0,4.1,4,0,0,4,9933.23,Regular,69,0,Champions,3.94,0
+C00785,47,Female,Chandigarh,Punjab,India,Silver,2026-02-05,2026-06-08,19.2,8,459.49,3675.89,6,4,6.7,228,19,2,2,Debit Card,0,0.0,2.1,1,0,0,2,3675.89,Regular,34,1,Average,31.95,1
+C00786,45,Female,Kochi,Kerala,India,Gold,2024-03-17,2026-07-01,3.43,8,261.03,2088.28,0,0,1.6,42,3,2,0,UPI,0,0.0,3.1,3,0,0,3,2889.66,Regular,67,0,Loyal Customers,5.8,0
+C00787,40,Male,Nagpur,Maharashtra,India,Basic,2025-09-08,2026-07-02,2.4,2,2316.1637499999997,5338.52,0,0,13.5,102,35,3,3,Cash On Delivery,0,0.0,2.9,3,0,0,3,6490.09,Regular,20,0,Recent Users,42.18,0
+C00788,34,Female,Mumbai,Maharashtra,India,Silver,2025-04-11,2026-06-09,3.2,4,1216.88,4867.54,0,0,8.4,138,18,2,0,UPI,0,0.0,5.0,5,0,0,5,5475.06,Regular,35,0,Lost,24.54,0
+C00789,18,Female,Chennai,Tamil Nadu,India,Gold,2024-02-16,2026-06-11,2.48,6,1194.9,7169.39,3,2,8.5,132,14,5,1,Wallet,0,0.0,1.0,1,0,0,1,7169.39,Regular,65,1,Lost,36.51,1
+C00790,40,Female,Ahmedabad,Gujarat,India,Gold,2024-07-15,2026-06-12,6.0,12,712.56,8550.74,3,2,0.7,30,1,5,4,Credit Card,0,0.0,3.2,3,0,0,3,10478.75,Regular,82,0,At Risk,15.9,0
+C00791,37,Male,Ahmedabad,Gujarat,India,Silver,2025-12-07,2026-06-10,18.86,11,546.4,6010.36,2,2,2.8,138,5,3,2,Credit Card,0,0.0,1.0,1,1,1,1,7081.92,Regular,50,0,At Risk,15.01,0
+C00792,38,Male,Pune,Maharashtra,India,Silver,2025-09-08,2026-06-18,10.8,9,158.2,1423.8,5,4,3.0,108,4,5,3,Cash On Delivery,0,0.0,3.8,4,0,0,4,1860.09,Regular,43,0,Loyal Customers,25.49,0
+C00793,19,Male,Nagpur,Maharashtra,India,Gold,2026-01-06,2026-06-28,30.0,15,263.52,3952.87,3,2,4.8,234,11,3,3,Credit Card,0,0.0,1.1,1,2,1,1,5787.36,Regular,62,0,Loyal Customers,22.71,0
+C00794,22,Female,Patna,Bihar,India,Gold,2024-06-15,2026-06-09,3.84,8,529.11,4232.86,1,1,2.1,66,5,8,3,Credit Card,0,0.0,3.8,4,0,0,4,4729.88,Regular,65,0,Average,23.31,0
+C00795,47,Female,Bangalore,Karnataka,India,Gold,2024-08-14,2026-07-01,6.26,12,402.0,4824.04,0,0,3.6,102,7,8,1,Debit Card,0,0.0,2.1,2,0,0,2,4824.04,Regular,77,1,Loyal Customers,25.32,1
+C00796,34,Male,Pune,Maharashtra,India,Gold,2024-10-13,2026-06-12,8.57,15,93.77,1406.57,5,4,2.5,120,5,4,1,Cash On Delivery,0,0.0,1.8,3,0,0,2,1406.57,Regular,83,1,At Risk,22.21,1
+C00797,43,Female,Hyderabad,Telangana,India,Gold,2024-07-15,2026-06-22,4.0,8,404.46,3235.66,0,0,3.3,114,9,1,2,Cash On Delivery,0,0.0,4.9,5,0,0,5,4109.87,Regular,62,0,Loyal Customers,8.61,0
+C00798,35,Male,Surat,Gujarat,India,Silver,2025-01-11,2026-06-23,4.67,7,773.24,5412.7,2,2,9.0,168,24,0,1,Credit Card,0,0.0,2.7,3,0,0,3,7564.96,Regular,51,0,Recent Users,26.19,0
+C00799,35,Male,Bhopal,Madhya Pradesh,India,Premium,2024-06-15,2026-07-04,6.72,14,266.87,3736.12,6,4,2.2,78,5,3,2,Credit Card,0,0.0,5.0,5,0,0,5,3736.12,Regular,87,1,Loyal Customers,21.02,1
+C00800,46,Female,Bhopal,Madhya Pradesh,India,Gold,2025-10-08,2026-06-14,17.33,13,513.86,6680.22,3,3,1.2,78,2,4,4,Credit Card,0,0.0,3.7,4,0,0,4,7960.7,Regular,61,0,At Risk,14.91,0
+C00801,28,Female,Bangalore,Karnataka,India,Silver,2025-11-07,2026-06-16,13.5,9,599.99,5399.95,1,1,7.9,186,22,3,5,Wallet,0,0.0,5.0,5,0,0,5,6250.22,Regular,43,0,Average,28.45,0
+C00802,36,Female,Indore,Madhya Pradesh,India,Silver,2026-04-06,2026-06-14,30.052500000000002,15,390.82,5862.25,3,2,3.3,138,5,6,1,UPI,0,0.0,1.2,1,0,0,1,8589.09,Regular,59,0,At Risk,25.05,0
+C00803,29,Female,Ahmedabad,Gujarat,India,Silver,2024-09-13,2026-06-15,1.09,2,2316.1637499999997,11379.25,3,2,12.2,120,29,4,3,Wallet,0,0.0,4.2,5,1,1,4,15296.138749999995,Regular,43,0,Lost,45.82,0
+C00804,29,Male,Chennai,Tamil Nadu,India,Silver,2025-05-11,2026-06-17,2.57,3,2316.1637499999997,9763.43,1,1,5.2,66,8,4,1,Cash On Delivery,0,0.0,2.2,2,0,0,2,12450.27,Regular,33,0,Average,21.64,0
+C00805,31,Male,Kochi,Kerala,India,Silver,2025-07-10,2026-06-24,10.0,10,628.12,6281.25,1,1,1.8,72,4,3,2,Debit Card,10,0.0,2.9,2,2,1,3,8349.69,Regular,54,0,Loyal Customers,10.66,0
+C00806,37,Male,Bangalore,Karnataka,India,Gold,2024-07-15,2026-06-15,4.0,8,832.97,6663.73,5,3,0.8,30,1,2,4,UPI,1,0.0,4.3,3,2,1,4,6663.73,Regular,65,1,Average,12.77,1
+C00807,29,Male,Bangalore,Karnataka,India,Silver,2026-06-05,2026-07-02,30.052500000000002,14,97.64,1367.0,3,2,1.5,48,3,5,2,Debit Card,0,0.0,4.2,3,2,1,4,1367.0,Regular,49,1,Loyal Customers,18.16,1
+C00808,50,Male,Bhopal,Madhya Pradesh,India,Basic,2026-06-05,2026-06-06,30.052500000000002,6,750.5,4503.02,2,2,5.8,144,11,4,1,Cash On Delivery,6,0.0,1.0,1,0,0,1,6610.24,Regular,21,0,Lost,25.5,0
+C00809,24,Female,Indore,Madhya Pradesh,India,Silver,2025-04-11,2026-06-18,8.0,10,455.88,4558.77,0,0,6.2,216,10,3,3,Cash On Delivery,0,0.0,3.0,2,0,0,3,5793.0,Regular,57,0,Loyal Customers,20.16,0
+C00810,32,Male,Chennai,Tamil Nadu,India,Silver,2025-11-07,2026-06-23,13.5,9,852.85,7675.62,7,4,2.2,90,5,5,3,Debit Card,0,0.0,1.9,2,2,1,2,7675.62,Regular,45,1,Loyal Customers,27.57,1
+C00811,29,Male,Mumbai,Maharashtra,India,Gold,2024-04-16,2026-06-25,4.44,10,783.85,7838.46,5,4,2.7,96,7,2,3,Debit Card,0,0.0,3.8,4,0,0,4,7838.46,Regular,78,1,Loyal Customers,18.4,0
+C00812,52,Male,Nagpur,Maharashtra,India,Basic,2025-07-10,2026-06-27,4.0,4,1083.93,4335.71,0,0,3.5,54,10,2,4,Debit Card,0,0.0,4.2,4,0,0,4,5490.27,Regular,30,0,Recent Users,11.63,0
+C00813,37,Female,Lucknow,Uttar Pradesh,India,Basic,2026-05-06,2026-06-20,30.052500000000002,8,300.24,2401.89,6,4,4.2,114,7,2,2,Cash On Delivery,0,0.0,1.3,1,0,0,1,2401.89,Regular,28,1,Loyal Customers,23.67,1
+C00814,47,Female,Delhi,Delhi,India,Silver,2025-11-07,2026-06-30,15.0,10,217.89,2178.94,1,1,1.0,36,2,3,3,Credit Card,0,0.0,4.8,5,0,0,5,2178.94,Regular,45,1,Loyal Customers,8.41,1
+C00815,18,Female,Delhi,Delhi,India,Basic,2025-07-10,2026-07-01,3.0,3,914.73,2744.2,4,4,17.2,222,42,3,1,Debit Card,0,0.0,2.0,2,0,0,2,3186.56,Regular,25,0,Recent Users,59.52,0
+C00816,38,Female,Ahmedabad,Gujarat,India,Silver,2024-11-12,2026-06-09,1.8,3,2316.1637499999997,8121.74,7,4,14.9,174,30,3,1,UPI,0,0.0,3.0,3,0,0,3,10458.94,Regular,41,0,Lost,57.24,0
+C00817,45,Male,Kochi,Kerala,India,Silver,2024-10-13,2026-06-07,4.57,8,343.02,2744.14,0,0,7.7,240,11,0,1,Cash On Delivery,4,0.0,4.0,4,2,1,4,3776.94,Regular,57,0,Average,16.75,0
+C00818,35,Male,Nagpur,Maharashtra,India,Basic,2026-06-05,2026-06-14,30.052500000000002,5,840.03,4200.16,4,3,12.9,216,32,4,1,Wallet,0,0.0,4.0,5,0,0,4,5963.02,Regular,17,0,Lost,49.9,0
+C00819,47,Female,Pune,Maharashtra,India,Basic,2025-12-07,2026-06-15,5.14,3,1133.5,3400.49,6,4,12.2,132,35,4,3,Wallet,3,0.0,2.2,2,2,1,2,4411.56,Regular,18,0,Lost,52.63,0
+C00820,28,Female,Kochi,Kerala,India,Gold,2024-05-16,2026-06-16,4.62,10,604.71,6047.08,7,4,3.3,138,8,2,4,UPI,0,0.0,4.9,5,0,0,5,6047.08,Regular,75,1,Average,23.67,0
+C00821,51,Male,Kochi,Kerala,India,Silver,2025-11-07,2026-06-14,16.5,11,286.28,3149.07,3,3,1.5,72,3,4,2,Credit Card,0,0.0,3.8,4,0,0,4,3986.33,Regular,49,0,At Risk,15.81,0
+C00822,62,Male,Mumbai,Maharashtra,India,Basic,2025-04-11,2026-07-01,0.8,1,2316.1637499999997,7007.04,0,0,17.45,126,70,2,2,Debit Card,0,0.0,2.2,2,0,0,2,9911.58,Regular,25,0,Recent Users,56.31,0
+C00823,30,Female,Delhi,Delhi,India,Silver,2026-06-05,2026-06-20,30.052500000000002,15,693.89,10408.38,4,3,3.1,222,5,1,4,Cash On Delivery,0,0.0,1.0,1,0,0,1,13168.1,Regular,59,0,Loyal Customers,14.69,0
+C00824,29,Female,Chennai,Tamil Nadu,India,Basic,2026-02-05,2026-06-18,7.2,3,1834.97,5504.92,0,0,3.1,42,8,1,2,Debit Card,3,0.0,4.7,5,2,1,5,7589.15,Regular,16,0,Average,7.94,0
+C00825,52,Female,Pune,Maharashtra,India,Gold,2024-10-13,2026-06-23,6.86,12,463.48,5561.78,1,1,4.7,210,12,1,2,Cash On Delivery,0,0.0,2.9,4,0,0,3,5561.78,Regular,75,1,Loyal Customers,14.3,1
+C00826,53,Female,Nagpur,Maharashtra,India,Silver,2025-12-07,2026-07-02,15.43,9,478.8,4309.24,0,0,2.8,102,4,1,2,Wallet,0,0.0,3.9,4,0,0,4,5155.96,Regular,41,0,Loyal Customers,6.4,0
+C00827,28,Male,Surat,Gujarat,India,Silver,2024-06-15,2026-06-25,2.4,5,1264.34,6321.7,1,1,9.0,216,25,2,1,Debit Card,0,0.0,2.3,3,0,0,2,8967.08,Regular,55,0,Recent Users,29.25,0
+C00828,29,Male,Bangalore,Karnataka,India,Gold,2024-04-16,2026-06-20,5.33,12,378.03,4536.4,1,1,4.9,228,9,1,5,UPI,0,0.0,1.2,1,0,0,1,5142.85,Regular,83,0,Loyal Customers,14.12,0
+C00829,31,Male,Bangalore,Karnataka,India,Silver,2026-03-07,2026-06-25,30.0,10,277.25,2772.53,0,0,3.8,168,11,5,5,Credit Card,8,0.0,3.2,2,0,0,3,3631.89,Regular,39,0,Loyal Customers,19.58,0
+C00830,18,Female,Chandigarh,Punjab,India,Gold,2025-11-07,2026-06-11,22.5,15,533.46,8001.83,2,2,2.8,168,5,2,0,UPI,0,0.0,2.2,2,0,0,2,9470.62,Regular,68,0,At Risk,12.66,0
+C00831,23,Female,Bhopal,Madhya Pradesh,India,Basic,2026-07-05,2026-06-12,20.0,2,2316.1637499999997,5304.37,0,0,17.2,126,30,1,0,Credit Card,0,0.0,2.2,2,0,0,2,5977.1,Regular,5,0,Lost,44.88,0
+C00832,22,Male,Lucknow,Uttar Pradesh,India,Silver,2025-11-07,2026-06-17,10.5,7,590.92,4136.46,5,4,10.7,204,21,3,2,Debit Card,4,0.0,2.9,3,2,1,3,5382.25,Regular,35,0,Average,42.03,0
+C00833,25,Male,Patna,Bihar,India,Gold,2025-10-08,2026-07-04,20.0,15,178.76,2681.4,6,4,4.8,234,10,5,1,Debit Card,0,0.0,1.0,1,0,0,1,3485.35,Regular,66,0,Loyal Customers,32.73,0
+C00834,34,Male,Lucknow,Uttar Pradesh,India,Silver,2024-09-13,2026-07-02,1.09,2,2212.73,4425.47,2,2,17.45,192,31,3,2,Credit Card,0,0.0,1.0,1,0,0,1,6119.36,Regular,37,0,Recent Users,54.06,0
+C00835,37,Male,Hyderabad,Telangana,India,Basic,2026-04-06,2026-06-14,16.0,4,413.64,1654.57,1,1,10.2,162,24,3,1,Wallet,0,0.0,5.0,5,0,0,5,2312.92,Regular,14,0,Lost,34.13,0
+C00836,53,Female,Ahmedabad,Gujarat,India,Silver,2026-05-06,2026-06-09,30.052500000000002,12,117.59,1411.13,2,2,3.5,156,8,1,3,Cash On Delivery,0,0.0,4.1,4,0,0,4,1411.13,Regular,43,1,At Risk,12.55,1
+C00837,23,Male,Jaipur,Rajasthan,India,Gold,2024-02-16,2026-06-08,2.9,7,347.02,2429.15,5,4,6.3,210,16,2,2,UPI,0,0.0,3.0,3,0,0,3,3070.02,Regular,65,0,Lost,28.55,0
+C00838,46,Male,Delhi,Delhi,India,Basic,2025-10-08,2026-06-23,5.33,4,471.72,1886.88,3,2,9.6,144,14,3,0,UPI,0,0.0,3.3,3,0,0,3,2552.34,Regular,23,0,Recent Users,34.33,0
+C00839,32,Male,Patna,Bihar,India,Silver,2025-05-11,2026-07-04,6.0,7,415.12,2905.81,0,0,7.9,198,18,2,2,UPI,0,0.0,2.8,4,0,0,3,3866.99,Regular,43,0,Recent Users,23.4,0
+C00840,34,Male,Kochi,Kerala,India,Silver,2025-09-08,2026-07-02,8.4,7,1307.91,9155.34,2,2,4.6,138,7,4,2,Debit Card,0,0.0,1.1,1,2,1,1,11614.69,Regular,42,0,Recent Users,21.9,0
+C00841,43,Male,Chennai,Tamil Nadu,India,Basic,2025-06-10,2026-07-02,0.92,1,2068.52,2068.52,1,1,10.1,42,25,4,0,UPI,0,0.0,3.8,5,0,0,4,2769.51,Regular,18,0,Recent Users,36.47,0
+C00842,21,Male,Chandigarh,Punjab,India,Basic,2026-02-05,2026-06-30,14.4,6,946.47,5678.84,0,0,7.0,108,11,4,0,Cash On Delivery,0,0.0,5.0,5,0,0,5,8398.43,Regular,28,0,Recent Users,24.55,0
+C00843,39,Male,Ahmedabad,Gujarat,India,Silver,2025-08-09,2026-06-16,9.82,9,625.55,5629.93,4,3,4.1,126,11,2,0,Cash On Delivery,0,0.0,2.1,2,0,0,2,5629.93,Regular,48,1,Average,20.6,1
+C00844,36,Female,Lucknow,Uttar Pradesh,India,Basic,2025-07-10,2026-06-06,2.0,2,2316.1637499999997,6854.69,5,4,8.8,60,22,3,5,Credit Card,0,0.0,2.0,2,0,0,2,10023.67,Regular,24,0,Lost,37.89,0
+C00845,40,Female,Nagpur,Maharashtra,India,Gold,2025-03-12,2026-06-10,10.5,14,395.47,5536.58,7,4,1.2,54,2,1,3,Debit Card,8,0.0,3.1,4,0,0,3,6208.62,Regular,75,0,At Risk,15.24,0
+C00846,38,Female,Pune,Maharashtra,India,Basic,2025-04-11,2026-07-04,2.4,3,1459.94,4379.83,2,2,13.5,144,29,3,2,Cash On Delivery,0,0.0,3.8,5,0,0,4,5358.09,Regular,30,0,Recent Users,44.59,0
+C00847,64,Female,Patna,Bihar,India,Silver,2026-05-06,2026-07-01,30.052500000000002,10,386.79,3867.85,0,0,1.5,48,2,2,2,Wallet,0,0.0,1.0,1,2,1,1,3867.85,Regular,37,1,Loyal Customers,5.35,0
+C00848,27,Male,Lucknow,Uttar Pradesh,India,Basic,2026-06-05,2026-06-06,30.052500000000002,5,860.89,4304.43,4,3,7.4,96,14,0,1,Debit Card,0,0.0,4.1,5,2,1,4,5813.33,Regular,17,0,Lost,24.09,0
+C00849,28,Female,Mumbai,Maharashtra,India,Silver,2025-09-08,2026-06-06,10.8,9,929.09,8361.78,0,0,6.4,186,17,3,3,Debit Card,4,0.0,4.3,3,2,1,4,9636.87,Regular,49,0,Average,22.11,0
+C00850,27,Female,Hyderabad,Telangana,India,Silver,2024-03-17,2026-06-09,1.71,4,438.76,1755.04,5,4,17.45,234,75,4,1,Cash On Delivery,0,0.0,1.0,1,0,0,1,2549.97,Regular,52,0,Lost,71.31,0
+C00851,28,Male,Patna,Bihar,India,Basic,2025-11-07,2026-06-09,1.5,1,2316.1637499999997,12158.1975,0,0,17.45,180,72,1,2,Wallet,0,0.0,3.2,3,0,0,3,15296.138749999995,Regular,20,0,Lost,54.39,0
+C00852,27,Male,Kochi,Kerala,India,Basic,2026-05-06,2026-07-01,24.0,4,935.29,3741.17,4,3,13.2,240,31,2,0,Credit Card,0,0.0,4.0,5,0,0,4,5091.08,Regular,14,0,Recent Users,45.68,0
+C00853,49,Female,Bangalore,Karnataka,India,Gold,2024-03-17,2026-06-18,2.57,6,528.57,3171.42,2,2,6.9,174,17,5,2,Cash On Delivery,3,0.0,1.7,2,2,1,2,3171.42,Regular,61,1,Average,31.64,0
+C00854,52,Female,Chennai,Tamil Nadu,India,Silver,2025-02-10,2026-06-21,3.53,5,1488.32,7441.61,1,1,5.8,90,14,0,4,Wallet,0,0.0,1.0,1,0,0,1,10962.85,Regular,43,0,Average,14.89,0
+C00855,28,Male,Ahmedabad,Gujarat,India,Gold,2024-12-12,2026-06-17,8.84,14,225.04,3150.62,0,0,5.5,174,8,1,3,Debit Card,12,0.0,5.0,5,2,1,5,4512.63,Regular,77,0,Loyal Customers,13.43,0
+C00856,25,Female,Hyderabad,Telangana,India,Gold,2025-05-11,2026-06-08,11.14,13,560.22,7282.82,1,1,5.3,180,9,2,1,Wallet,0,0.0,2.9,3,0,0,3,9465.67,Regular,69,0,At Risk,17.38,0
+C00857,40,Male,Nagpur,Maharashtra,India,Basic,2025-06-10,2026-07-04,0.92,1,2316.1637499999997,4825.24,7,4,17.45,108,55,2,1,Debit Card,0,0.0,1.0,1,0,0,1,6662.45,Regular,20,0,Recent Users,66.04,0
+C00858,28,Male,Delhi,Delhi,India,Basic,2026-06-05,2026-06-13,30.052500000000002,4,2316.1637499999997,10761.58,3,2,3.4,36,9,2,1,Cash On Delivery,0,0.0,4.7,5,0,0,5,14278.16,Regular,18,0,Lost,16.73,0
+C00859,42,Male,Kochi,Kerala,India,Silver,2025-03-12,2026-06-19,4.5,6,446.33,2677.97,2,2,8.3,180,18,4,1,Cash On Delivery,0,0.0,4.8,5,0,0,5,3575.56,Regular,42,0,Average,32.71,1
+C00860,37,Male,Bhopal,Madhya Pradesh,India,Gold,2024-10-13,2026-07-02,7.43,13,419.73,5456.47,0,0,1.0,36,2,3,1,UPI,0,0.0,4.0,4,0,0,4,6724.5,Regular,78,0,Loyal Customers,6.56,0
+C00861,18,Female,Jaipur,Rajasthan,India,Premium,2024-06-15,2026-06-12,7.2,15,491.12,7366.78,2,2,2.4,162,6,3,2,UPI,0,0.0,4.0,4,0,0,4,9465.09,Regular,94,0,At Risk,14.31,0
+C00862,53,Male,Lucknow,Uttar Pradesh,India,Silver,2025-12-07,2026-06-14,17.14,10,282.77,2827.67,0,0,2.1,66,5,2,1,UPI,0,0.0,3.9,4,0,0,4,3198.8,Regular,44,0,Average,7.36,0
+C00863,56,Male,Lucknow,Uttar Pradesh,India,Silver,2025-10-08,2026-06-26,13.33,10,240.04,2400.4,0,0,5.5,150,15,3,2,Cash On Delivery,0,0.0,1.0,1,0,0,1,2983.55,Regular,46,0,Loyal Customers,19.62,0
+C00864,27,Female,Jaipur,Rajasthan,India,Premium,2024-06-15,2026-06-12,6.72,14,244.46,3422.43,1,1,2.2,138,4,1,2,Credit Card,0,0.0,1.2,1,0,0,1,4717.24,Regular,87,0,At Risk,6.88,0
+C00865,30,Male,Mumbai,Maharashtra,India,Silver,2025-02-10,2026-07-01,2.82,4,2316.1637499999997,12158.1975,3,2,2.5,30,4,2,2,Cash On Delivery,0,0.0,3.1,3,0,0,3,15296.138749999995,Regular,44,0,Recent Users,13.61,0
+C00866,38,Female,Jaipur,Rajasthan,India,Premium,2024-02-16,2026-06-14,6.21,15,246.68,3700.27,0,0,3.1,108,8,0,1,Wallet,0,0.0,4.0,4,0,0,4,5495.74,Regular,97,0,At Risk,5.59,0
+C00867,39,Female,Chennai,Tamil Nadu,India,Premium,2024-07-15,2026-06-30,7.0,14,281.01,3934.15,1,1,3.0,156,6,4,2,Cash On Delivery,0,0.0,5.0,5,0,0,5,5202.08,Regular,86,0,Loyal Customers,16.18,0
+C00868,42,Female,Lucknow,Uttar Pradesh,India,Gold,2024-03-17,2026-06-24,3.86,9,245.61,2210.49,4,3,6.2,210,10,4,0,Cash On Delivery,0,0.0,1.8,2,0,0,2,2210.49,Regular,71,1,Loyal Customers,29.89,1
+C00869,59,Male,Ahmedabad,Gujarat,India,Silver,2025-01-11,2026-06-14,3.33,5,1143.82,5719.08,1,1,10.4,216,20,6,0,Debit Card,0,0.0,3.0,3,0,0,3,5719.08,Regular,44,1,Lost,40.79,1
+C00870,32,Female,Kochi,Kerala,India,Silver,2025-12-07,2026-06-09,13.71,8,1187.22,9497.74,1,1,6.1,132,9,3,2,Debit Card,0,0.0,1.0,1,0,0,1,13089.06,Regular,41,0,Average,21.56,0
+C00871,25,Female,Chennai,Tamil Nadu,India,Gold,2024-04-16,2026-06-26,4.0,9,966.99,8702.93,0,0,6.0,180,13,4,1,Debit Card,0,0.0,2.8,3,0,0,3,9819.2,Regular,75,0,Loyal Customers,22.69,0
+C00872,18,Male,Nagpur,Maharashtra,India,Silver,2025-12-07,2026-06-09,17.14,10,385.48,3854.82,6,4,3.4,96,9,1,1,Cash On Delivery,0,0.0,2.9,4,0,0,3,4679.27,Regular,45,0,Average,19.92,0
+C00873,26,Female,Jaipur,Rajasthan,India,Basic,2026-05-06,2026-07-02,30.0,5,2316.1637499999997,11818.88,7,4,9.1,102,26,3,7,Credit Card,0,0.0,2.6,3,0,0,3,15296.138749999995,Regular,24,0,Recent Users,43.12,0
+C00874,34,Female,Chennai,Tamil Nadu,India,Basic,2026-05-06,2026-06-29,30.052500000000002,6,1209.7,7258.23,7,4,2.6,72,7,1,0,Wallet,0,0.0,3.4,4,2,1,3,8884.97,Regular,24,0,Recent Users,19.51,0
+C00875,56,Female,Lucknow,Uttar Pradesh,India,Basic,2025-08-09,2026-06-11,1.09,1,2054.43,2054.43,1,1,17.45,150,60,3,0,Wallet,0,0.0,1.8,1,0,0,2,2300.84,Regular,15,0,Lost,58.38,0
+C00876,28,Female,Kochi,Kerala,India,Gold,2024-10-13,2026-06-24,6.29,11,279.0,3069.0,0,0,3.0,96,6,2,3,Credit Card,0,0.0,4.3,5,0,0,4,4397.1,Regular,69,0,Loyal Customers,9.64,0
+C00877,37,Female,Mumbai,Maharashtra,India,Gold,2025-03-12,2026-06-26,9.0,12,411.98,4943.77,2,2,1.1,48,1,5,1,Credit Card,0,0.0,5.0,5,0,0,5,6051.83,Regular,67,0,Loyal Customers,14.97,0
+C00878,34,Male,Indore,Madhya Pradesh,India,Gold,2026-04-06,2026-06-06,30.052500000000002,15,590.45,8856.68,1,1,4.5,174,12,4,1,Wallet,0,0.0,3.1,3,2,1,3,9965.91,Regular,61,0,At Risk,20.89,0
+C00879,49,Female,Ahmedabad,Gujarat,India,Silver,2025-03-12,2026-06-20,5.25,7,884.36,6190.49,1,1,5.5,180,11,1,0,UPI,0,0.0,2.9,3,0,0,3,6994.73,Regular,49,0,Average,15.92,0
+C00880,65,Female,Lucknow,Uttar Pradesh,India,Basic,2025-06-10,2026-06-12,3.69,4,699.22,2796.89,0,0,11.5,108,28,4,7,Debit Card,0,0.0,3.0,3,0,0,3,3358.24,Regular,30,0,Lost,38.46,0
+C00881,28,Male,Pune,Maharashtra,India,Gold,2025-01-11,2026-06-07,7.33,11,203.67,2240.34,4,3,2.2,48,5,2,3,Debit Card,0,0.0,4.1,4,1,1,4,2623.9,Regular,64,0,At Risk,14.98,0
+C00882,29,Male,Bangalore,Karnataka,India,Basic,2025-11-07,2026-07-02,3.0,2,1125.82,2251.64,1,1,17.1,120,36,1,2,Wallet,0,0.0,1.1,1,0,0,1,3174.18,Regular,14,0,Recent Users,47.77,0
+C00883,47,Male,Nagpur,Maharashtra,India,Gold,2024-02-16,2026-07-04,2.07,5,2034.63,10173.14,4,3,6.4,120,12,6,2,Credit Card,0,0.0,1.2,1,2,1,1,12499.47,Regular,64,0,Recent Users,35.48,0
+C00884,43,Female,Surat,Gujarat,India,Premium,2024-02-16,2026-06-15,4.97,12,779.26,9351.12,5,3,3.7,168,10,1,1,UPI,0,0.0,1.9,2,0,0,2,13296.15,Regular,90,0,At Risk,18.97,0
+C00885,57,Male,Jaipur,Rajasthan,India,Silver,2024-11-12,2026-06-06,1.8,3,2316.1637499999997,10257.28,6,4,14.8,96,43,4,3,Wallet,0,0.0,1.0,1,2,1,1,11996.28,Regular,43,0,Lost,60.28,0
+C00886,42,Female,Indore,Madhya Pradesh,India,Silver,2025-08-09,2026-06-13,6.55,6,820.24,4921.46,0,0,9.9,174,19,4,1,Debit Card,0,0.0,2.7,3,0,0,3,6383.88,Regular,36,0,Lost,32.89,0
+C00887,30,Female,Hyderabad,Telangana,India,Silver,2026-03-07,2026-06-16,24.0,8,440.37,3522.96,5,3,7.7,216,17,6,2,Cash On Delivery,0,0.0,3.1,3,0,0,3,4844.83,Regular,32,0,Average,41.36,0
+C00888,42,Male,Chandigarh,Punjab,India,Silver,2025-09-08,2026-06-21,8.4,7,737.45,5162.17,0,0,4.2,78,12,6,1,Credit Card,0,0.0,3.2,3,0,0,3,7024.66,Regular,39,0,Average,23.06,0
+C00889,48,Male,Pune,Maharashtra,India,Silver,2024-12-12,2026-06-18,1.89,3,1419.64,4258.93,6,4,16.9,234,25,1,1,Cash On Delivery,2,0.0,2.3,2,0,0,2,5708.89,Regular,36,0,Average,54.21,0
+C00890,44,Female,Pune,Maharashtra,India,Basic,2026-05-06,2026-06-13,30.052500000000002,8,513.88,4111.07,0,0,6.3,114,13,4,0,Wallet,0,0.0,3.1,4,0,0,3,6042.98,Regular,30,0,Average,23.38,0
+C00891,41,Male,Hyderabad,Telangana,India,Silver,2024-11-12,2026-06-21,1.2,2,794.23,1588.46,1,1,12.1,84,19,6,3,Debit Card,2,0.0,1.0,1,2,1,1,1588.46,Regular,32,1,Average,44.47,1
+C00892,47,Female,Lucknow,Uttar Pradesh,India,Silver,2025-05-11,2026-06-18,8.57,10,338.74,3387.37,4,3,2.9,120,6,6,3,UPI,5,0.0,3.7,4,2,1,4,3387.37,Regular,55,1,Loyal Customers,26.19,1
+C00893,49,Male,Jaipur,Rajasthan,India,Silver,2025-06-10,2026-06-10,8.31,9,960.62,8645.58,0,0,1.9,48,2,2,2,Cash On Delivery,0,0.0,4.2,4,0,0,4,12567.19,Regular,53,0,Average,6.27,0
+C00894,51,Male,Lucknow,Uttar Pradesh,India,Basic,2025-09-08,2026-06-08,4.8,4,1833.87,7335.49,3,2,3.5,54,7,4,2,UPI,3,0.0,4.6,5,2,1,5,8297.59,Regular,29,0,Lost,21.23,0
+C00895,42,Male,Jaipur,Rajasthan,India,Basic,2024-12-12,2026-06-21,0.63,1,2316.1637499999997,3654.12,0,0,17.45,120,48,4,1,Debit Card,0,0.0,1.0,1,0,0,1,4101.22,Regular,28,0,Average,56.33,0
+C00896,32,Female,Indore,Madhya Pradesh,India,Silver,2025-12-07,2026-06-23,13.71,8,1086.86,8694.9,4,3,9.3,192,21,3,3,Cash On Delivery,0,0.0,3.0,3,0,0,3,10375.81,Regular,41,0,Loyal Customers,36.98,0
+C00897,36,Male,Ahmedabad,Gujarat,India,Basic,2026-04-06,2026-06-19,28.0,7,725.21,5076.49,7,4,6.7,222,20,2,1,UPI,0,0.0,4.0,5,0,0,4,5076.49,Regular,28,1,Average,34.0,1
+C00898,49,Female,Chennai,Tamil Nadu,India,Gold,2024-05-16,2026-07-04,5.08,11,601.81,6619.87,7,4,4.2,168,11,0,1,UPI,0,0.0,1.0,1,0,0,1,7970.0,Regular,79,0,Champions,21.67,0
+C00899,25,Female,Pune,Maharashtra,India,Gold,2025-08-09,2026-06-22,14.18,13,674.39,8767.02,3,3,1.4,54,3,3,3,Cash On Delivery,0,0.0,4.0,4,0,0,4,10310.86,Regular,66,0,Champions,13.23,0
+C00900,39,Female,Lucknow,Uttar Pradesh,India,Basic,2025-12-07,2026-06-29,8.57,5,1239.65,6198.23,1,1,10.6,174,26,0,3,Debit Card,5,0.0,2.5,3,0,0,3,7955.56,Regular,27,0,Recent Users,28.42,0
+C00901,30,Female,Patna,Bihar,India,Silver,2026-02-05,2026-06-18,24.0,10,669.4,6694.04,1,1,5.5,162,8,1,2,UPI,0,0.0,4.0,4,2,1,4,9006.42,Regular,44,0,Loyal Customers,15.28,0
+C00902,35,Male,Ahmedabad,Gujarat,India,Gold,2025-05-11,2026-06-23,11.14,13,252.15,3277.98,7,4,3.6,198,6,3,2,Wallet,0,0.0,4.6,5,0,0,5,3931.68,Regular,66,0,Loyal Customers,26.28,0
+C00903,50,Female,Bhopal,Madhya Pradesh,India,Silver,2024-02-16,2026-06-12,2.07,5,554.87,2774.35,7,4,9.3,204,26,3,3,Cash On Delivery,0,0.0,5.0,4,2,1,5,3385.47,Regular,58,0,Lost,43.58,0
+C00904,37,Female,Bangalore,Karnataka,India,Silver,2025-08-09,2026-06-16,7.64,7,613.96,4297.73,5,3,6.7,210,13,1,1,Credit Card,0,0.0,3.9,4,0,0,4,5782.27,Regular,40,0,Lost,26.47,0
+C00905,35,Male,Patna,Bihar,India,Silver,2025-04-11,2026-06-29,4.0,5,1110.54,5552.71,1,1,4.6,114,7,8,1,Credit Card,0,0.0,1.0,1,0,0,1,5552.71,Regular,39,1,Recent Users,29.46,0
+C00906,18,Female,Jaipur,Rajasthan,India,Silver,2025-04-11,2026-06-28,6.4,8,810.88,6487.02,7,4,5.0,174,12,3,1,Debit Card,0,0.0,1.0,1,0,0,1,6487.02,Regular,51,1,Loyal Customers,30.76,1
+C00907,43,Male,Mumbai,Maharashtra,India,Gold,2024-05-16,2026-07-04,5.08,11,277.07,3047.77,1,1,2.0,84,3,1,3,Wallet,0,0.0,1.0,1,1,1,1,4306.99,Regular,77,0,Loyal Customers,6.21,0
+C00908,42,Female,Chandigarh,Punjab,India,Gold,2024-11-12,2026-07-04,7.8,13,157.67,2049.71,5,4,6.1,240,11,2,4,UPI,0,0.0,4.2,3,0,0,4,2555.42,Regular,74,0,Loyal Customers,27.02,0
+C00909,60,Male,Kochi,Kerala,India,Silver,2024-12-12,2026-06-06,3.79,6,991.95,5951.67,0,0,3.0,66,8,3,5,Credit Card,0,0.0,1.0,1,0,0,1,7194.98,Regular,49,0,Lost,12.41,0
+C00910,31,Female,Mumbai,Maharashtra,India,Gold,2024-12-12,2026-06-30,8.21,13,461.45,5998.87,2,2,1.1,30,3,1,2,Debit Card,0,0.0,3.1,3,0,0,3,7688.79,Regular,76,0,Champions,5.99,0
+C00911,37,Male,Bangalore,Karnataka,India,Silver,2024-04-16,2026-06-29,2.22,5,636.32,3181.59,0,0,2.8,60,5,3,2,Wallet,0,0.0,5.0,5,0,0,5,4526.94,Regular,55,0,Recent Users,11.32,0
+C00912,37,Female,Patna,Bihar,India,Silver,2026-04-06,2026-06-19,30.052500000000002,9,910.75,8196.76,7,4,6.4,192,19,3,1,Wallet,0,0.0,3.0,3,0,0,3,10512.51,Regular,38,0,Loyal Customers,35.46,0
+C00913,53,Female,Surat,Gujarat,India,Silver,2025-09-08,2026-06-10,13.2,11,566.23,6228.48,3,2,5.6,126,13,5,2,Debit Card,0,0.0,1.2,1,0,0,1,8960.85,Regular,55,0,At Risk,29.66,0
+C00914,33,Male,Chennai,Tamil Nadu,India,Basic,2025-07-10,2026-06-19,2.0,2,1476.44,2952.89,2,2,17.45,126,75,5,5,Debit Card,0,0.0,3.1,3,0,0,3,4416.07,Regular,21,0,Average,68.12,0
+C00915,38,Male,Bangalore,Karnataka,India,Silver,2024-03-17,2026-06-21,0.43,1,2316.1637499999997,3899.06,5,4,17.45,228,111,6,3,UPI,0,0.0,1.0,1,0,0,1,4401.3,Regular,42,0,Average,83.67,0
+C00916,42,Male,Bhopal,Madhya Pradesh,India,Silver,2025-11-07,2026-07-04,12.0,8,1191.52,9532.18,5,4,7.4,222,12,4,2,Debit Card,0,0.0,4.3,3,0,0,4,10658.54,Regular,43,0,Loyal Customers,34.91,0
+C00917,37,Male,Jaipur,Rajasthan,India,Silver,2026-04-06,2026-06-22,30.052500000000002,12,625.52,7506.18,1,1,2.4,96,5,1,1,UPI,0,0.0,2.7,3,0,0,3,7506.18,Regular,49,1,Champions,7.55,1
+C00918,29,Female,Delhi,Delhi,India,Basic,2025-08-09,2026-06-15,3.27,3,1962.98,5888.94,4,4,6.2,72,17,1,5,UPI,0,0.0,4.2,5,0,0,4,7383.25,Regular,26,0,Lost,24.33,0
+C00919,37,Female,Surat,Gujarat,India,Gold,2025-11-07,2026-06-25,21.0,14,287.78,4028.92,5,3,4.4,210,10,5,2,Cash On Delivery,0,0.0,3.7,4,0,0,4,4643.0,Regular,61,0,Loyal Customers,29.97,0
+C00920,47,Male,Chandigarh,Punjab,India,Silver,2025-07-10,2026-06-11,11.0,11,310.88,3419.71,5,4,5.1,222,8,4,2,Wallet,0,0.0,2.1,2,2,1,2,3419.71,Regular,56,1,At Risk,28.8,1
+C00921,22,Female,Chennai,Tamil Nadu,India,Gold,2025-04-11,2026-06-25,9.6,12,1098.41,12158.1975,4,3,4.5,144,7,3,1,Wallet,0,0.0,1.4,2,0,0,1,14621.09,Regular,71,0,Champions,23.02,0
+C00922,36,Male,Chennai,Tamil Nadu,India,Gold,2024-06-15,2026-06-26,5.76,12,496.43,5957.11,4,4,5.8,162,16,1,1,Wallet,0,0.0,5.0,5,0,0,5,5957.11,Regular,81,1,Champions,23.21,0
+C00923,26,Male,Nagpur,Maharashtra,India,Silver,2026-02-05,2026-06-22,28.8,12,612.65,7351.77,1,1,1.8,84,3,1,0,Cash On Delivery,0,0.0,1.0,1,0,0,1,8630.08,Regular,52,0,Champions,5.75,0
+C00924,49,Female,Pune,Maharashtra,India,Silver,2025-10-08,2026-07-02,9.33,7,886.73,6207.08,5,3,8.2,198,18,1,3,UPI,0,0.0,5.0,5,0,0,5,9140.64,Regular,38,0,Recent Users,30.97,0
+C00925,18,Female,Chennai,Tamil Nadu,India,Silver,2025-07-10,2026-06-08,10.0,10,530.26,5302.63,0,0,7.8,162,12,1,3,UPI,0,0.0,1.0,1,0,0,1,7252.9,Regular,53,0,Average,19.54,0
+C00926,28,Female,Ahmedabad,Gujarat,India,Silver,2026-01-06,2026-06-17,26.0,13,747.61,9718.99,5,3,3.4,138,5,2,1,Debit Card,0,0.0,4.4,4,0,0,4,14236.49,Regular,59,0,Loyal Customers,19.57,0
+C00927,39,Female,Chandigarh,Punjab,India,Gold,2024-04-16,2026-06-15,4.89,11,177.51,1952.65,1,1,1.6,42,4,0,2,Cash On Delivery,0,0.0,3.0,3,0,0,3,2907.36,Regular,77,0,At Risk,3.15,0
+C00928,53,Female,Hyderabad,Telangana,India,Gold,2024-06-15,2026-07-03,3.84,8,382.55,3060.43,4,3,7.7,222,19,0,4,Debit Card,6,0.0,2.9,3,2,1,3,3975.01,Regular,64,0,Loyal Customers,25.84,0
+C00929,34,Female,Ahmedabad,Gujarat,India,Gold,2025-01-11,2026-06-18,10.0,15,173.79,2606.8,7,4,3.4,162,6,2,2,Cash On Delivery,0,0.0,1.9,2,0,0,2,3111.81,Regular,79,0,Loyal Customers,23.48,0
+C00930,28,Female,Hyderabad,Telangana,India,Gold,2024-08-14,2026-06-07,6.78,13,533.09,6930.23,5,4,1.4,72,2,0,1,Debit Card,0,0.0,4.8,4,0,0,5,8160.29,Regular,83,0,At Risk,9.66,0
+C00931,57,Male,Ahmedabad,Gujarat,India,Gold,2025-01-11,2026-06-16,8.67,13,276.83,3598.83,1,1,2.7,156,7,5,3,Credit Card,0,0.0,4.9,5,0,0,5,3598.83,Regular,72,1,At Risk,18.06,1
+C00932,18,Male,Bangalore,Karnataka,India,Silver,2025-03-12,2026-06-12,4.5,6,1108.77,6652.64,2,2,10.0,174,18,4,6,Wallet,0,0.0,4.9,5,0,0,5,6652.64,Regular,45,1,Lost,36.6,1
+C00933,18,Male,Indore,Madhya Pradesh,India,Gold,2025-07-10,2026-06-22,12.0,12,676.65,8119.84,4,4,2.4,138,5,2,2,Wallet,0,0.0,3.9,5,0,0,4,9063.19,Regular,63,0,Champions,15.44,0
+C00934,40,Male,Mumbai,Maharashtra,India,Silver,2025-07-10,2026-06-22,10.0,10,575.45,5754.48,0,0,5.0,180,14,1,0,UPI,0,0.0,4.9,5,0,0,5,6448.15,Regular,54,0,Loyal Customers,13.56,0
+C00935,28,Male,Hyderabad,Telangana,India,Premium,2024-06-15,2026-07-04,6.72,14,280.0,3919.94,1,1,2.8,150,4,2,3,Credit Card,0,0.0,3.4,3,0,0,3,5265.49,Regular,87,0,Loyal Customers,10.6,0
+C00936,22,Female,Mumbai,Maharashtra,India,Gold,2024-04-16,2026-07-03,4.0,9,896.51,8068.6,5,3,6.3,228,18,1,1,Wallet,0,0.0,3.8,3,0,0,4,10947.66,Regular,74,0,Loyal Customers,26.62,0
+C00937,43,Male,Lucknow,Uttar Pradesh,India,Silver,2024-11-12,2026-07-04,4.2,7,432.1,3024.72,3,3,1.5,42,2,2,1,UPI,0,0.0,1.0,1,0,0,1,3024.72,Regular,52,1,Recent Users,10.89,1
+C00938,37,Male,Nagpur,Maharashtra,India,Silver,2026-06-05,2026-06-11,30.052500000000002,15,474.5,7117.55,0,0,1.0,54,2,5,1,Credit Card,0,0.0,5.0,5,0,0,5,8888.06,Regular,57,0,At Risk,11.26,0
+C00939,28,Male,Lucknow,Uttar Pradesh,India,Silver,2025-10-08,2026-06-30,13.33,10,456.9,4569.0,5,4,2.0,66,4,6,5,Wallet,0,0.0,5.0,5,0,0,5,6498.84,Regular,48,0,Loyal Customers,25.56,0
+C00940,19,Male,Pune,Maharashtra,India,Gold,2024-02-16,2026-06-11,2.07,5,1541.17,7705.83,1,1,16.1,174,47,4,0,Debit Card,0,0.0,1.0,2,0,0,1,10121.22,Regular,62,0,Lost,54.87,0
+C00941,45,Male,Hyderabad,Telangana,India,Silver,2024-10-13,2026-07-02,4.57,8,784.91,6279.26,0,0,10.2,168,19,2,3,Cash On Delivery,0,0.0,5.0,5,2,1,5,7172.08,Regular,60,0,Loyal Customers,28.87,0
+C00942,42,Male,Pune,Maharashtra,India,Gold,2025-07-10,2026-06-06,15.0,15,772.18,11582.77,5,4,4.7,216,9,3,1,Credit Card,0,0.0,1.1,1,0,0,1,15296.138749999995,Regular,77,0,At Risk,25.75,0
+C00943,33,Male,Hyderabad,Telangana,India,Silver,2024-06-15,2026-06-07,0.96,2,2316.1637499999997,7405.07,1,1,17.45,186,92,4,0,UPI,0,0.0,4.1,3,0,0,4,7405.07,Regular,44,1,Lost,67.54,1
+C00944,57,Female,Patna,Bihar,India,Silver,2025-11-07,2026-06-28,10.5,7,680.83,4765.84,4,3,6.2,138,14,1,2,Credit Card,2,0.0,2.9,3,1,1,3,5356.87,Regular,35,0,Recent Users,23.69,0
+C00945,22,Female,Lucknow,Uttar Pradesh,India,Silver,2026-07-05,2026-06-11,30.052500000000002,15,346.98,5204.71,1,1,6.6,240,14,0,0,UPI,0,0.0,1.0,1,0,0,1,6539.93,Regular,54,0,At Risk,16.72,0
+C00946,18,Male,Ahmedabad,Gujarat,India,Silver,2025-06-10,2026-06-13,3.69,4,1899.67,7598.66,2,2,5.0,84,9,7,3,Credit Card,0,0.0,1.9,2,0,0,2,9840.31,Regular,34,0,Lost,30.29,0
+C00947,26,Female,Lucknow,Uttar Pradesh,India,Gold,2024-03-17,2026-06-22,3.86,9,454.73,4092.54,1,1,5.0,204,12,2,1,UPI,0,0.0,1.0,1,0,0,1,4092.54,Regular,73,1,Loyal Customers,17.33,1
+C00948,34,Female,Bangalore,Karnataka,India,Gold,2025-04-11,2026-06-06,9.6,12,735.93,8831.22,2,2,2.1,120,3,6,1,Wallet,0,0.0,4.9,5,0,0,5,8831.22,Regular,68,1,At Risk,20.03,1
+C00949,37,Female,Hyderabad,Telangana,India,Basic,2024-12-12,2026-06-12,0.63,1,2316.1637499999997,5260.54,1,1,17.45,168,76,2,1,Debit Card,0,0.0,4.0,3,0,0,4,6384.51,Regular,30,0,Lost,59.43,0
+C00950,32,Female,Ahmedabad,Gujarat,India,Silver,2025-05-11,2026-06-07,6.0,7,830.05,5810.33,3,2,6.3,180,15,3,4,Wallet,0,0.0,4.1,4,0,0,4,8211.18,Regular,45,0,Lost,26.99,0
+C00951,39,Male,Ahmedabad,Gujarat,India,Basic,2026-07-05,2026-06-17,30.052500000000002,6,1609.37,9656.22,4,3,5.9,162,11,6,1,Debit Card,0,0.0,1.4,1,0,0,1,13213.55,Regular,23,0,Average,34.12,0
+C00952,19,Female,Indore,Madhya Pradesh,India,Silver,2025-03-12,2026-06-11,6.0,8,736.12,5888.99,5,4,2.3,60,6,4,2,Wallet,0,0.0,2.9,3,0,0,3,7886.64,Regular,52,0,Average,21.97,0
+C00953,52,Female,Patna,Bihar,India,Silver,2024-08-14,2026-06-14,2.61,5,536.54,2682.69,2,2,8.6,126,24,2,1,Wallet,0,0.0,2.2,2,1,1,2,2682.69,Regular,49,1,Lost,29.97,1
+C00954,34,Female,Kochi,Kerala,India,Premium,2024-02-16,2026-06-28,6.21,15,324.63,4869.48,3,2,2.1,150,5,7,2,Credit Card,0,0.0,4.1,3,0,0,4,5786.31,Regular,98,0,Loyal Customers,24.65,0
+C00955,48,Male,Nagpur,Maharashtra,India,Silver,2024-02-16,2026-07-04,0.41,1,2316.1637499999997,6723.42,5,3,17.45,210,161,5,0,Cash On Delivery,0,0.0,5.0,5,0,0,5,7523.1,Regular,46,0,Recent Users,91.95,0
+C00956,39,Male,Indore,Madhya Pradesh,India,Basic,2025-07-10,2026-06-30,1.0,1,2316.1637499999997,2525.65,3,2,17.45,126,90,5,2,UPI,0,0.0,5.0,5,2,1,5,3021.4,Regular,17,0,Recent Users,73.15,0
+C00957,40,Male,Chennai,Tamil Nadu,India,Gold,2024-02-16,2026-06-18,3.72,9,612.87,5515.81,0,0,9.7,222,16,0,2,UPI,0,0.0,2.8,3,0,0,3,6829.55,Regular,75,0,Loyal Customers,22.39,0
+C00958,41,Male,Nagpur,Maharashtra,India,Premium,2024-05-16,2026-06-07,6.92,15,310.99,4664.81,4,3,3.4,120,9,2,2,UPI,0,0.0,3.7,4,1,1,4,6685.88,Regular,93,0,At Risk,18.58,0
+C00959,40,Male,Surat,Gujarat,India,Silver,2025-05-11,2026-06-06,8.57,10,555.45,5554.46,0,0,3.2,144,5,1,1,Debit Card,0,0.0,1.1,1,0,0,1,6923.95,Regular,56,0,Average,7.53,0
+C00960,42,Male,Lucknow,Uttar Pradesh,India,Silver,2025-04-11,2026-06-27,4.8,6,738.68,4432.05,4,3,8.6,198,17,5,2,UPI,0,0.0,4.9,4,0,0,5,6213.06,Regular,42,0,Recent Users,39.22,0
+C00961,50,Male,Delhi,Delhi,India,Silver,2025-04-11,2026-06-20,8.0,10,382.81,3828.08,2,2,5.0,150,13,3,0,UPI,0,0.0,2.8,2,0,0,3,4883.78,Regular,57,0,Loyal Customers,21.74,0
+C00962,37,Female,Bhopal,Madhya Pradesh,India,Basic,2026-06-05,2026-06-15,30.052500000000002,5,1166.14,5830.71,0,0,17.45,234,41,8,4,Credit Card,0,0.0,3.7,3,0,0,4,8244.32,Regular,18,0,Lost,64.24,0
+C00963,43,Female,Surat,Gujarat,India,Gold,2025-03-12,2026-07-01,11.25,15,455.65,6834.71,2,2,3.1,168,8,2,2,Wallet,0,0.0,4.0,5,0,0,4,10187.19,Regular,79,0,Champions,13.98,0
+C00964,33,Female,Indore,Madhya Pradesh,India,Basic,2025-09-08,2026-07-03,1.2,1,2316.1637499999997,3389.04,5,3,17.45,138,66,3,5,UPI,0,0.0,4.3,4,2,1,4,4053.08,Regular,15,0,Recent Users,67.04,0
+C00965,52,Male,Chandigarh,Punjab,India,Silver,2025-12-07,2026-06-30,10.29,6,1007.13,6042.79,3,2,2.3,36,5,2,2,Cash On Delivery,4,0.0,3.9,4,0,0,4,8731.45,Regular,31,0,Recent Users,13.36,0
+C00966,26,Male,Lucknow,Uttar Pradesh,India,Silver,2024-12-12,2026-07-04,3.79,6,651.25,3907.48,0,0,4.2,114,6,3,3,UPI,0,0.0,4.1,4,0,0,4,5270.13,Regular,48,0,Recent Users,14.73,0
+C00967,56,Male,Ahmedabad,Gujarat,India,Basic,2026-05-06,2026-06-10,18.0,3,1573.62,4720.85,0,0,13.3,90,32,5,2,Debit Card,0,0.0,5.0,5,2,1,5,6736.26,Regular,11,0,Lost,45.78,0
+C00968,34,Male,Indore,Madhya Pradesh,India,Premium,2024-03-17,2026-06-30,5.57,13,302.54,3933.08,3,2,4.7,186,12,8,3,Debit Card,0,0.0,2.7,4,0,0,3,5351.48,Regular,88,0,Loyal Customers,34.44,0
+C00969,18,Male,Jaipur,Rajasthan,India,Silver,2025-08-09,2026-06-29,8.73,8,632.54,5060.29,1,1,2.2,72,5,3,1,Debit Card,0,0.0,4.1,4,0,0,4,6424.44,Regular,44,0,Loyal Customers,11.79,0
+C00970,36,Female,Kochi,Kerala,India,Gold,2024-12-12,2026-07-03,8.84,14,435.7,6099.79,4,3,1.8,72,3,3,1,UPI,0,0.0,1.8,2,2,1,2,7266.25,Regular,80,0,Champions,15.99,0
+C00971,26,Female,Delhi,Delhi,India,Gold,2025-04-11,2026-06-09,12.0,15,396.5,5947.49,5,3,1.1,72,1,5,2,Credit Card,0,0.0,2.0,2,0,0,2,5947.49,Regular,77,1,At Risk,20.51,1
+C00972,45,Male,Surat,Gujarat,India,Basic,2025-06-10,2026-06-09,0.92,1,2316.1637499999997,9034.24,3,2,12.8,54,21,2,1,Cash On Delivery,0,0.0,2.9,4,0,0,3,11872.86,Regular,23,0,Lost,40.79,0
+C00973,27,Male,Lucknow,Uttar Pradesh,India,Basic,2025-04-11,2026-07-04,0.8,1,2316.1637499999997,5859.62,1,1,17.45,96,53,4,2,UPI,1,0.0,1.2,1,2,1,1,8766.76,Regular,24,0,Recent Users,59.24,0
+C00974,29,Male,Chennai,Tamil Nadu,India,Silver,2024-05-16,2026-07-01,2.77,6,1128.4,6770.43,0,0,15.3,216,44,3,3,Credit Card,0,0.0,1.0,2,0,0,1,9446.22,Regular,60,0,Recent Users,48.21,0
+C00975,18,Male,Bhopal,Madhya Pradesh,India,Gold,2024-11-12,2026-06-28,6.0,10,258.74,2587.35,5,4,7.9,192,14,5,2,Credit Card,0,0.0,1.1,1,0,0,1,3184.87,Regular,63,0,Loyal Customers,38.83,0
+C00976,29,Female,Delhi,Delhi,India,Gold,2025-03-12,2026-06-13,9.75,13,278.59,3621.66,7,4,5.0,186,13,4,2,UPI,0,0.0,1.8,3,0,0,2,5182.17,Regular,69,0,At Risk,33.33,0
+C00977,18,Male,Hyderabad,Telangana,India,Silver,2024-02-16,2026-06-09,0.41,1,2316.1637499999997,2803.48,2,2,17.45,198,155,4,1,UPI,0,0.0,1.0,1,0,0,1,3946.16,Regular,43,0,Lost,82.79,0
+C00978,18,Male,Mumbai,Maharashtra,India,Silver,2025-09-08,2026-07-04,7.2,6,293.23,1759.4,1,1,3.3,84,7,2,2,Credit Card,0,0.0,4.3,5,1,1,5,2133.54,Regular,32,0,Recent Users,12.38,0
+C00979,44,Male,Patna,Bihar,India,Basic,2025-03-12,2026-07-04,0.75,1,2316.1637499999997,7419.34,1,1,17.45,216,119,4,1,Credit Card,0,0.0,4.4,5,0,0,4,8203.73,Regular,27,0,Recent Users,73.28,0
+C00980,44,Male,Ahmedabad,Gujarat,India,Gold,2025-01-11,2026-06-27,9.33,14,524.34,7340.79,3,3,1.0,60,2,5,2,Credit Card,3,0.0,2.1,1,0,0,2,8421.83,Regular,79,0,Champions,16.8,0
+C00981,40,Female,Patna,Bihar,India,Gold,2024-10-13,2026-06-15,7.43,13,538.81,7004.58,0,0,1.6,102,3,3,2,UPI,0,0.0,2.8,3,0,0,3,10163.1,Regular,80,0,At Risk,8.15,0
+C00982,23,Male,Ahmedabad,Gujarat,India,Basic,2026-07-05,2026-06-19,30.052500000000002,6,1113.57,6681.44,1,1,6.2,156,12,0,1,Credit Card,0,0.0,2.8,3,0,0,3,9585.36,Regular,21,0,Average,15.38,0
+C00983,34,Male,Patna,Bihar,India,Silver,2024-02-16,2026-06-14,1.24,3,2316.1637499999997,9240.47,7,4,6.2,54,9,3,3,Debit Card,0,0.0,3.9,4,0,0,4,11255.66,Regular,55,0,Lost,32.87,0
+C00984,34,Female,Surat,Gujarat,India,Premium,2024-05-16,2026-06-22,6.46,14,371.05,5194.63,0,0,4.8,186,14,6,0,UPI,4,0.0,2.1,2,2,1,2,6306.69,Regular,90,0,Loyal Customers,24.86,0
+C00985,21,Female,Bhopal,Madhya Pradesh,India,Gold,2025-08-09,2026-06-12,15.27,14,780.86,10932.02,0,0,2.0,114,5,5,2,Debit Card,0,0.0,1.0,2,0,0,1,15296.138749999995,Regular,71,0,At Risk,14.19,0
+C00986,53,Female,Chandigarh,Punjab,India,Gold,2025-05-11,2026-06-11,12.86,15,362.2,5433.06,3,2,5.0,192,13,3,3,Wallet,0,0.0,1.0,1,0,0,1,8014.28,Regular,75,0,At Risk,23.59,0
+C00987,45,Male,Indore,Madhya Pradesh,India,Silver,2025-02-10,2026-06-09,5.65,8,1152.87,9222.97,1,1,7.2,132,11,1,2,UPI,0,0.0,5.0,5,0,0,5,13019.65,Regular,56,0,Average,19.8,0
+C00988,32,Male,Bangalore,Karnataka,India,Premium,2024-04-16,2026-06-12,5.78,13,396.77,5157.95,2,2,1.4,66,3,6,2,Wallet,0,0.0,4.8,5,0,0,5,6923.16,Regular,87,0,At Risk,18.43,0
+C00989,35,Female,Surat,Gujarat,India,Premium,2024-02-16,2026-06-17,6.21,15,403.39,6050.86,1,1,2.8,186,4,3,3,Credit Card,0,0.0,1.0,2,0,0,1,6050.86,Regular,99,1,Loyal Customers,12.95,1
+C00990,37,Female,Mumbai,Maharashtra,India,Silver,2024-09-13,2026-06-15,3.27,6,369.21,2215.23,4,3,6.1,84,9,2,2,Credit Card,0,0.0,3.4,2,0,0,3,2902.61,Regular,51,0,Lost,24.75,0
+C00991,18,Female,Chandigarh,Punjab,India,Gold,2025-06-10,2026-06-25,12.0,13,385.64,5013.26,2,2,2.3,132,5,3,2,Cash On Delivery,0,0.0,3.1,3,0,0,3,5982.85,Regular,66,0,Loyal Customers,13.87,0
+C00992,32,Female,Lucknow,Uttar Pradesh,India,Gold,2024-02-16,2026-06-23,4.55,11,254.14,2795.54,2,2,1.0,48,2,6,4,Credit Card,0,0.0,5.0,5,0,0,5,3978.63,Regular,81,0,Loyal Customers,17.3,0
+C00993,26,Female,Indore,Madhya Pradesh,India,Silver,2026-07-05,2026-07-04,30.052500000000002,13,207.91,2702.83,7,4,3.6,162,10,1,3,Wallet,0,0.0,4.1,3,0,0,4,3391.47,Regular,44,0,Loyal Customers,22.44,0
+C00994,22,Female,Patna,Bihar,India,Basic,2025-07-10,2026-06-25,1.0,1,2316.1637499999997,6937.38,2,2,17.45,168,196,3,2,Credit Card,0,0.0,1.0,1,0,0,1,9944.59,Regular,20,0,Recent Users,89.16,0
+C00995,31,Male,Indore,Madhya Pradesh,India,Premium,2024-02-16,2026-06-26,6.21,15,77.74,1166.14,1,1,2.9,108,4,1,4,UPI,0,0.0,5.0,5,0,0,5,1460.76,Regular,95,0,Loyal Customers,8.48,0
+C00996,56,Male,Mumbai,Maharashtra,India,Silver,2025-05-11,2026-07-02,4.29,5,463.88,2319.41,6,4,11.1,228,21,4,2,Credit Card,0,0.0,4.9,5,0,0,5,2319.41,Regular,35,1,Recent Users,47.14,1
+C00997,42,Male,Ahmedabad,Gujarat,India,Silver,2026-01-06,2026-06-07,16.0,8,307.02,2456.15,2,2,6.5,216,12,1,0,Cash On Delivery,0,0.0,1.0,2,2,1,1,3029.24,Regular,34,0,Average,20.26,0
+C00998,28,Female,Chennai,Tamil Nadu,India,Basic,2025-05-11,2026-06-16,2.57,3,702.4,2107.21,2,2,12.8,180,33,2,1,Credit Card,0,0.0,1.0,1,0,0,1,2107.21,Regular,27,1,Lost,41.49,1
+C00999,41,Female,Hyderabad,Telangana,India,Gold,2024-12-12,2026-06-09,7.58,12,442.22,5306.61,4,3,4.0,180,10,5,3,Wallet,0,0.0,2.8,3,1,1,3,7143.73,Regular,71,0,At Risk,27.21,0

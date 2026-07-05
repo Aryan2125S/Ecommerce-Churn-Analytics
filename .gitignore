@@ -58,6 +58,7 @@ models/export/*.h5
 # ==========================================================================
 data/raw/*.csv
 data/processed/*.csv
+!data/processed/powerbi_export.csv
 data/external/*.csv
 !data/raw/.gitkeep
 !data/processed/.gitkeep

@@ -1,69 +1,68 @@
-# E-Commerce Customer Churn Prediction & KPI Analysis
-**Advanced Machine Learning & Data Analytics Project**
+# E-Commerce Customer Churn Analytics
 
-## 📌 Project Overview
-This project is an end-to-end Machine Learning and Data Engineering pipeline designed to predict customer churn in an E-commerce environment. It encompasses data ingestion, strict leakage-proof preprocessing, advanced feature engineering, predictive modeling, and business intelligence export.
+This project is an end-to-end Machine Learning and Data Engineering solution designed to predict customer churn in an e-commerce ecosystem. By processing raw customer data, engineering complex behavior features (like RFM segments and Engagement Scores), and orchestrating a robust machine learning pipeline, this project accurately identifies at-risk customers. The results are visualized in a premium, interactive Streamlit dashboard, providing actionable business intelligence to retention and marketing teams.
 
-The final model successfully achieves **80% accuracy** in identifying at-risk customers, allowing targeted retention strategies.
+## Features
+- **Customer Churn Prediction**: High-accuracy Random Forest classifier to identify at-risk users.
+- **Data Preprocessing**: Strict, leakage-proof data cleaning, imputation, and outlier handling.
+- **Feature Engineering**: Dynamic generation of RFM (Recency, Frequency, Monetary) metrics and custom Engagement Scores.
+- **SQL Database Integration**: Scalable SQLite database managed entirely through SQLAlchemy ORM.
+- **Machine Learning Pipeline**: Automated model training, scaling, encoding, and evaluation workflows.
+- **Interactive Streamlit Dashboard**: A professional, dynamic UI to explore customer analytics and high-risk user profiles.
+- **Power BI Compatible Export**: Generates clean, flat CSVs (`powerbi_export.csv`) for immediate BI tool ingestion.
+- **Customer Behavior Analysis**: In-depth exploratory data analysis inside Jupyter notebooks.
+- **Predictive Reporting**: Automated markdown report generation containing model metrics and feature importance.
 
-## 🚀 Key Features & Methodology
-1. **Data Ingestion & SQL Database (Phase 1-3):** Raw data is mapped and augmented into a robust 32-feature enterprise schema and stored securely via SQLAlchemy 2.0.
-2. **Leakage-Proof Preprocessing (Phase 4):**
-   - Imputation, Data Type corrections, and Outlier Handling (IQR/Winsorization).
-   - Strict separation of `fit()` and `transform()` logic to prevent target leakage from the test set.
-3. **Advanced Feature Engineering (Phase 5):**
-   - **RFM Analysis:** Recency, Frequency, and Monetary value segmentation.
-   - **Engagement Scoring:** Weighted composite index based on digital interactions (browsing time, session length).
-4. **Machine Learning Pipeline (Phase 6):**
-   - Fully automated pipeline splitting data, scaling (StandardScaler), and encoding (OneHotEncoder).
-   - Highly optimized Random Forest Classifier balancing minority churn classes.
-5. **Business Intelligence (Phase 7):**
-   - Exported `powerbi_export.csv` containing ML predictions unified with RFM metrics, ready for interactive Power BI dashboards.
+## Tech Stack
+- **Python**: Core programming language.
+- **Pandas / NumPy**: Data manipulation and numerical operations.
+- **Scikit-learn**: Machine learning model development and pipeline orchestration.
+- **SQLAlchemy / SQLite**: Relational database mapping and local storage.
+- **Streamlit**: Web application framework for the interactive dashboard.
+- **Plotly**: Highly interactive, theme-adaptive charts and graphs.
+- **Matplotlib / Seaborn**: Static data visualization used in exploratory notebooks.
 
-## 📁 Project Structure
+## Project Structure
+
 ```text
-📦 Level 3
- ┣ 📂 data               # Raw, external, and processed data
- ┣ 📂 models             # Serialized ML models (joblib)
- ┣ 📂 notebooks          # Jupyter Notebooks for EDA and KPI Analysis
- ┣ 📂 reports            # Model Evaluation and Predictive Reports
- ┣ 📂 src                # Core Application Source Code
- ┃ ┣ 📂 config           # Application settings and constants
- ┃ ┣ 📂 database         # SQLAlchemy DB Managers
- ┃ ┣ 📂 feature_engineering # RFM, Engagement Scorers
- ┃ ┣ 📂 models           # ML Training pipelines
- ┃ ┣ 📂 preprocessing    # Data Cleaners, Outlier Handlers, Scalers
- ┃ ┗ 📂 utils            # Data Generators, Loggers, Exceptions
- ┣ 📜 requirements.txt   # Python Dependencies
- ┗ 📜 README.md          # Project Documentation
+📦 Ecommerce-Churn-Analytics
+ ┣ 📂 data               # Contains raw, external, and processed data (including powerbi_export.csv).
+ ┣ 📂 models             # Serialized Machine Learning models (e.g., random_forest.joblib).
+ ┣ 📂 notebooks          # Jupyter Notebooks utilized for initial EDA and KPI analysis.
+ ┣ 📂 reports            # Output directory for automated model evaluation and predictive reports.
+ ┣ 📂 src                # Core application source code.
+ ┃ ┣ 📂 config           # Application settings, constants, and database configurations.
+ ┃ ┣ 📂 database         # SQLAlchemy database models, session managers, and initializers.
+ ┃ ┣ 📂 dashboard        # Streamlit interactive dashboard UI (app.py).
+ ┃ ┣ 📂 feature_engineering # Modules to compute RFM and Engagement metrics.
+ ┃ ┣ 📂 models           # ML training pipelines and prediction scripts.
+ ┃ ┣ 📂 preprocessing    # Data cleaners, outlier handlers, and feature scalers.
+ ┃ ┗ 📂 utils            # Reusable utility functions, logging, and custom exceptions.
+ ┣ 📜 requirements.txt   # Complete list of Python dependencies.
+ ┗ 📜 README.md          # Project documentation (this file).
 ```
 
-## ⚙️ How to Run
+## Installation & Usage
 
-1. **Install Dependencies**
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd Ecommerce-Churn-Analytics
+   ```
+
+2. **Install the required dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Generate Database & Run Full ML Pipeline**
-   The entire ingestion, preprocessing, training, and export pipeline is orchestrated in a single script:
+3. **Generate Database & Train the Model**
+   Run the orchestration script to clean data, engineer features, train the model, and export the processed datasets:
    ```bash
    python -m src.models.train_model
    ```
-   
-   *Note: This will automatically build the SQLite database, apply structural cleaning, execute the Train/Test Split, run Feature Engineering, train the Random Forest model, evaluate it, and export the final PowerBI CSV to `data/processed/`.*
 
-## 📊 Model Performance
-The Random Forest model demonstrates robust performance across unseen test data:
-- **Accuracy:** 80.00%
-- **Precision (Active):** 0.80
-- **Recall (Active):** 0.99
-- **Top Predictive Features:** Engagement Score, RFM Segment, Tenure.
-
-A full breakdown can be found in `reports/predictive_report.md`.
-
-## 🛠️ Built With
-- **Python 3.10+** (pandas, numpy, scikit-learn)
-- **SQLAlchemy 2.0**
-- **Jupyter Notebooks**
-- **Power BI** (Target Dashboard)
+4. **Launch the Interactive Dashboard**
+   Once the pipeline finishes and `powerbi_export.csv` is generated, start the Streamlit application:
+   ```bash
+   python -m streamlit run src/dashboard/app.py
+   ```

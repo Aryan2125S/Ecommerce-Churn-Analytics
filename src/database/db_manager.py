@@ -123,7 +123,7 @@ class DatabaseManager:
         Args:
             uri: Database connection URI. Defaults to settings.database.uri.
         """
-        self.uri = uri or settings.database.uri
+        self.uri = uri or settings.database.connection_url
         
         # Configure Engine pooling (echo=False to prevent massive console spam)
         try:

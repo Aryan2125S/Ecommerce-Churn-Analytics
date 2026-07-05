@@ -1,0 +1,49 @@
+# ==========================================================================
+# Enterprise E-Commerce Customer Churn Prediction
+# & Business Intelligence Analytics Platform
+# ==========================================================================
+# Python 3.12+ Required
+# ==========================================================================
+
+# --- Core Data Processing ---
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.12.0
+
+# --- Machine Learning ---
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+lightgbm>=4.3.0
+catboost>=1.2.0
+imbalanced-learn>=0.12.0
+shap>=0.45.0
+
+# --- Model Serialization ---
+joblib>=1.3.0
+
+# --- Visualization ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+missingno>=0.5.2
+
+# --- Database ---
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+
+# --- Web Dashboard ---
+streamlit>=1.31.0
+
+# --- Configuration ---
+python-dotenv>=1.0.0
+
+# --- Report Generation ---
+python-pptx>=0.6.23
+fpdf2>=2.7.0
+
+# --- Testing ---
+pytest>=8.0.0
+pytest-cov>=4.1.0
+
+# --- Utilities ---
+openpyxl>=3.1.0
